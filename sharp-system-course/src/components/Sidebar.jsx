@@ -1,5 +1,3 @@
-// src/components/Sidebar.jsx
-import React from 'react';
 // Ajuste o caminho da logo conforme seu projeto
 import logo from '../assets/logo-sharpSystem.jpg'; 
 
@@ -17,7 +15,7 @@ const navItems = [
 function Sidebar({ onLogout }) { 
   return (
     // Fundo azul escuro, altura total da tela, largura fixa
-    <div className="flex h-screen w-64 flex-col justify-between bg-[#182C61] text-white shadow-xl">
+    <div className="flex h-screen w-64 flex-col justify-between bg-[#D9D9D9] text-white shadow-xl">
       <div>
         
         {/* Logo e Título */}
@@ -25,18 +23,18 @@ function Sidebar({ onLogout }) {
           <img 
             src={logo} 
             alt="Sharp System Logo" 
-            className="w-8" 
+            className="w-15 rounded-md" 
           />
-          <span className="text-lg font-bold">SHARP SYSTEM COURSE</span>
+          <span className="text-lg font-bold text-black">SHARP SYSTEM COURSE</span>
         </div>
 
         {/* Itens de Navegação (Apenas texto) */}
-        <nav className="mt-6 space-y-2 px-3">
+        <nav className="mt-4 space-y-1 px-3">
           {navItems.map((item) => {
             const isActive = item.active;
             const linkClass = isActive
-              ? 'bg-blue-600 shadow-lg text-white font-bold'
-              : 'text-gray-300 hover:bg-blue-700/50 hover:text-white';
+              ? 'bg-[#283890] shadow-lg text-white font-bold'
+              : 'text-black hover:bg-[#283890] hover:text-white';
 
             return (
               <a
@@ -56,7 +54,7 @@ function Sidebar({ onLogout }) {
       <div className="p-4">
         <button 
           onClick={onLogout} // <--- Função de Logout chamada aqui
-          className="flex w-full items-center justify-center space-x-3 rounded-lg bg-red-600 p-3 font-bold transition-colors duration-200 hover:bg-red-700"
+          className="flex w-full items-center justify-center space-x-3 rounded-lg bg-red-600 cursor-pointer p-3 font-bold transition-colors duration-200 hover:bg-red-700"
         >
           <span>SAIR</span>
         </button>
