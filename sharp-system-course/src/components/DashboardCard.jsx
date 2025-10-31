@@ -1,5 +1,3 @@
-
-// Removida a desestruturação de 'icon: Icon' e o prop 'colorClass' não é mais necessário para o ícone
 function DashboardCard({ title, value }) { 
   return (
     <div className="rounded-lg bg-white p-6 shadow-md transition-shadow duration-300 hover:shadow-lg">

@@ -1,4 +1,4 @@
-// Ajuste o caminho da logo conforme seu projeto
+// Assets do react (não está sendo usado!)
 import logo from '../assets/logo-sharpSystem.jpg'; 
 
 const navItems = [
