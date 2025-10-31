@@ -44,9 +44,9 @@ function Login({ onLoginSuccess }) {
           <img 
             src={logo} 
             alt="Sharp System Logo" 
-            className="w-48" // Tamanho ajustado
+            className="w-80" // Tamanho ajustado
           />
-          <span className="mt-8 text-4xl font-bold">
+          <span className="text-4xl font-bold">
             Sharp System Course
           </span>
         </div>
@@ -62,7 +62,7 @@ function Login({ onLoginSuccess }) {
           <h2 className="text-4xl font-extrabold text-[#283890] mb-2">
             Bem-vindo(a)!
           </h2>
-          <p className="mb-10 text-2xl font-semibold text-gray-700">
+          <p className="mb-10 text-4xl font-extrabold text-[#283890]">
             Faça seu login.
           </p>
 
@@ -126,7 +126,7 @@ function Login({ onLoginSuccess }) {
             <div>
               <button
                 type="submit"
-                className={`flex w-full justify-center rounded-lg bg-[${primaryColor}] px-4 py-3 text-lg font-bold uppercase tracking-wider text-white shadow-lg transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2`}
+                className={`flex w-full justify-center rounded-lg bg-[${primaryColor}] cursor-pointer px-4 py-3 text-lg font-bold uppercase tracking-wider text-white shadow-lg transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2`}
               >
                 Entrar
               </button>
