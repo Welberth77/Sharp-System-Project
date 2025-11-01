@@ -1,0 +1,68 @@
+.animated-input-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.animated-input {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  color: #111827;
+  background-color: #d9d9d9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.animated-input:focus {
+  background-color: #f5f5f5;
+  box-shadow: 0 0 0 2px #283890, 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.animated-input.error {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 2px #ef4444;
+}
+
+/* Keyframes para animação fluida do label da esquerda para direita */
+/* Removido keyframes que alterava left/right (causava 'teleport').
+   Vamos animar via transform para um movimento suave sem mudar left/top. */
+
+.animated-label {
+  position: absolute;
+  left: 1rem; /*posicao inicial */
+  top: 0.75rem;
+  font-size: 1.125rem;
+  color: #6b7280;
+  font-weight: 500;
+  pointer-events: none;
+  /* preserva a posição inicial (left/top) e anima usando transform */
+  transform-origin: left center;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), /* tempo que leva para animacao terminar (0.5s) */
+              color 0.18s ease,
+              font-size 0.18s ease,
+              font-weight 0.18s ease;
+}
+
+/* Estado ativo: move o label para a direita via transform e reduz escala.
+   Mantemos left/top inalterados para não mexer em posição; o translateX
+   desloca visualmente o label sem mudar seu fluxo absoluto. */
+.animated-label.active {
+  transform: translateX(calc(100% + 0.5rem)) translateY(-50%) scale(0.85);
+  color: #283890;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+/* Aplica o mesmo estado quando o input está em foco ou possui valor */
+.animated-input:focus ~ .animated-label,
+.animated-input:not(:placeholder-shown) ~ .animated-label {
+  transform: translateX(calc(100% + 17rem)) translateY(10%) scale(0.85); /* posicao final do placeholder depois da animacao(17rem)*/
+  color: #283890;
+  font-weight: 600;
+  font-size: 0.875rem;
+}

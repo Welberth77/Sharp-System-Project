@@ -1,25 +1,31 @@
-import { useState } from 'react'
-import './App.css'
-import Login from './pages/Login' // Assumindo que o nome do arquivo é Login.jsx
-import DashboardAluno from './pages/DashboardAluno';
+"use client"
+
+import { useState } from "react"
+import "./App.css"
+import Login from "./pages/Login"
+import DashboardAluno from "./pages/DashboardAluno"
+import SplashScreen from "./components/SplashScreen"
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const [showSplash, setShowSplash] = useState(true)
 
-const [isLoggedIn, setIsLoggedIn] = useState(false);
-  // A função passada para o login (chama setIsLoggedIn(true))
   const handleLoginSuccess = () => {
-    setIsLoggedIn(true);
-  };
-  // A função de logout (chama setIsLoggedIn(false))
+    setIsLoggedIn(true)
+  }
+
   const handleLogout = () => {
-    setIsLoggedIn(false);
-  };
+    setIsLoggedIn(false)
+  }
+
+  if (showSplash) {
+    return <SplashScreen onAnimationComplete={() => setShowSplash(false)} />
+  }
 
   if (isLoggedIn) {
-    return <DashboardAluno onLogout={handleLogout} />;
+    return <DashboardAluno onLogout={handleLogout} />
   } else {
-  // Passamos a função de sucesso aqui
-    return <Login onLoginSuccess={handleLoginSuccess} />;
+    return <Login onLoginSuccess={handleLoginSuccess} />
   }
 }
 
