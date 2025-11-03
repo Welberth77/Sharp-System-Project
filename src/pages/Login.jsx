@@ -1,5 +1,6 @@
 "use client"
 
+// Componetes
 import { useState } from "react"
 import logo from "../assets/logo-sharpSystem.jpg"
 import AnimatedInput from "../components/AnimatedInput"
@@ -90,10 +91,10 @@ function Login({ onLoginSuccess }) {
             />
 
             <div className="mb-8 flex justify-between">
-              <a href="#" className="text-base font-semibold text-blue-600 hover:underline">
+              <a href="#" className="text-base font-semibold text-blue-600 cursor-pointer hover:underline">
                 Esqueceu sua senha?
               </a>
-              <a href="#" className="text-base font-semibold text-blue-600 hover:underline">
+              <a href="" className="text-base font-semibold text-blue-600 cursor-pointer hover:underline">
                 Cadastre-se aqui!
               </a>
             </div>

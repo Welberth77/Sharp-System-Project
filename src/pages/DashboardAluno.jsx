@@ -1,9 +1,7 @@
-// src/pages/DashboardAluno.jsx
+// Componentes importados
 import Sidebar from '../components/Sidebar';
 import Header from '../components/Header';
 import DashboardCard from '../components/DashboardCard';
-
-// Ícones removidos: HiTrophy, HiClipboardCheck, HiXCircle, HiCheckCircle
 
 function DashboardAluno({onLogout}) {
   return (
@@ -51,8 +49,7 @@ function DashboardAluno({onLogout}) {
             {/* 3. Card: Próxima Atividade - Ícone removido */}
             <DashboardCard 
               title="Próxima Atividade" 
-              value="“Unit 21”" 
-              // icon={HiClipboardCheck} <-- Removido
+              value="Unit 21" 
               colorClass="text-blue-600"
             />
 
