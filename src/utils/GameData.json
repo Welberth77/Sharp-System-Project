@@ -1,0 +1,4072 @@
+{
+  "translation_bank": [
+    {
+      "id": "tb_routine_1",
+      "portuguese": "Eu acordo cedo todos os dias.",
+      "words": [
+        "I",
+        "wake",
+        "up",
+        "early",
+        "every",
+        "day",
+        "late",
+        "sleep"
+      ],
+      "correct": [
+        "I",
+        "wake",
+        "up",
+        "early",
+        "every",
+        "day"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_food_2",
+      "portuguese": "Ela bebe suco no café da manhã.",
+      "words": [
+        "She",
+        "drinks",
+        "juice",
+        "for",
+        "breakfast",
+        "milk",
+        "tea",
+        "bread"
+      ],
+      "correct": [
+        "She",
+        "drinks",
+        "juice",
+        "for",
+        "breakfast"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_school_3",
+      "portuguese": "Nós estudamos matemática à tarde.",
+      "words": [
+        "We",
+        "study",
+        "math",
+        "in",
+        "the",
+        "afternoon",
+        "English",
+        "read"
+      ],
+      "correct": [
+        "We",
+        "study",
+        "math",
+        "in",
+        "the",
+        "afternoon"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_4",
+      "portuguese": "Eles visitam Paris nas férias.",
+      "words": [
+        "They",
+        "visit",
+        "Paris",
+        "on",
+        "vacation",
+        "go",
+        "to",
+        "school"
+      ],
+      "correct": [
+        "They",
+        "visit",
+        "Paris",
+        "on",
+        "vacation"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_work_5",
+      "portuguese": "Ele trabalha em uma loja.",
+      "words": [
+        "He",
+        "works",
+        "in",
+        "a",
+        "store",
+        "office",
+        "shop"
+      ],
+      "correct": [
+        "He",
+        "works",
+        "in",
+        "a",
+        "store"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_health_6",
+      "portuguese": "Eu corro no parque para ficar saudável.",
+      "words": [
+        "I",
+        "run",
+        "in",
+        "the",
+        "park",
+        "to",
+        "stay",
+        "healthy",
+        "walk",
+        "jump"
+      ],
+      "correct": [
+        "I",
+        "run",
+        "in",
+        "the",
+        "park",
+        "to",
+        "stay",
+        "healthy"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_hobbies_7",
+      "portuguese": "Nós pintamos quadros aos domingos.",
+      "words": [
+        "We",
+        "paint",
+        "pictures",
+        "on",
+        "Sundays",
+        "draw",
+        "play"
+      ],
+      "correct": [
+        "We",
+        "paint",
+        "pictures",
+        "on",
+        "Sundays"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_family_8",
+      "portuguese": "Minha irmã mora em outra cidade.",
+      "words": [
+        "My",
+        "sister",
+        "lives",
+        "in",
+        "another",
+        "city",
+        "town",
+        "works"
+      ],
+      "correct": [
+        "My",
+        "sister",
+        "lives",
+        "in",
+        "another",
+        "city"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_weather_9",
+      "portuguese": "Está quente e ensolarado hoje.",
+      "words": [
+        "It",
+        "is",
+        "hot",
+        "and",
+        "sunny",
+        "today",
+        "cold",
+        "rainy"
+      ],
+      "correct": [
+        "It",
+        "is",
+        "hot",
+        "and",
+        "sunny",
+        "today"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_transport_10",
+      "portuguese": "Eu vou para o trabalho de ônibus.",
+      "words": [
+        "I",
+        "go",
+        "to",
+        "work",
+        "by",
+        "bus",
+        "car",
+        "bike"
+      ],
+      "correct": [
+        "I",
+        "go",
+        "to",
+        "work",
+        "by",
+        "bus"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_food_11",
+      "portuguese": "Nós cozinhamos arroz e frango.",
+      "words": [
+        "We",
+        "cook",
+        "rice",
+        "and",
+        "chicken",
+        "fish",
+        "bread"
+      ],
+      "correct": [
+        "We",
+        "cook",
+        "rice",
+        "and",
+        "chicken"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_school_12",
+      "portuguese": "O aluno escreve no caderno.",
+      "words": [
+        "The",
+        "student",
+        "writes",
+        "in",
+        "the",
+        "notebook",
+        "book",
+        "paper"
+      ],
+      "correct": [
+        "The",
+        "student",
+        "writes",
+        "in",
+        "the",
+        "notebook"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_city_13",
+      "portuguese": "A praça fica perto da estação.",
+      "words": [
+        "The",
+        "square",
+        "is",
+        "near",
+        "the",
+        "station",
+        "bank",
+        "museum"
+      ],
+      "correct": [
+        "The",
+        "square",
+        "is",
+        "near",
+        "the",
+        "station"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_home_14",
+      "portuguese": "Eu limpo meu quarto toda semana.",
+      "words": [
+        "I",
+        "clean",
+        "my",
+        "room",
+        "every",
+        "week",
+        "house",
+        "kitchen"
+      ],
+      "correct": [
+        "I",
+        "clean",
+        "my",
+        "room",
+        "every",
+        "week"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_work_15",
+      "portuguese": "Ela escreve relatórios no trabalho.",
+      "words": [
+        "She",
+        "writes",
+        "reports",
+        "at",
+        "work",
+        "letters",
+        "emails"
+      ],
+      "correct": [
+        "She",
+        "writes",
+        "reports",
+        "at",
+        "work"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_16",
+      "portuguese": "Nós viajamos de avião no verão.",
+      "words": [
+        "We",
+        "travel",
+        "by",
+        "plane",
+        "in",
+        "the",
+        "summer",
+        "bus",
+        "train"
+      ],
+      "correct": [
+        "We",
+        "travel",
+        "by",
+        "plane",
+        "in",
+        "the",
+        "summer"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_health_17",
+      "portuguese": "Ele vai ao médico uma vez por mês.",
+      "words": [
+        "He",
+        "goes",
+        "to",
+        "the",
+        "doctor",
+        "once",
+        "a",
+        "month",
+        "week",
+        "year"
+      ],
+      "correct": [
+        "He",
+        "goes",
+        "to",
+        "the",
+        "doctor",
+        "once",
+        "a",
+        "month"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_family_18",
+      "portuguese": "Meu pai cozinha muito bem.",
+      "words": [
+        "My",
+        "father",
+        "cooks",
+        "very",
+        "well",
+        "bad",
+        "slowly"
+      ],
+      "correct": [
+        "My",
+        "father",
+        "cooks",
+        "very",
+        "well"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_weather_19",
+      "portuguese": "Está chovendo agora.",
+      "words": [
+        "It",
+        "is",
+        "raining",
+        "now",
+        "snowing",
+        "cold"
+      ],
+      "correct": [
+        "It",
+        "is",
+        "raining",
+        "now"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_home_20",
+      "portuguese": "Ela lava os pratos depois do jantar.",
+      "words": [
+        "She",
+        "washes",
+        "the",
+        "dishes",
+        "after",
+        "dinner",
+        "before",
+        "lunch"
+      ],
+      "correct": [
+        "She",
+        "washes",
+        "the",
+        "dishes",
+        "after",
+        "dinner"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_21",
+      "portuguese": "Nós visitamos o museu aos sábados.",
+      "words": [
+        "on",
+        "museum",
+        "We",
+        "Saturdays",
+        "the",
+        "visit",
+        "they",
+        "park",
+        "at"
+      ],
+      "correct": [
+        "We",
+        "visit",
+        "the",
+        "museum",
+        "on",
+        "Saturdays"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_food_22",
+      "portuguese": "Ela bebe leite no café da manhã.",
+      "words": [
+        "She",
+        "milk",
+        "drinks",
+        "for",
+        "breakfast",
+        "juice",
+        "they",
+        "at"
+      ],
+      "correct": [
+        "She",
+        "drinks",
+        "milk",
+        "for",
+        "breakfast"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_school_23",
+      "portuguese": "O aluno lê um livro na biblioteca.",
+      "words": [
+        "student",
+        "The",
+        "a",
+        "reads",
+        "book",
+        "in",
+        "the",
+        "library",
+        "teacher",
+        "write",
+        "on"
+      ],
+      "correct": [
+        "The",
+        "student",
+        "reads",
+        "a",
+        "book",
+        "in",
+        "the",
+        "library"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_work_24",
+      "portuguese": "Eu envio e-mails no trabalho.",
+      "words": [
+        "I",
+        "emails",
+        "send",
+        "at",
+        "work",
+        "office",
+        "they",
+        "writes"
+      ],
+      "correct": [
+        "I",
+        "send",
+        "emails",
+        "at",
+        "work"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_weather_25",
+      "portuguese": "Está frio e nublado hoje.",
+      "words": [
+        "It",
+        "is",
+        "cloudy",
+        "and",
+        "cold",
+        "today",
+        "hot",
+        "very",
+        "rainy"
+      ],
+      "correct": [
+        "It",
+        "is",
+        "cold",
+        "and",
+        "cloudy",
+        "today"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_tech_22",
+      "portuguese": "O servidor está fora do ar desde esta manhã.",
+      "words": [
+        "The",
+        "server",
+        "is",
+        "down",
+        "since",
+        "this",
+        "morning",
+        "up",
+        "code",
+        "internet",
+        "computer",
+        "fast"
+      ],
+      "correct": [
+        "The",
+        "server",
+        "is",
+        "down",
+        "since",
+        "this",
+        "morning"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_health_23",
+      "portuguese": "Minha cabeça dói e eu me sinto tonto.",
+      "words": [
+        "My",
+        "head",
+        "hurts",
+        "and",
+        "I",
+        "feel",
+        "dizzy",
+        "stomach",
+        "eat",
+        "run",
+        "happy"
+      ],
+      "correct": [
+        "My",
+        "head",
+        "hurts",
+        "and",
+        "I",
+        "feel",
+        "dizzy"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_hobbies_24",
+      "portuguese": "Ela geralmente lê revistas antes de dormir.",
+      "words": [
+        "She",
+        "usually",
+        "reads",
+        "magazines",
+        "before",
+        "sleeping",
+        "play",
+        "watch",
+        "books",
+        "guitar"
+      ],
+      "correct": [
+        "She",
+        "usually",
+        "reads",
+        "magazines",
+        "before",
+        "sleeping"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_routine_2",
+      "portuguese": "Ela vai ao trabalho às oito.",
+      "words": [
+        "She",
+        "goes",
+        "to",
+        "work",
+        "at",
+        "eight",
+        "eat",
+        "home",
+        "they"
+      ],
+      "correct": [
+        "She",
+        "goes",
+        "to",
+        "work",
+        "at",
+        "eight"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_food_3",
+      "portuguese": "Eu como uma maçã todos os dias.",
+      "words": [
+        "I",
+        "eat",
+        "an",
+        "apple",
+        "every",
+        "day",
+        "goes",
+        "they",
+        "blue"
+      ],
+      "correct": [
+        "I",
+        "eat",
+        "an",
+        "apple",
+        "every",
+        "day"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_3",
+      "portuguese": "Nós viajamos para o Rio amanhã.",
+      "words": [
+        "We",
+        "travel",
+        "to",
+        "Rio",
+        "tomorrow",
+        "work",
+        "quickly",
+        "happy"
+      ],
+      "correct": [
+        "We",
+        "travel",
+        "to",
+        "Rio",
+        "tomorrow"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_school_4",
+      "portuguese": "O professor explica a lição agora.",
+      "words": [
+        "The",
+        "teacher",
+        "explains",
+        "the",
+        "lesson",
+        "now",
+        "small",
+        "run",
+        "they"
+      ],
+      "correct": [
+        "The",
+        "teacher",
+        "explains",
+        "the",
+        "lesson",
+        "now"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_work_6",
+      "portuguese": "Ele responde aos e-mails cedo.",
+      "words": [
+        "He",
+        "answers",
+        "the",
+        "emails",
+        "early",
+        "read",
+        "table",
+        "they",
+        "cold"
+      ],
+      "correct": [
+        "He",
+        "answers",
+        "the",
+        "emails",
+        "early"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_health_7",
+      "portuguese": "Ela tem dor de cabeça hoje.",
+      "words": [
+        "She",
+        "has",
+        "a",
+        "headache",
+        "today",
+        "drive",
+        "blue",
+        "sleep"
+      ],
+      "correct": [
+        "She",
+        "has",
+        "a",
+        "headache",
+        "today"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_technology_7",
+      "portuguese": "O computador está ligado agora.",
+      "words": [
+        "The",
+        "computer",
+        "is",
+        "on",
+        "now",
+        "go",
+        "apple",
+        "fast"
+      ],
+      "correct": [
+        "The",
+        "computer",
+        "is",
+        "on",
+        "now"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_hobbies_8",
+      "portuguese": "Eles jogam futebol no fim de semana.",
+      "words": [
+        "They",
+        "play",
+        "football",
+        "at",
+        "the",
+        "weekend",
+        "eat",
+        "cold",
+        "green"
+      ],
+      "correct": [
+        "They",
+        "play",
+        "football",
+        "at",
+        "the",
+        "weekend"
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_transport_9",
+      "portuguese": "O ônibus chega às sete e meia.",
+      "words": [
+        "The",
+        "bus",
+        "arrives",
+        "at",
+        "seven",
+        "thirty",
+        "study",
+        "old",
+        "she"
+      ],
+      "correct": [
+        "The",
+        "bus",
+        "arrives",
+        "at",
+        "seven",
+        "thirty"
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_weather_10",
+      "portuguese": "Está chovendo esta manhã.",
+      "words": [
+        "It",
+        "is",
+        "raining",
+        "this",
+        "morning",
+        "hot",
+        "walk",
+        "they"
+      ],
+      "correct": [
+        "It",
+        "is",
+        "raining",
+        "this",
+        "morning"
+      ],
+      "difficulty": "médio"
+    }
+  ],
+  "match_pairs": [
+    {
+      "id": "mp_food_1",
+      "pairs": [
+        {
+          "en": "Rice",
+          "pt": "Arroz"
+        },
+        {
+          "en": "Fish",
+          "pt": "Peixe"
+        },
+        {
+          "en": "Meat",
+          "pt": "Carne"
+        },
+        {
+          "en": "Soup",
+          "pt": "Sopa"
+        },
+        {
+          "en": "Salad",
+          "pt": "Salada"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_2",
+      "pairs": [
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Map",
+          "pt": "Mapa"
+        },
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_school_3",
+      "pairs": [
+        {
+          "en": "Notebook",
+          "pt": "Caderno"
+        },
+        {
+          "en": "Teacher",
+          "pt": "Professor"
+        },
+        {
+          "en": "Student",
+          "pt": "Aluno"
+        },
+        {
+          "en": "Classroom",
+          "pt": "Sala de aula"
+        },
+        {
+          "en": "Lesson",
+          "pt": "Lição"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_work_4",
+      "pairs": [
+        {
+          "en": "Boss",
+          "pt": "Chefe"
+        },
+        {
+          "en": "Office",
+          "pt": "Escritório"
+        },
+        {
+          "en": "Colleague",
+          "pt": "Colega"
+        },
+        {
+          "en": "Computer",
+          "pt": "Computador"
+        },
+        {
+          "en": "Project",
+          "pt": "Projeto"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_health_5",
+      "pairs": [
+        {
+          "en": "Pain",
+          "pt": "Dor"
+        },
+        {
+          "en": "Doctor",
+          "pt": "Médico"
+        },
+        {
+          "en": "Hospital",
+          "pt": "Hospital"
+        },
+        {
+          "en": "Pill",
+          "pt": "Pílula"
+        },
+        {
+          "en": "Nurse",
+          "pt": "Enfermeira"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_hobbies_6",
+      "pairs": [
+        {
+          "en": "Dance",
+          "pt": "Dançar"
+        },
+        {
+          "en": "Read",
+          "pt": "Ler"
+        },
+        {
+          "en": "Swim",
+          "pt": "Nadar"
+        },
+        {
+          "en": "Draw",
+          "pt": "Desenhar"
+        },
+        {
+          "en": "Sing",
+          "pt": "Cantar"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_family_7",
+      "pairs": [
+        {
+          "en": "Mother",
+          "pt": "Mãe"
+        },
+        {
+          "en": "Father",
+          "pt": "Pai"
+        },
+        {
+          "en": "Brother",
+          "pt": "Irmão"
+        },
+        {
+          "en": "Sister",
+          "pt": "Irmã"
+        },
+        {
+          "en": "Cousin",
+          "pt": "Primo"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_home_8",
+      "pairs": [
+        {
+          "en": "Bed",
+          "pt": "Cama"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Door",
+          "pt": "Porta"
+        },
+        {
+          "en": "Table",
+          "pt": "Mesa"
+        },
+        {
+          "en": "Chair",
+          "pt": "Cadeira"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_city_9",
+      "pairs": [
+        {
+          "en": "Street",
+          "pt": "Rua"
+        },
+        {
+          "en": "Bank",
+          "pt": "Banco"
+        },
+        {
+          "en": "Museum",
+          "pt": "Museu"
+        },
+        {
+          "en": "Park",
+          "pt": "Parque"
+        },
+        {
+          "en": "Bridge",
+          "pt": "Ponte"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_weather_10",
+      "pairs": [
+        {
+          "en": "Rain",
+          "pt": "Chuva"
+        },
+        {
+          "en": "Sun",
+          "pt": "Sol"
+        },
+        {
+          "en": "Cloud",
+          "pt": "Nuvem"
+        },
+        {
+          "en": "Storm",
+          "pt": "Tempestade"
+        },
+        {
+          "en": "Snow",
+          "pt": "Neve"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_transport_11",
+      "pairs": [
+        {
+          "en": "Car",
+          "pt": "Carro"
+        },
+        {
+          "en": "Bus",
+          "pt": "Ônibus"
+        },
+        {
+          "en": "Bike",
+          "pt": "Bicicleta"
+        },
+        {
+          "en": "Truck",
+          "pt": "Caminhão"
+        },
+        {
+          "en": "Train",
+          "pt": "Trem"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_food_12",
+      "pairs": [
+        {
+          "en": "Cake",
+          "pt": "Bolo"
+        },
+        {
+          "en": "Juice",
+          "pt": "Suco"
+        },
+        {
+          "en": "Bread",
+          "pt": "Pão"
+        },
+        {
+          "en": "Butter",
+          "pt": "Manteiga"
+        },
+        {
+          "en": "Egg",
+          "pt": "Ovo"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_school_13",
+      "pairs": [
+        {
+          "en": "Exam",
+          "pt": "Prova"
+        },
+        {
+          "en": "Subject",
+          "pt": "Matéria"
+        },
+        {
+          "en": "Grade",
+          "pt": "Nota"
+        },
+        {
+          "en": "Library",
+          "pt": "Biblioteca"
+        },
+        {
+          "en": "Teacher",
+          "pt": "Professor"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_work_14",
+      "pairs": [
+        {
+          "en": "Task",
+          "pt": "Tarefa"
+        },
+        {
+          "en": "Meeting",
+          "pt": "Reunião"
+        },
+        {
+          "en": "Deadline",
+          "pt": "Prazo"
+        },
+        {
+          "en": "Colleague",
+          "pt": "Colega"
+        },
+        {
+          "en": "Office",
+          "pt": "Escritório"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_health_15",
+      "pairs": [
+        {
+          "en": "Cold",
+          "pt": "Resfriado"
+        },
+        {
+          "en": "Headache",
+          "pt": "Dor de cabeça"
+        },
+        {
+          "en": "Cough",
+          "pt": "Tosse"
+        },
+        {
+          "en": "Fever",
+          "pt": "Febre"
+        },
+        {
+          "en": "Doctor",
+          "pt": "Médico"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_hobbies_16",
+      "pairs": [
+        {
+          "en": "Music",
+          "pt": "Música"
+        },
+        {
+          "en": "Movie",
+          "pt": "Filme"
+        },
+        {
+          "en": "Game",
+          "pt": "Jogo"
+        },
+        {
+          "en": "Book",
+          "pt": "Livro"
+        },
+        {
+          "en": "Photo",
+          "pt": "Foto"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_family_17",
+      "pairs": [
+        {
+          "en": "Son",
+          "pt": "Filho"
+        },
+        {
+          "en": "Daughter",
+          "pt": "Filha"
+        },
+        {
+          "en": "Uncle",
+          "pt": "Tio"
+        },
+        {
+          "en": "Aunt",
+          "pt": "Tia"
+        },
+        {
+          "en": "Cousin",
+          "pt": "Primo"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_home_18",
+      "pairs": [
+        {
+          "en": "Kitchen",
+          "pt": "Cozinha"
+        },
+        {
+          "en": "Living room",
+          "pt": "Sala de estar"
+        },
+        {
+          "en": "Bathroom",
+          "pt": "Banheiro"
+        },
+        {
+          "en": "Bedroom",
+          "pt": "Quarto"
+        },
+        {
+          "en": "Garden",
+          "pt": "Jardim"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_city_19",
+      "pairs": [
+        {
+          "en": "Bridge",
+          "pt": "Ponte"
+        },
+        {
+          "en": "Street",
+          "pt": "Rua"
+        },
+        {
+          "en": "Shop",
+          "pt": "Loja"
+        },
+        {
+          "en": "Square",
+          "pt": "Praça"
+        },
+        {
+          "en": "Bank",
+          "pt": "Banco"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_weather_20",
+      "pairs": [
+        {
+          "en": "Rainy",
+          "pt": "Chuvoso"
+        },
+        {
+          "en": "Sunny",
+          "pt": "Ensolarado"
+        },
+        {
+          "en": "Cloudy",
+          "pt": "Nublado"
+        },
+        {
+          "en": "Windy",
+          "pt": "Ventoso"
+        },
+        {
+          "en": "Snowy",
+          "pt": "Nevando"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_city_21",
+      "pairs": [
+        {
+          "en": "Street",
+          "pt": "Rua"
+        },
+        {
+          "en": "Bridge",
+          "pt": "Ponte"
+        },
+        {
+          "en": "Park",
+          "pt": "Parque"
+        },
+        {
+          "en": "Bank",
+          "pt": "Banco"
+        },
+        {
+          "en": "Museum",
+          "pt": "Museu"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_family_22",
+      "pairs": [
+        {
+          "en": "Mother",
+          "pt": "Mãe"
+        },
+        {
+          "en": "Father",
+          "pt": "Pai"
+        },
+        {
+          "en": "Brother",
+          "pt": "Irmão"
+        },
+        {
+          "en": "Sister",
+          "pt": "Irmã"
+        },
+        {
+          "en": "Cousin",
+          "pt": "Primo"
+        },
+        {
+          "en": "Aunt",
+          "pt": "Tia"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_tech_23",
+      "pairs": [
+        {
+          "en": "Computer",
+          "pt": "Computador"
+        },
+        {
+          "en": "Keyboard",
+          "pt": "Teclado"
+        },
+        {
+          "en": "Mouse",
+          "pt": "Mouse"
+        },
+        {
+          "en": "Screen",
+          "pt": "Tela"
+        },
+        {
+          "en": "App",
+          "pt": "Aplicativo"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_shopping_24",
+      "pairs": [
+        {
+          "en": "Price",
+          "pt": "Preço"
+        },
+        {
+          "en": "Cash",
+          "pt": "Dinheiro"
+        },
+        {
+          "en": "Receipt",
+          "pt": "Recibo"
+        },
+        {
+          "en": "Discount",
+          "pt": "Desconto"
+        },
+        {
+          "en": "Size",
+          "pt": "Tamanho"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_house_25",
+      "pairs": [
+        {
+          "en": "Kitchen",
+          "pt": "Cozinha"
+        },
+        {
+          "en": "Bathroom",
+          "pt": "Banheiro"
+        },
+        {
+          "en": "Bedroom",
+          "pt": "Quarto"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Door",
+          "pt": "Porta"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_house_21",
+      "pairs": [
+        {
+          "en": "Apartment",
+          "pt": "Apartamento"
+        },
+        {
+          "en": "Landlord",
+          "pt": "Proprietário/Dono"
+        },
+        {
+          "en": "Rent",
+          "pt": "Aluguel"
+        },
+        {
+          "en": "Balcony",
+          "pt": "Varanda"
+        },
+        {
+          "en": "Basement",
+          "pt": "Porão"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_shopping_22",
+      "pairs": [
+        {
+          "en": "Credit",
+          "pt": "Crédito"
+        },
+        {
+          "en": "Warranty",
+          "pt": "Garantia"
+        },
+        {
+          "en": "Refund",
+          "pt": "Reembolso"
+        },
+        {
+          "en": "Receipt",
+          "pt": "Recibo"
+        },
+        {
+          "en": "Exchange",
+          "pt": "Troca"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_school_23",
+      "pairs": [
+        {
+          "en": "Chemistry",
+          "pt": "Química"
+        },
+        {
+          "en": "Physics",
+          "pt": "Física"
+        },
+        {
+          "en": "Calculus",
+          "pt": "Cálculo"
+        },
+        {
+          "en": "Lecture",
+          "pt": "Palestra/Aula Magna"
+        },
+        {
+          "en": "Research",
+          "pt": "Pesquisa"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_work_24",
+      "pairs": [
+        {
+          "en": "Interview",
+          "pt": "Entrevista"
+        },
+        {
+          "en": "Hiring",
+          "pt": "Contratação"
+        },
+        {
+          "en": "Promotion",
+          "pt": "Promoção"
+        },
+        {
+          "en": "Benefit",
+          "pt": "Benefício"
+        },
+        {
+          "en": "Application",
+          "pt": "Candidatura"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_food_2",
+      "pairs": [
+        {
+          "en": "Apple",
+          "pt": "Maçã"
+        },
+        {
+          "en": "Bread",
+          "pt": "Pão"
+        },
+        {
+          "en": "Milk",
+          "pt": "Leite"
+        },
+        {
+          "en": "Cheese",
+          "pt": "Queijo"
+        },
+        {
+          "en": "Egg",
+          "pt": "Ovo"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_3",
+      "pairs": [
+        {
+          "en": "Airport",
+          "pt": "Aeroporto"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_school_4",
+      "pairs": [
+        {
+          "en": "Student",
+          "pt": "Aluno"
+        },
+        {
+          "en": "Classroom",
+          "pt": "Sala de aula"
+        },
+        {
+          "en": "Homework",
+          "pt": "Tarefa"
+        },
+        {
+          "en": "Desk",
+          "pt": "Carteira"
+        },
+        {
+          "en": "Lesson",
+          "pt": "Lição"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_routine_4",
+      "pairs": [
+        {
+          "en": "Wake up",
+          "pt": "Acordar"
+        },
+        {
+          "en": "Brush teeth",
+          "pt": "Escovar os dentes"
+        },
+        {
+          "en": "Have breakfast",
+          "pt": "Tomar café da manhã"
+        },
+        {
+          "en": "Go to work",
+          "pt": "Ir ao trabalho"
+        },
+        {
+          "en": "Go to bed",
+          "pt": "Ir para a cama"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_work_5",
+      "pairs": [
+        {
+          "en": "Boss",
+          "pt": "Chefe"
+        },
+        {
+          "en": "Meeting",
+          "pt": "Reunião"
+        },
+        {
+          "en": "Office",
+          "pt": "Escritório"
+        },
+        {
+          "en": "Salary",
+          "pt": "Salário"
+        },
+        {
+          "en": "Colleague",
+          "pt": "Colega"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_health_6",
+      "pairs": [
+        {
+          "en": "Doctor",
+          "pt": "Médico"
+        },
+        {
+          "en": "Pharmacy",
+          "pt": "Farmácia"
+        },
+        {
+          "en": "Medicine",
+          "pt": "Remédio"
+        },
+        {
+          "en": "Fever",
+          "pt": "Febre"
+        },
+        {
+          "en": "Clinic",
+          "pt": "Clínica"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_technology_7",
+      "pairs": [
+        {
+          "en": "Phone",
+          "pt": "Telefone"
+        },
+        {
+          "en": "Screen",
+          "pt": "Tela"
+        },
+        {
+          "en": "Keyboard",
+          "pt": "Teclado"
+        },
+        {
+          "en": "Internet",
+          "pt": "Internet"
+        },
+        {
+          "en": "App",
+          "pt": "Aplicativo"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_hobbies_8",
+      "pairs": [
+        {
+          "en": "Read",
+          "pt": "Ler"
+        },
+        {
+          "en": "Paint",
+          "pt": "Pintar"
+        },
+        {
+          "en": "Dance",
+          "pt": "Dançar"
+        },
+        {
+          "en": "Play guitar",
+          "pt": "Tocar violão"
+        },
+        {
+          "en": "Cook",
+          "pt": "Cozinhar"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_transport_9",
+      "pairs": [
+        {
+          "en": "Car",
+          "pt": "Carro"
+        },
+        {
+          "en": "Train",
+          "pt": "Trem"
+        },
+        {
+          "en": "Bicycle",
+          "pt": "Bicicleta"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Metro",
+          "pt": "Metrô"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_weather_11",
+      "pairs": [
+        {
+          "en": "Sunny",
+          "pt": "Ensolarado"
+        },
+        {
+          "en": "Rainy",
+          "pt": "Chuvoso"
+        },
+        {
+          "en": "Cloudy",
+          "pt": "Nublado"
+        },
+        {
+          "en": "Windy",
+          "pt": "Ventoso"
+        },
+        {
+          "en": "Snow",
+          "pt": "Neve"
+        }
+      ],
+      "difficulty": "fácil"
+    }
+  ],
+  "multiple_choice": [
+    {
+      "id": "mc_family_1",
+      "question": "Qual palavra completa a frase: 'My mother is my father's ___'?",
+      "options": [
+        "sister",
+        "daughter",
+        "wife"
+      ],
+      "correct": "wife",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_weather_2",
+      "question": "Se estiver 35°C, como descreveríamos o tempo?",
+      "options": [
+        "Cold",
+        "Hot",
+        "Windy"
+      ],
+      "correct": "Hot",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_routine_3",
+      "question": "Qual é o verbo correto para 'Eu ___ meus dentes toda noite.' (Brush)?",
+      "options": [
+        "brush",
+        "brushes",
+        "brushing"
+      ],
+      "correct": "brush",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_transport_4",
+      "question": "Qual é a tradução de 'airport'?",
+      "options": [
+        "Estação de trem",
+        "Aeroporto",
+        "Porto"
+      ],
+      "correct": "Aeroporto",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_city_5",
+      "question": "Qual destas palavras é um lugar da cidade?",
+      "options": [
+        "Mountain",
+        "River",
+        "Museum"
+      ],
+      "correct": "Museum",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_food_6",
+      "question": "Qual destas é uma bebida?",
+      "options": [
+        "Bread",
+        "Milk",
+        "Meat"
+      ],
+      "correct": "Milk",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_work_7",
+      "question": "Se você precisa de um dia de folga do trabalho, você pede um...",
+      "options": [
+        "vacation day",
+        "bus ticket",
+        "new computer"
+      ],
+      "correct": "vacation day",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_school_8",
+      "question": "Qual pronome substitui 'The students'?",
+      "options": [
+        "He",
+        "They",
+        "It"
+      ],
+      "correct": "They",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_health_9",
+      "question": "Qual palavra descreve a sensação de cansaço?",
+      "options": [
+        "Angry",
+        "Happy",
+        "Tired"
+      ],
+      "correct": "Tired",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_shopping_10",
+      "question": "O oposto de 'expensive' (caro) é...",
+      "options": [
+        "Cheap",
+        "Big",
+        "New"
+      ],
+      "correct": "Cheap",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_house_11",
+      "question": "Qual objeto usamos para comer?",
+      "options": [
+        "Spoon (colher)",
+        "Pillow (travesseiro)",
+        "TV (televisão)"
+      ],
+      "correct": "Spoon (colher)",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_tech_12",
+      "question": "Qual termo se refere ao envio de arquivos para um servidor?",
+      "options": [
+        "Download",
+        "Upload",
+        "Reboot"
+      ],
+      "correct": "Upload",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_13",
+      "question": "O que você precisa para entrar em outro país?",
+      "options": [
+        "A bus ticket",
+        "A passport",
+        "A newspaper"
+      ],
+      "correct": "A passport",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_transport_14",
+      "question": "Qual é o local onde você espera o metrô?",
+      "options": [
+        "The bus stop",
+        "The taxi stand",
+        "The platform"
+      ],
+      "correct": "The platform",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_city_15",
+      "question": "Qual é a tradução de 'post office'?",
+      "options": [
+        "Estação de polícia",
+        "Correios",
+        "Prefeitura"
+      ],
+      "correct": "Correios",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_hobbies_16",
+      "question": "Se você 'play an instrument', o que você está fazendo?",
+      "options": [
+        "Reading a book",
+        "Playing music",
+        "Watching a movie"
+      ],
+      "correct": "Playing music",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_work_17",
+      "question": "O que significa 'overtime' no contexto de trabalho?",
+      "options": [
+        "Férias",
+        "Hora extra",
+        "Demissão"
+      ],
+      "correct": "Hora extra",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_school_18",
+      "question": "Qual palavra significa o período de tempo que você estuda?",
+      "options": [
+        "Holiday",
+        "Semester",
+        "Weekend"
+      ],
+      "correct": "Semester",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_food_19",
+      "question": "Qual é um tipo de carne?",
+      "options": [
+        "Carrot",
+        "Beef",
+        "Cabbage"
+      ],
+      "correct": "Beef",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_weather_20",
+      "question": "O que acontece se o tempo estiver 'foggy'?",
+      "options": [
+        "Muita neblina",
+        "Muito sol",
+        "Muita chuva"
+      ],
+      "correct": "Muita neblina",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_school_21",
+      "question": "Qual é a tradução de 'biblioteca' para o inglês?",
+      "options": [
+        "Library",
+        "Bookstore",
+        "Bedroom"
+      ],
+      "correct": "Library",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_22",
+      "question": "O que você usa para entrar no avião?",
+      "options": [
+        "Ticket",
+        "Passport",
+        "Notebook"
+      ],
+      "correct": "Passport",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_food_23",
+      "question": "Qual destas é uma bebida?",
+      "options": [
+        "Bread",
+        "Tea",
+        "Meat"
+      ],
+      "correct": "Tea",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_work_24",
+      "question": "Qual palavra significa 'reunião' em inglês?",
+      "options": [
+        "Meeting",
+        "Reading",
+        "Writing"
+      ],
+      "correct": "Meeting",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_weather_25",
+      "question": "Quando o tempo está 'rainy', ele está...",
+      "options": [
+        "Chuvoso",
+        "Ensolarado",
+        "Nevado"
+      ],
+      "correct": "Chuvoso",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_family_21",
+      "question": "Qual é o oposto de 'young' (jovem)?",
+      "options": [
+        "Old",
+        "Small",
+        "Happy"
+      ],
+      "correct": "Old",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_food_22",
+      "question": "Qual é o termo para a refeição do meio do dia?",
+      "options": [
+        "Breakfast",
+        "Dinner",
+        "Lunch"
+      ],
+      "correct": "Lunch",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_weather_23",
+      "question": "Se há 'thunder and lightning', o que está acontecendo?",
+      "options": [
+        "Uma tempestade",
+        "Um dia ensolarado",
+        "Uma nevasca"
+      ],
+      "correct": "Uma tempestade",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_city_24",
+      "question": "Qual é o lugar onde você pode ver muitas obras de arte?",
+      "options": [
+        "Hospital",
+        "Museum",
+        "Stadium"
+      ],
+      "correct": "Museum",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_family_2",
+      "question": "Qual é a tradução de 'mãe'?",
+      "options": [
+        "Mother",
+        "Brother",
+        "Friend"
+      ],
+      "correct": "Mother",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_shopping_2",
+      "question": "What do you say when you want to buy something?",
+      "options": [
+        "How much is it?",
+        "What time is it?",
+        "Where is it?"
+      ],
+      "correct": "How much is it?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_school_3",
+      "question": "Choose the correct past form: 'I _____ a book yesterday.'",
+      "options": [
+        "read",
+        "reads",
+        "reading"
+      ],
+      "correct": "read",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_4",
+      "question": "Which word means a place to sleep on a trip?",
+      "options": [
+        "Hotel",
+        "Market",
+        "Library"
+      ],
+      "correct": "Hotel",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_food_5",
+      "question": "Which is a drink?",
+      "options": [
+        "Water",
+        "Rice",
+        "Knife"
+      ],
+      "correct": "Water",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_work_6",
+      "question": "If you are late you say:",
+      "options": [
+        "Sorry I'm late",
+        "I am hungry",
+        "See you later"
+      ],
+      "correct": "Sorry I'm late",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_health_7",
+      "question": "Which is a symptom?",
+      "options": [
+        "Cough",
+        "Chair",
+        "Window"
+      ],
+      "correct": "Cough",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_technology_8",
+      "question": "How do you call a program on your phone?",
+      "options": [
+        "App",
+        "Car",
+        "Tree"
+      ],
+      "correct": "App",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_transport_9",
+      "question": "Which is faster in the city?",
+      "options": [
+        "Taxi",
+        "Walking",
+        "Sleeping"
+      ],
+      "correct": "Taxi",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_weather_10",
+      "question": "If the sky has many clouds, it is:",
+      "options": [
+        "Cloudy",
+        "Sunny",
+        "Hot"
+      ],
+      "correct": "Cloudy",
+      "difficulty": "fácil"
+    }
+  ],
+  "fill_blank": [
+    {
+      "id": "fb_house_1",
+      "sentence": "There ___ two bedrooms in the apartment.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct": "are",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_hobbies_2",
+      "sentence": "She ___ TV every evening after work.",
+      "options": [
+        "watch",
+        "watches",
+        "watching"
+      ],
+      "correct": "watches",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_3",
+      "sentence": "I usually travel ___ car when it rains.",
+      "options": [
+        "in",
+        "on",
+        "by"
+      ],
+      "correct": "by",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_tech_4",
+      "sentence": "Can you send me the file ___ email, please?",
+      "options": [
+        "at",
+        "on",
+        "by"
+      ],
+      "correct": "by",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_food_5",
+      "sentence": "I don't like coffee, so I drink ___.",
+      "options": [
+        "tea",
+        "water",
+        "bread"
+      ],
+      "correct": "tea",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_work_6",
+      "sentence": "They ___ a big project next month.",
+      "options": [
+        "start",
+        "starts",
+        "starting"
+      ],
+      "correct": "start",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_weather_7",
+      "sentence": "The sky is gray, I think it will ___ soon.",
+      "options": [
+        "sun",
+        "rain",
+        "hot"
+      ],
+      "correct": "rain",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_family_8",
+      "sentence": "My uncle and aunt ___ in London.",
+      "options": [
+        "live",
+        "lives",
+        "living"
+      ],
+      "correct": "live",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_school_9",
+      "sentence": "We need ___ study hard for the final exam.",
+      "options": [
+        "to",
+        "for",
+        "in"
+      ],
+      "correct": "to",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_health_10",
+      "sentence": "She broke her leg, so she ___ go to the hospital.",
+      "options": [
+        "must",
+        "can't",
+        "is"
+      ],
+      "correct": "must",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_routine_11",
+      "sentence": "He ___ out (sair) with friends every Saturday.",
+      "options": [
+        "goes",
+        "go",
+        "going"
+      ],
+      "correct": "goes",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_shopping_12",
+      "sentence": "I need to buy ___ bread and some milk.",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correct": "some",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_transport_13",
+      "sentence": "The train leaves ___ 8:00 AM from the central station.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct": "at",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_city_14",
+      "sentence": "There is a beautiful river ___ the city.",
+      "options": [
+        "through",
+        "on",
+        "in"
+      ],
+      "correct": "through",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_tech_15",
+      "sentence": "I don't know the answer; I will ___ it up online.",
+      "options": [
+        "look",
+        "find",
+        "see"
+      ],
+      "correct": "look",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_food_16",
+      "sentence": "Would you like ___ apple or a banana?",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correct": "an",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_work_17",
+      "sentence": "She has ___ excellent job opportunity.",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correct": "an",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_health_18",
+      "sentence": "It is important to ___ vegetables every day.",
+      "options": [
+        "eat",
+        "to eat",
+        "eats"
+      ],
+      "correct": "eat",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_school_19",
+      "sentence": "They ___ not understand the lesson yesterday.",
+      "options": [
+        "do",
+        "did",
+        "does"
+      ],
+      "correct": "did",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_hobbies_20",
+      "sentence": "I really enjoy ___ photos when I travel.",
+      "options": [
+        "take",
+        "taking",
+        "takes"
+      ],
+      "correct": "taking",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_routine_21",
+      "sentence": "She ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correct": "goes",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_transport_22",
+      "sentence": "They travel ___ bus to work.",
+      "options": [
+        "by",
+        "on",
+        "at"
+      ],
+      "correct": "by",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_house_23",
+      "sentence": "There ___ a big window in the room.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "correct": "is",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_food_24",
+      "sentence": "I would like ___ apple.",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correct": "an",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_tech_25",
+      "sentence": "Can you ___ me an email?",
+      "options": [
+        "send",
+        "sends",
+        "sending"
+      ],
+      "correct": "send",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_tech_23",
+      "sentence": "I need to fix the ___ (erro) in the code.",
+      "options": [
+        "bug",
+        "feature",
+        "test"
+      ],
+      "correct": "bug",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_health_24",
+      "sentence": "You should not run ___ you have a fever.",
+      "options": [
+        "when",
+        "if",
+        "because"
+      ],
+      "correct": "if",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_routine_1",
+      "sentence": "She ___ to work by bus.",
+      "options": [
+        "goes",
+        "go",
+        "going"
+      ],
+      "correct": "goes",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_food_2",
+      "sentence": "I ___ breakfast at seven.",
+      "options": [
+        "have",
+        "has",
+        "had"
+      ],
+      "correct": "have",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_4",
+      "sentence": "They ___ their bags now.",
+      "options": [
+        "pack",
+        "packs",
+        "packing"
+      ],
+      "correct": "pack",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_school_4",
+      "sentence": "The students ___ the test tomorrow.",
+      "options": [
+        "have",
+        "has",
+        "had"
+      ],
+      "correct": "have",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_work_5",
+      "sentence": "He ___ emails every morning.",
+      "options": [
+        "reads",
+        "read",
+        "reading"
+      ],
+      "correct": "reads",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_health_6",
+      "sentence": "I ___ a cold last week.",
+      "options": [
+        "had",
+        "have",
+        "has"
+      ],
+      "correct": "had",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_technology_7",
+      "sentence": "Can you ___ the document?",
+      "options": [
+        "open",
+        "opens",
+        "opened"
+      ],
+      "correct": "open",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_hobbies_8",
+      "sentence": "She ___ piano in the evening.",
+      "options": [
+        "plays",
+        "play",
+        "playing"
+      ],
+      "correct": "plays",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_transport_9",
+      "sentence": "We ___ the train at nine.",
+      "options": [
+        "catch",
+        "catches",
+        "caught"
+      ],
+      "correct": "catch",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_weather_10",
+      "sentence": "It usually ___ in winter here.",
+      "options": [
+        "snows",
+        "snow",
+        "snowing"
+      ],
+      "correct": "snows",
+      "difficulty": "médio"
+    }
+  ],
+  "free_translation": [
+    {
+      "id": "ft_routine_1",
+      "portuguese": "Eu acordo às seis e meia.",
+      "expected": "I wake up at six thirty.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_shopping_2",
+      "portuguese": "Posso pagar com cartão de crédito?",
+      "expected": "Can I pay with a credit card?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_transport_3",
+      "portuguese": "Nós pegamos o ônibus todos os dias.",
+      "expected": "We take the bus every day.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_city_4",
+      "portuguese": "Há um bom restaurante perto daqui?",
+      "expected": "Is there a good restaurant near here?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_house_5",
+      "portuguese": "Meu quarto tem uma janela grande.",
+      "expected": "My bedroom has a big window.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_tech_6",
+      "portuguese": "Eu uso meu computador para estudar.",
+      "expected": "I use my computer to study.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_hobbies_7",
+      "portuguese": "Ele não gosta de ler livros de ficção.",
+      "expected": "He doesn't like to read fiction books.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_8",
+      "portuguese": "Eles estão visitando a Itália neste verão.",
+      "expected": "They are visiting Italy this summer.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_health_9",
+      "portuguese": "Eu preciso descansar, estou com dor.",
+      "expected": "I need to rest, I have a pain.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_work_10",
+      "portuguese": "Nós temos uma reunião importante hoje.",
+      "expected": "We have an important meeting today.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_family_11",
+      "portuguese": "Meu pai e minha mãe estão felizes.",
+      "expected": "My father and mother are happy.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_weather_12",
+      "portuguese": "Vai nevar amanhã?",
+      "expected": "Is it going to snow tomorrow?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_school_13",
+      "portuguese": "Onde está minha caneta e meu caderno?",
+      "expected": "Where are my pen and my notebook?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_food_14",
+      "portuguese": "Eu comi um sanduíche de queijo no almoço.",
+      "expected": "I ate a cheese sandwich for lunch.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_work_15",
+      "portuguese": "Aquele desenvolvedor está trabalhando no novo código.",
+      "expected": "That developer is working on the new code.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_house_16",
+      "portuguese": "Por favor, feche a porta da sala de estar.",
+      "expected": "Please close the living room door.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_transport_17",
+      "portuguese": "Você pode me dizer como chegar à rodoviária?",
+      "expected": "Can you tell me how to get to the bus station?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_health_18",
+      "portuguese": "Tome este remédio três vezes ao dia.",
+      "expected": "Take this medicine three times a day.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_tech_19",
+      "portuguese": "A internet está muito lenta hoje.",
+      "expected": "The internet is very slow today.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_shopping_20",
+      "portuguese": "Quanto você pagou pelo seu novo casaco?",
+      "expected": "How much did you pay for your new coat?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_city_21",
+      "portuguese": "A estação de trem fica perto do banco.",
+      "expected": "The train station is near the bank.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_hobbies_22",
+      "portuguese": "Eu toco violão à noite.",
+      "expected": "I play the guitar at night.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_work_23",
+      "portuguese": "Nós temos uma reunião amanhã de manhã.",
+      "expected": "We have a meeting tomorrow morning.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_family_24",
+      "portuguese": "Meu irmão mora em outra cidade.",
+      "expected": "My brother lives in another city.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_health_25",
+      "portuguese": "Ela precisa descansar hoje.",
+      "expected": "She needs to rest today.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_work_21",
+      "portuguese": "Por favor, ligue-me de volta amanhã de manhã.",
+      "expected": "Please call me back tomorrow morning.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_22",
+      "portuguese": "Quanto tempo dura o voo para Nova York?",
+      "expected": "How long is the flight to New York?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_shopping_23",
+      "portuguese": "Eu não tenho dinheiro, só cartão.",
+      "expected": "I don't have cash, only card.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_school_24",
+      "portuguese": "Os alunos podem usar calculadoras no exame.",
+      "expected": "Students can use calculators on the exam.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_family_1",
+      "portuguese": "Meu irmão mora em São Paulo.",
+      "expected": "My brother lives in São Paulo.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_shopping_3",
+      "portuguese": "Quanto custa esta camisa?",
+      "expected": "How much is this shirt?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_3",
+      "portuguese": "O trem parte às dez.",
+      "expected": "The train leaves at ten.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_school_4",
+      "portuguese": "Eu estudo inglês duas vezes por semana.",
+      "expected": "I study English twice a week.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_work_5",
+      "portuguese": "Ele começa o turno às sete da manhã.",
+      "expected": "He starts his shift at seven in the morning.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_health_6",
+      "portuguese": "Tenho dor de garganta desde ontem.",
+      "expected": "I have a sore throat since yesterday.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_technology_7",
+      "portuguese": "Preciso carregar meu celular.",
+      "expected": "I need to charge my phone.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_hobbies_8",
+      "portuguese": "Nós gostamos de caminhar no parque.",
+      "expected": "We like to walk in the park.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_transport_9",
+      "portuguese": "Posso pegar um táxi aqui?",
+      "expected": "Can I get a taxi here?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_weather_10",
+      "portuguese": "Vai estar frio amanhã de manhã.",
+      "expected": "It will be cold tomorrow morning.",
+      "difficulty": "médio"
+    }
+  ],
+  "match_madness": [
+    {
+      "id": "mm_food_1",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Milk",
+          "pt": "Leite"
+        },
+        {
+          "en": "Sugar",
+          "pt": "Açúcar"
+        },
+        {
+          "en": "Fork",
+          "pt": "Garfo"
+        },
+        {
+          "en": "Plate",
+          "pt": "Prato"
+        },
+        {
+          "en": "Coffee",
+          "pt": "Café"
+        },
+        {
+          "en": "Water",
+          "pt": "Água"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_school_2",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Chair",
+          "pt": "Cadeira"
+        },
+        {
+          "en": "Notebook",
+          "pt": "Caderno"
+        },
+        {
+          "en": "Class",
+          "pt": "Aula"
+        },
+        {
+          "en": "Test",
+          "pt": "Teste"
+        },
+        {
+          "en": "Map",
+          "pt": "Mapa"
+        },
+        {
+          "en": "History",
+          "pt": "História"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_family_3",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Grandmother",
+          "pt": "Avó"
+        },
+        {
+          "en": "Son",
+          "pt": "Filho"
+        },
+        {
+          "en": "Daughter",
+          "pt": "Filha"
+        },
+        {
+          "en": "Aunt",
+          "pt": "Tia"
+        },
+        {
+          "en": "Nephew",
+          "pt": "Sobrinho"
+        },
+        {
+          "en": "Cousin",
+          "pt": "Primo(a)"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_routine_4",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Get up",
+          "pt": "Levantar"
+        },
+        {
+          "en": "Shower",
+          "pt": "Tomar Banho"
+        },
+        {
+          "en": "Lunch",
+          "pt": "Almoço"
+        },
+        {
+          "en": "Drive",
+          "pt": "Dirigir"
+        },
+        {
+          "en": "Sleep",
+          "pt": "Dormir"
+        },
+        {
+          "en": "Dinner",
+          "pt": "Jantar"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_work_5",
+      "timeLimit": 40,
+      "pairs": [
+        {
+          "en": "Salary",
+          "pt": "Salário"
+        },
+        {
+          "en": "Contract",
+          "pt": "Contrato"
+        },
+        {
+          "en": "Project",
+          "pt": "Projeto"
+        },
+        {
+          "en": "Report",
+          "pt": "Relatório"
+        },
+        {
+          "en": "Keyboard",
+          "pt": "Teclado"
+        },
+        {
+          "en": "Manager",
+          "pt": "Gerente"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_6",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Suitcase",
+          "pt": "Mala"
+        },
+        {
+          "en": "Beach",
+          "pt": "Praia"
+        },
+        {
+          "en": "Airplane",
+          "pt": "Avião"
+        },
+        {
+          "en": "Camera",
+          "pt": "Câmera"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_shopping_7",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Receipt",
+          "pt": "Recibo"
+        },
+        {
+          "en": "Jeans",
+          "pt": "Calça Jeans"
+        },
+        {
+          "en": "Shoes",
+          "pt": "Sapatos"
+        },
+        {
+          "en": "Try on",
+          "pt": "Experimentar"
+        },
+        {
+          "en": "Discount",
+          "pt": "Desconto"
+        },
+        {
+          "en": "Size",
+          "pt": "Tamanho"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_health_8",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Pill",
+          "pt": "Pílula/Comprimido"
+        },
+        {
+          "en": "Tired",
+          "pt": "Cansado"
+        },
+        {
+          "en": "Sleep",
+          "pt": "Dormir"
+        },
+        {
+          "en": "Exercise",
+          "pt": "Exercício"
+        },
+        {
+          "en": "Virus",
+          "pt": "Vírus"
+        },
+        {
+          "en": "Arm",
+          "pt": "Braço"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_city_9",
+      "timeLimit": 40,
+      "pairs": [
+        {
+          "en": "Bridge",
+          "pt": "Ponte"
+        },
+        {
+          "en": "Traffic",
+          "pt": "Tráfego"
+        },
+        {
+          "en": "Museum",
+          "pt": "Museu"
+        },
+        {
+          "en": "Shop",
+          "pt": "Loja"
+        },
+        {
+          "en": "Bank",
+          "pt": "Banco"
+        },
+        {
+          "en": "Square",
+          "pt": "Praça"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_tech_10",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Website",
+          "pt": "Site"
+        },
+        {
+          "en": "App",
+          "pt": "Aplicativo"
+        },
+        {
+          "en": "Password",
+          "pt": "Senha"
+        },
+        {
+          "en": "Click",
+          "pt": "Clicar"
+        },
+        {
+          "en": "Upload",
+          "pt": "Carregar/Enviar"
+        },
+        {
+          "en": "Software",
+          "pt": "Software"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_weather_11",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Warm",
+          "pt": "Morno/Agradável"
+        },
+        {
+          "en": "Cold",
+          "pt": "Frio"
+        },
+        {
+          "en": "Fog",
+          "pt": "Neblina"
+        },
+        {
+          "en": "Season",
+          "pt": "Estação"
+        },
+        {
+          "en": "Umbrella",
+          "pt": "Guarda-chuva"
+        },
+        {
+          "en": "Forecast",
+          "pt": "Previsão"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_house_12",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Ceiling",
+          "pt": "Teto"
+        },
+        {
+          "en": "Floor",
+          "pt": "Chão"
+        },
+        {
+          "en": "Wall",
+          "pt": "Parede"
+        },
+        {
+          "en": "Stairs",
+          "pt": "Escadas"
+        },
+        {
+          "en": "Closet",
+          "pt": "Armário"
+        },
+        {
+          "en": "Mirror",
+          "pt": "Espelho"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_transport_13",
+      "timeLimit": 40,
+      "pairs": [
+        {
+          "en": "Engine",
+          "pt": "Motor"
+        },
+        {
+          "en": "Fuel",
+          "pt": "Combustível"
+        },
+        {
+          "en": "Brake",
+          "pt": "Freio"
+        },
+        {
+          "en": "Steering wheel",
+          "pt": "Volante"
+        },
+        {
+          "en": "Road",
+          "pt": "Estrada"
+        },
+        {
+          "en": "Junction",
+          "pt": "Cruzamento"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_food_14",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Vegetable",
+          "pt": "Vegetal"
+        },
+        {
+          "en": "Soup",
+          "pt": "Sopa"
+        },
+        {
+          "en": "Dessert",
+          "pt": "Sobremesa"
+        },
+        {
+          "en": "Pepper",
+          "pt": "Pimenta/Pimentão"
+        },
+        {
+          "en": "Salt",
+          "pt": "Sal"
+        },
+        {
+          "en": "Oil",
+          "pt": "Óleo"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_work_15",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Career",
+          "pt": "Carreira"
+        },
+        {
+          "en": "Promotion",
+          "pt": "Promoção"
+        },
+        {
+          "en": "Office",
+          "pt": "Escritório"
+        },
+        {
+          "en": "Shift",
+          "pt": "Turno"
+        },
+        {
+          "en": "Task",
+          "pt": "Tarefa"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_school_16",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Biology",
+          "pt": "Biologia"
+        },
+        {
+          "en": "Exam",
+          "pt": "Exame/Prova"
+        },
+        {
+          "en": "Grade",
+          "pt": "Nota"
+        },
+        {
+          "en": "Break",
+          "pt": "Intervalo"
+        },
+        {
+          "en": "Rule",
+          "pt": "Regra"
+        },
+        {
+          "en": "Library",
+          "pt": "Biblioteca"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_hobbies_17",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Hiking",
+          "pt": "Caminhada"
+        },
+        {
+          "en": "Gardening",
+          "pt": "Jardinagem"
+        },
+        {
+          "en": "Fishing",
+          "pt": "Pesca"
+        },
+        {
+          "en": "Painting",
+          "pt": "Pintura"
+        },
+        {
+          "en": "Collect",
+          "pt": "Colecionar"
+        },
+        {
+          "en": "Hobby",
+          "pt": "Passatempo"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_health_18",
+      "timeLimit": 40,
+      "pairs": [
+        {
+          "en": "Medicine",
+          "pt": "Remédio"
+        },
+        {
+          "en": "Hospital",
+          "pt": "Hospital"
+        },
+        {
+          "en": "Run",
+          "pt": "Correr"
+        },
+        {
+          "en": "Rest",
+          "pt": "Descansar"
+        },
+        {
+          "en": "Sneeze",
+          "pt": "Espirrar"
+        },
+        {
+          "en": "Cough",
+          "pt": "Tosse"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_tech_19",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Link",
+          "pt": "Link/Vínculo"
+        },
+        {
+          "en": "Device",
+          "pt": "Dispositivo"
+        },
+        {
+          "en": "Monitor",
+          "pt": "Monitor"
+        },
+        {
+          "en": "File",
+          "pt": "Arquivo"
+        },
+        {
+          "en": "Delete",
+          "pt": "Deletar"
+        },
+        {
+          "en": "Save",
+          "pt": "Salvar"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_city_20",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Traffic light",
+          "pt": "Semáforo"
+        },
+        {
+          "en": "Sidewalk",
+          "pt": "Calçada"
+        },
+        {
+          "en": "Corner",
+          "pt": "Esquina"
+        },
+        {
+          "en": "Building",
+          "pt": "Prédio"
+        },
+        {
+          "en": "Crossroad",
+          "pt": "Cruzamento"
+        },
+        {
+          "en": "Downtown",
+          "pt": "Centro da Cidade"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_food_21",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Milk",
+          "pt": "Leite"
+        },
+        {
+          "en": "Bread",
+          "pt": "Pão"
+        },
+        {
+          "en": "Rice",
+          "pt": "Arroz"
+        },
+        {
+          "en": "Fish",
+          "pt": "Peixe"
+        },
+        {
+          "en": "Chicken",
+          "pt": "Frango"
+        },
+        {
+          "en": "Water",
+          "pt": "Água"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_school_22",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Teacher",
+          "pt": "Professor"
+        },
+        {
+          "en": "Student",
+          "pt": "Aluno"
+        },
+        {
+          "en": "Notebook",
+          "pt": "Caderno"
+        },
+        {
+          "en": "Lesson",
+          "pt": "Lição"
+        },
+        {
+          "en": "Exam",
+          "pt": "Prova"
+        },
+        {
+          "en": "Library",
+          "pt": "Biblioteca"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_transport_23",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Train",
+          "pt": "Trem"
+        },
+        {
+          "en": "Bus",
+          "pt": "Ônibus"
+        },
+        {
+          "en": "Car",
+          "pt": "Carro"
+        },
+        {
+          "en": "Bike",
+          "pt": "Bicicleta"
+        },
+        {
+          "en": "Airport",
+          "pt": "Aeroporto"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_weather_24",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Sun",
+          "pt": "Sol"
+        },
+        {
+          "en": "Rain",
+          "pt": "Chuva"
+        },
+        {
+          "en": "Cloud",
+          "pt": "Nuvem"
+        },
+        {
+          "en": "Wind",
+          "pt": "Vento"
+        },
+        {
+          "en": "Snow",
+          "pt": "Neve"
+        },
+        {
+          "en": "Umbrella",
+          "pt": "Guarda-chuva"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_city_25",
+      "timeLimit": 40,
+      "pairs": [
+        {
+          "en": "Street",
+          "pt": "Rua"
+        },
+        {
+          "en": "Bridge",
+          "pt": "Ponte"
+        },
+        {
+          "en": "Square",
+          "pt": "Praça"
+        },
+        {
+          "en": "Bank",
+          "pt": "Banco"
+        },
+        {
+          "en": "Museum",
+          "pt": "Museu"
+        },
+        {
+          "en": "Park",
+          "pt": "Parque"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_hobbies_1",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Book",
+          "pt": "Livro"
+        },
+        {
+          "en": "Guitar",
+          "pt": "Violão"
+        },
+        {
+          "en": "Swim",
+          "pt": "Nadar"
+        },
+        {
+          "en": "Paint",
+          "pt": "Pintar"
+        },
+        {
+          "en": "Run",
+          "pt": "Correr"
+        },
+        {
+          "en": "Movie",
+          "pt": "Filme"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_food_2",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Rice",
+          "pt": "Arroz"
+        },
+        {
+          "en": "Chicken",
+          "pt": "Frango"
+        },
+        {
+          "en": "Soup",
+          "pt": "Sopa"
+        },
+        {
+          "en": "Salad",
+          "pt": "Salada"
+        },
+        {
+          "en": "Juice",
+          "pt": "Suco"
+        },
+        {
+          "en": "Fish",
+          "pt": "Peixe"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_3",
+      "timeLimit": 40,
+      "pairs": [
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Map",
+          "pt": "Mapa"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Guide",
+          "pt": "Guia"
+        },
+        {
+          "en": "Bus",
+          "pt": "Ônibus"
+        },
+        {
+          "en": "Train",
+          "pt": "Trem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_school_4",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Pen",
+          "pt": "Caneta"
+        },
+        {
+          "en": "Notebook",
+          "pt": "Caderno"
+        },
+        {
+          "en": "Teacher",
+          "pt": "Professor"
+        },
+        {
+          "en": "Lesson",
+          "pt": "Lição"
+        },
+        {
+          "en": "Exam",
+          "pt": "Prova"
+        },
+        {
+          "en": "Grade",
+          "pt": "Nota"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_work_6",
+      "timeLimit": 45,
+      "pairs": [
+        {
+          "en": "Office",
+          "pt": "Escritório"
+        },
+        {
+          "en": "Email",
+          "pt": "Email"
+        },
+        {
+          "en": "Report",
+          "pt": "Relatório"
+        },
+        {
+          "en": "Meeting",
+          "pt": "Reunião"
+        },
+        {
+          "en": "Client",
+          "pt": "Cliente"
+        },
+        {
+          "en": "Project",
+          "pt": "Projeto"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_health_6",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Headache",
+          "pt": "Dor de cabeça"
+        },
+        {
+          "en": "Clinic",
+          "pt": "Clínica"
+        },
+        {
+          "en": "Pills",
+          "pt": "Comprimidos"
+        },
+        {
+          "en": "Cold",
+          "pt": "Resfriado"
+        },
+        {
+          "en": "Doctor",
+          "pt": "Médico"
+        },
+        {
+          "en": "Appointment",
+          "pt": "Consulta"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_technology_7",
+      "timeLimit": 40,
+      "pairs": [
+        {
+          "en": "Password",
+          "pt": "Senha"
+        },
+        {
+          "en": "Email",
+          "pt": "Email"
+        },
+        {
+          "en": "Website",
+          "pt": "Site"
+        },
+        {
+          "en": "Download",
+          "pt": "Baixar"
+        },
+        {
+          "en": "Upload",
+          "pt": "Enviar"
+        },
+        {
+          "en": "WiFi",
+          "pt": "WiFi"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_transport_8",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Station",
+          "pt": "Estação"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Platform",
+          "pt": "Plataforma"
+        },
+        {
+          "en": "Driver",
+          "pt": "Motorista"
+        },
+        {
+          "en": "Route",
+          "pt": "Rota"
+        },
+        {
+          "en": "Schedule",
+          "pt": "Horário"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_weather_9",
+      "timeLimit": 25,
+      "pairs": [
+        {
+          "en": "Cold",
+          "pt": "Frio"
+        },
+        {
+          "en": "Hot",
+          "pt": "Quente"
+        },
+        {
+          "en": "Wind",
+          "pt": "Vento"
+        },
+        {
+          "en": "Fog",
+          "pt": "Nevoeiro"
+        },
+        {
+          "en": "Storm",
+          "pt": "Tempestade"
+        },
+        {
+          "en": "Humidity",
+          "pt": "Umidade"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_city_10",
+      "timeLimit": 35,
+      "pairs": [
+        {
+          "en": "Park",
+          "pt": "Parque"
+        },
+        {
+          "en": "Street",
+          "pt": "Rua"
+        },
+        {
+          "en": "Market",
+          "pt": "Mercado"
+        },
+        {
+          "en": "Library",
+          "pt": "Biblioteca"
+        },
+        {
+          "en": "Square",
+          "pt": "Praça"
+        },
+        {
+          "en": "Bridge",
+          "pt": "Ponte"
+        }
+      ],
+      "difficulty": "médio"
+    }
+  ]
+}

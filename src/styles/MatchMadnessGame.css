@@ -1,0 +1,148 @@
+.match-madness {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.madness-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.madness-header h2 {
+  color: #ef4444;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.madness-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.timer {
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.timer.green {
+  background: #d4edda;
+  color: #155724;
+}
+
+.timer.orange {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.timer.red {
+  background: #f8d7da;
+  color: #721c24;
+  animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.madness-score,
+.madness-progress {
+  padding: 0.75rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.madness-content {
+  margin: 2rem 0;
+}
+
+.madness-pairs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.madness-button {
+  padding: 0.875rem;
+  background: white;
+  border: 2px solid #283890;
+  color: #283890;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.madness-button:hover:not(:disabled) {
+  background: #283890;
+  color: white;
+  transform: scale(1.05);
+}
+
+.madness-button.selected {
+  background: #283890;
+  color: white;
+  box-shadow: 0 0 0 3px rgba(40, 56, 144, 0.3);
+}
+
+.madness-button.matched {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+  cursor: not-allowed;
+}
+
+.madness-button:disabled {
+  cursor: not-allowed;
+}
+
+.game-over-screen {
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(135deg, #283890 0%, #3d4fa8 100%);
+  color: white;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.game-over-screen h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.game-over-screen p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 600px) {
+  .madness-pairs {
+    grid-template-columns: 1fr;
+  }
+
+  .madness-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .madness-button {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+}

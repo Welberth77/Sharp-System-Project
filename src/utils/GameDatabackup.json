@@ -1,0 +1,10663 @@
+{
+  "translation_bank": [
+    {
+      "id": "tb_travel_1",
+      "portuguese": "Eu preciso do meu passaporte.",
+      "words": [
+        "need",
+        "I",
+        "passport",
+        ".",
+        "my",
+        "ticket",
+        "he"
+      ],
+      "correct": [
+        "I",
+        "need",
+        "my",
+        "passport",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_2",
+      "portuguese": "O voo parte às nove da manhã.",
+      "words": [
+        "in",
+        "morning",
+        "The",
+        "leaves",
+        "nine",
+        "the",
+        ".",
+        "flight",
+        "bus"
+      ],
+      "correct": [
+        "The",
+        "flight",
+        "leaves",
+        "at",
+        "nine",
+        "in",
+        "the",
+        "morning",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_3",
+      "portuguese": "Nós esperamos no portão número cinco.",
+      "words": [
+        "gate",
+        "We",
+        "five",
+        ".",
+        "number",
+        "wait",
+        "at",
+        "plane"
+      ],
+      "correct": [
+        "We",
+        "wait",
+        "at",
+        "gate",
+        "number",
+        "five",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_4",
+      "portuguese": "Onde é o balcão de check-in?",
+      "words": [
+        "Where",
+        "is",
+        "the",
+        "check-in",
+        "counter",
+        "?",
+        "map",
+        "seat",
+        "she",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "is",
+        "the",
+        "check-in",
+        "counter",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_5",
+      "portuguese": "Minha mala está perdida.",
+      "words": [
+        "lost",
+        "My",
+        "suitcase",
+        ".",
+        "I",
+        "ticket",
+        "old"
+      ],
+      "correct": [
+        "My",
+        "suitcase",
+        "is",
+        "lost",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_6",
+      "portuguese": "Quanto tempo dura o voo?",
+      "words": [
+        "How",
+        "long",
+        "does",
+        "the",
+        "flight",
+        "last",
+        "?",
+        "train",
+        "door",
+        "."
+      ],
+      "correct": [
+        "How",
+        "long",
+        "does",
+        "the",
+        "flight",
+        "last",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_7",
+      "portuguese": "Posso mudar meu assento?",
+      "words": [
+        "Can",
+        "I",
+        "change",
+        "my",
+        "seat",
+        "?",
+        "help",
+        "bus",
+        "they",
+        "."
+      ],
+      "correct": [
+        "Can",
+        "I",
+        "change",
+        "my",
+        "seat",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_8",
+      "portuguese": "Há Wi-Fi no avião.",
+      "words": [
+        "on",
+        "plane",
+        "There",
+        "is",
+        "Wi-Fi",
+        ".",
+        "today",
+        "eat",
+        "old"
+      ],
+      "correct": [
+        "There",
+        "is",
+        "Wi-Fi",
+        "on",
+        "the",
+        "plane",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_9",
+      "portuguese": "Onde fica a imigração?",
+      "words": [
+        "Where",
+        "is",
+        "immigration",
+        "?",
+        "please",
+        "map",
+        "they",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "is",
+        "immigration",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_10",
+      "portuguese": "O embarque começa agora.",
+      "words": [
+        "Boarding",
+        "starts",
+        "now",
+        ".",
+        "seat",
+        "door",
+        "train"
+      ],
+      "correct": [
+        "Boarding",
+        "starts",
+        "now",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_11",
+      "portuguese": "Preciso declarar estes itens.",
+      "words": [
+        "I",
+        "need",
+        "to",
+        "declare",
+        "these",
+        "items",
+        ".",
+        "bus",
+        "map"
+      ],
+      "correct": [
+        "I",
+        "need",
+        "to",
+        "declare",
+        "these",
+        "items",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_12",
+      "portuguese": "Qual é a fila para a segurança?",
+      "words": [
+        "Which",
+        "is",
+        "the",
+        "line",
+        "for",
+        "security",
+        "?",
+        "help",
+        "old",
+        "."
+      ],
+      "correct": [
+        "Which",
+        "is",
+        "the",
+        "line",
+        "for",
+        "security",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_13",
+      "portuguese": "Tenho conexão em outra cidade.",
+      "words": [
+        "I",
+        "have",
+        "a",
+        "connection",
+        "in",
+        "another",
+        "city",
+        ".",
+        "train",
+        "she"
+      ],
+      "correct": [
+        "I",
+        "have",
+        "a",
+        "connection",
+        "in",
+        "another",
+        "city",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_14",
+      "portuguese": "Você pode me ajudar com as malas?",
+      "words": [
+        "Can",
+        "you",
+        "help",
+        "me",
+        "with",
+        "the",
+        "luggage",
+        "?",
+        "old",
+        "they",
+        "."
+      ],
+      "correct": [
+        "Can",
+        "you",
+        "help",
+        "me",
+        "with",
+        "the",
+        "luggage",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_15",
+      "portuguese": "Há um atraso no voo.",
+      "words": [
+        "There",
+        "is",
+        "a",
+        "delay",
+        "on",
+        "the",
+        "flight",
+        ".",
+        "ticket",
+        "map"
+      ],
+      "correct": [
+        "There",
+        "is",
+        "a",
+        "delay",
+        "on",
+        "the",
+        "flight",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_16",
+      "portuguese": "Mostre seu cartão de embarque, por favor.",
+      "words": [
+        "Please",
+        "show",
+        "your",
+        "boarding",
+        "pass",
+        ".",
+        "they",
+        "window",
+        "help"
+      ],
+      "correct": [
+        "Please",
+        "show",
+        "your",
+        "boarding",
+        "pass",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_17",
+      "portuguese": "Aterrissagem em breve.",
+      "words": [
+        "Landing",
+        "soon",
+        ".",
+        "seat",
+        "old",
+        "please"
+      ],
+      "correct": [
+        "Landing",
+        "soon",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_18",
+      "portuguese": "Onde retiro minha bagagem?",
+      "words": [
+        "Where",
+        "do",
+        "I",
+        "pick",
+        "up",
+        "my",
+        "baggage",
+        "?",
+        "train",
+        "she",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "do",
+        "I",
+        "pick",
+        "up",
+        "my",
+        "baggage",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_19",
+      "portuguese": "Meu assento é na janela.",
+      "words": [
+        "My",
+        "seat",
+        "is",
+        "by",
+        "the",
+        "window",
+        ".",
+        "plane",
+        "old"
+      ],
+      "correct": [
+        "My",
+        "seat",
+        "is",
+        "by",
+        "the",
+        "window",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_20",
+      "portuguese": "Há espaço para bagagem de mão?",
+      "words": [
+        "Is",
+        "there",
+        "space",
+        "for",
+        "carry-on",
+        "luggage",
+        "?",
+        "map",
+        "bus",
+        "."
+      ],
+      "correct": [
+        "Is",
+        "there",
+        "space",
+        "for",
+        "carry-on",
+        "luggage",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_21",
+      "portuguese": "Como faço para remarcar?",
+      "words": [
+        "How",
+        "do",
+        "I",
+        "reschedule",
+        "?",
+        "ticket",
+        "she",
+        "."
+      ],
+      "correct": [
+        "How",
+        "do",
+        "I",
+        "reschedule",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_22",
+      "portuguese": "Qual terminal devo usar?",
+      "words": [
+        "Which",
+        "terminal",
+        "should",
+        "I",
+        "use",
+        "?",
+        "old",
+        "train",
+        "."
+      ],
+      "correct": [
+        "Which",
+        "terminal",
+        "should",
+        "I",
+        "use",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_23",
+      "portuguese": "Perdi meu cartão de embarque.",
+      "words": [
+        "I",
+        "lost",
+        "my",
+        "boarding",
+        "pass",
+        ".",
+        "door",
+        "map",
+        "they"
+      ],
+      "correct": [
+        "I",
+        "lost",
+        "my",
+        "boarding",
+        "pass",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_24",
+      "portuguese": "Há refeições no voo?",
+      "words": [
+        "Are",
+        "there",
+        "meals",
+        "on",
+        "the",
+        "flight",
+        "?",
+        "seat",
+        "help",
+        "."
+      ],
+      "correct": [
+        "Are",
+        "there",
+        "meals",
+        "on",
+        "the",
+        "flight",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_25",
+      "portuguese": "Onde fica o taxi?",
+      "words": [
+        "Where",
+        "is",
+        "the",
+        "taxi",
+        "stand",
+        "?",
+        "ticket",
+        "they",
+        "map",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "is",
+        "the",
+        "taxi",
+        "stand",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_26",
+      "portuguese": "Quanto custa o excesso de bagagem?",
+      "words": [
+        "How",
+        "much",
+        "is",
+        "the",
+        "excess",
+        "baggage",
+        "fee",
+        "?",
+        "old",
+        "bus",
+        "."
+      ],
+      "correct": [
+        "How",
+        "much",
+        "is",
+        "the",
+        "excess",
+        "baggage",
+        "fee",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_27",
+      "portuguese": "O portão mudou.",
+      "words": [
+        "The",
+        "gate",
+        "has",
+        "changed",
+        ".",
+        "train",
+        "ticket",
+        "she"
+      ],
+      "correct": [
+        "The",
+        "gate",
+        "has",
+        "changed",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_28",
+      "portuguese": "Qual é o número do voo?",
+      "words": [
+        "What",
+        "is",
+        "the",
+        "flight",
+        "number",
+        "?",
+        "help",
+        "old",
+        "they",
+        "."
+      ],
+      "correct": [
+        "What",
+        "is",
+        "the",
+        "flight",
+        "number",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_29",
+      "portuguese": "Tenho uma reserva.",
+      "words": [
+        "I",
+        "have",
+        "a",
+        "reservation",
+        ".",
+        "seat",
+        "they"
+      ],
+      "correct": [
+        "I",
+        "have",
+        "a",
+        "reservation",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_30",
+      "portuguese": "Essa é a área de embarque prioritário.",
+      "words": [
+        "This",
+        "is",
+        "the",
+        "priority",
+        "boarding",
+        "area",
+        ".",
+        "ticket",
+        "map"
+      ],
+      "correct": [
+        "This",
+        "is",
+        "the",
+        "priority",
+        "boarding",
+        "area",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_31",
+      "portuguese": "Preciso de assistência especial.",
+      "words": [
+        "I",
+        "need",
+        "special",
+        "assistance",
+        ".",
+        "he",
+        "bus",
+        "train"
+      ],
+      "correct": [
+        "I",
+        "need",
+        "special",
+        "assistance",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_32",
+      "portuguese": "Onde está o guichê de informações?",
+      "words": [
+        "Where",
+        "is",
+        "the",
+        "information",
+        "desk",
+        "?",
+        "map",
+        "ticket",
+        "they",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "is",
+        "the",
+        "information",
+        "desk",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_33",
+      "portuguese": "O voo foi cancelado.",
+      "words": [
+        "The",
+        "flight",
+        "was",
+        "cancelled",
+        ".",
+        "seat",
+        "map",
+        "old"
+      ],
+      "correct": [
+        "The",
+        "flight",
+        "was",
+        "cancelled",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_34",
+      "portuguese": "A manicure está fechada.",
+      "words": [
+        "The",
+        "manicure",
+        "is",
+        "closed",
+        ".",
+        "ticket",
+        "they",
+        "old"
+      ],
+      "correct": [
+        "The",
+        "manicure",
+        "is",
+        "closed",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_35",
+      "portuguese": "Posso levar líquidos na bagagem de mão?",
+      "words": [
+        "Can",
+        "I",
+        "carry",
+        "liquids",
+        "in",
+        "hand",
+        "luggage",
+        "?",
+        "help",
+        "seat",
+        "."
+      ],
+      "correct": [
+        "Can",
+        "I",
+        "carry",
+        "liquids",
+        "in",
+        "hand",
+        "luggage",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_36",
+      "portuguese": "Qual é o procedimento de imigração?",
+      "words": [
+        "What",
+        "is",
+        "the",
+        "immigration",
+        "procedure",
+        "?",
+        "train",
+        "they",
+        "map",
+        "."
+      ],
+      "correct": [
+        "What",
+        "is",
+        "the",
+        "immigration",
+        "procedure",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_37",
+      "portuguese": "Meu voo sai à tarde.",
+      "words": [
+        "My",
+        "flight",
+        "departs",
+        "in",
+        "the",
+        "afternoon",
+        ".",
+        "old",
+        "help"
+      ],
+      "correct": [
+        "My",
+        "flight",
+        "departs",
+        "in",
+        "the",
+        "afternoon",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_38",
+      "portuguese": "O horário de chegada está atrasado.",
+      "words": [
+        "The",
+        "arrival",
+        "time",
+        "is",
+        "delayed",
+        ".",
+        "map",
+        "they",
+        "old"
+      ],
+      "correct": [
+        "The",
+        "arrival",
+        "time",
+        "is",
+        "delayed",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_39",
+      "portuguese": "Onde é a sala de espera?",
+      "words": [
+        "Where",
+        "is",
+        "the",
+        "waiting",
+        "room",
+        "?",
+        "ticket",
+        "they",
+        "train",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "is",
+        "the",
+        "waiting",
+        "room",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_40",
+      "portuguese": "Quero declarar alimentos.",
+      "words": [
+        "I",
+        "want",
+        "to",
+        "declare",
+        "food",
+        ".",
+        "help",
+        "old",
+        "map"
+      ],
+      "correct": [
+        "I",
+        "want",
+        "to",
+        "declare",
+        "food",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_41",
+      "portuguese": "Como encontro o portão 12?",
+      "words": [
+        "How",
+        "do",
+        "I",
+        "find",
+        "gate",
+        "12",
+        "?",
+        "train",
+        "they",
+        "."
+      ],
+      "correct": [
+        "How",
+        "do",
+        "I",
+        "find",
+        "gate",
+        "12",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_42",
+      "portuguese": "Tem tomada na poltrona?",
+      "words": [
+        "Is",
+        "there",
+        "a",
+        "power",
+        "outlet",
+        "at",
+        "the",
+        "seat",
+        "?",
+        "ticket",
+        "."
+      ],
+      "correct": [
+        "Is",
+        "there",
+        "a",
+        "power",
+        "outlet",
+        "at",
+        "the",
+        "seat",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_43",
+      "portuguese": "Existe transporte até a cidade?",
+      "words": [
+        "Is",
+        "there",
+        "transport",
+        "to",
+        "the",
+        "city",
+        "?",
+        "bus",
+        "train",
+        "."
+      ],
+      "correct": [
+        "Is",
+        "there",
+        "transport",
+        "to",
+        "the",
+        "city",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_44",
+      "portuguese": "Quanto tempo leva para passar na segurança?",
+      "words": [
+        "How",
+        "long",
+        "does",
+        "security",
+        "take",
+        "?",
+        "late",
+        "ticket",
+        "they",
+        "."
+      ],
+      "correct": [
+        "How",
+        "long",
+        "does",
+        "security",
+        "take",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_45",
+      "portuguese": "O corredor é mais largo, por favor.",
+      "words": [
+        "The",
+        "aisle",
+        "is",
+        "wider",
+        "please",
+        ".",
+        "map",
+        "old",
+        "they"
+      ],
+      "correct": [
+        "The",
+        "aisle",
+        "is",
+        "wider",
+        "please",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_46",
+      "portuguese": "Posso embarcar com antecedência?",
+      "words": [
+        "Can",
+        "I",
+        "board",
+        "in",
+        "advance",
+        "?",
+        "ticket",
+        "help",
+        "she",
+        "."
+      ],
+      "correct": [
+        "Can",
+        "I",
+        "board",
+        "in",
+        "advance",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_47",
+      "portuguese": "Onde está a esteira de bagagem?",
+      "words": [
+        "Where",
+        "is",
+        "the",
+        "baggage",
+        "carousel",
+        "?",
+        "train",
+        "they",
+        "map",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "is",
+        "the",
+        "baggage",
+        "carousel",
+        "?",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_48",
+      "portuguese": "Há um banheiro no portão?",
+      "words": [
+        "Is",
+        "there",
+        "a",
+        "restroom",
+        "at",
+        "the",
+        "gate",
+        "?",
+        "seat",
+        "they",
+        "."
+      ],
+      "correct": [
+        "Is",
+        "there",
+        "a",
+        "restroom",
+        "at",
+        "the",
+        "gate",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "tb_travel_49",
+      "portuguese": "Quero cancelar minha reserva.",
+      "words": [
+        "I",
+        "want",
+        "to",
+        "cancel",
+        "my",
+        "reservation",
+        ".",
+        "old",
+        "help"
+      ],
+      "correct": [
+        "I",
+        "want",
+        "to",
+        "cancel",
+        "my",
+        "reservation",
+        "."
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "tb_travel_50",
+      "portuguese": "Onde compro um bilhete?",
+      "words": [
+        "Where",
+        "can",
+        "I",
+        "buy",
+        "a",
+        "ticket",
+        "?",
+        "map",
+        "they",
+        "."
+      ],
+      "correct": [
+        "Where",
+        "can",
+        "I",
+        "buy",
+        "a",
+        "ticket",
+        "?",
+        "."
+      ],
+      "difficulty": "fácil"
+    }
+  ],
+  "match_pairs": [
+    {
+      "id": "mp_travel_1",
+      "pairs": [
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_2",
+      "pairs": [
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Customs",
+          "pt": "Alfândega"
+        },
+        {
+          "en": "Suitcase",
+          "pt": "Mala"
+        },
+        {
+          "en": "Arrival",
+          "pt": "Chegada"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_3",
+      "pairs": [
+        {
+          "en": "Departure",
+          "pt": "Partida"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_4",
+      "pairs": [
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_5",
+      "pairs": [
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Cabin crew",
+          "pt": "Tripulação"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_6",
+      "pairs": [
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_7",
+      "pairs": [
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        },
+        {
+          "en": "Connecting flight",
+          "pt": "Voo de conexão"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_8",
+      "pairs": [
+        {
+          "en": "Arrival time",
+          "pt": "Horário de chegada"
+        },
+        {
+          "en": "Departure time",
+          "pt": "Horário de partida"
+        },
+        {
+          "en": "Baggage tag",
+          "pt": "Etiqueta de bagagem"
+        },
+        {
+          "en": "Layover",
+          "pt": "Escala"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_9",
+      "pairs": [
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Duty-free",
+          "pt": "Livre de impostos"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_10",
+      "pairs": [
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        },
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_11",
+      "pairs": [
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        },
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_12",
+      "pairs": [
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_13",
+      "pairs": [
+        {
+          "en": "Taxi rank",
+          "pt": "Ponto de táxi"
+        },
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_14",
+      "pairs": [
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Customs",
+          "pt": "Alfândega"
+        },
+        {
+          "en": "Suitcase",
+          "pt": "Mala"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_15",
+      "pairs": [
+        {
+          "en": "Arrival",
+          "pt": "Chegada"
+        },
+        {
+          "en": "Departure",
+          "pt": "Partida"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_16",
+      "pairs": [
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_17",
+      "pairs": [
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Cabin crew",
+          "pt": "Tripulação"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_18",
+      "pairs": [
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_19",
+      "pairs": [
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_20",
+      "pairs": [
+        {
+          "en": "Connecting flight",
+          "pt": "Voo de conexão"
+        },
+        {
+          "en": "Arrival time",
+          "pt": "Horário de chegada"
+        },
+        {
+          "en": "Departure time",
+          "pt": "Horário de partida"
+        },
+        {
+          "en": "Baggage tag",
+          "pt": "Etiqueta de bagagem"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_21",
+      "pairs": [
+        {
+          "en": "Layover",
+          "pt": "Escala"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_22",
+      "pairs": [
+        {
+          "en": "Duty-free",
+          "pt": "Livre de impostos"
+        },
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_23",
+      "pairs": [
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        },
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        },
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_24",
+      "pairs": [
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_25",
+      "pairs": [
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Taxi rank",
+          "pt": "Ponto de táxi"
+        },
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_26",
+      "pairs": [
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Customs",
+          "pt": "Alfândega"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_27",
+      "pairs": [
+        {
+          "en": "Suitcase",
+          "pt": "Mala"
+        },
+        {
+          "en": "Arrival",
+          "pt": "Chegada"
+        },
+        {
+          "en": "Departure",
+          "pt": "Partida"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_28",
+      "pairs": [
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_29",
+      "pairs": [
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Cabin crew",
+          "pt": "Tripulação"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_30",
+      "pairs": [
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_31",
+      "pairs": [
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_32",
+      "pairs": [
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        },
+        {
+          "en": "Connecting flight",
+          "pt": "Voo de conexão"
+        },
+        {
+          "en": "Arrival time",
+          "pt": "Horário de chegada"
+        },
+        {
+          "en": "Departure time",
+          "pt": "Horário de partida"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_33",
+      "pairs": [
+        {
+          "en": "Baggage tag",
+          "pt": "Etiqueta de bagagem"
+        },
+        {
+          "en": "Layover",
+          "pt": "Escala"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_34",
+      "pairs": [
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Duty-free",
+          "pt": "Livre de impostos"
+        },
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_35",
+      "pairs": [
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        },
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        },
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_36",
+      "pairs": [
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_37",
+      "pairs": [
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Taxi rank",
+          "pt": "Ponto de táxi"
+        },
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_38",
+      "pairs": [
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_39",
+      "pairs": [
+        {
+          "en": "Customs",
+          "pt": "Alfândega"
+        },
+        {
+          "en": "Suitcase",
+          "pt": "Mala"
+        },
+        {
+          "en": "Arrival",
+          "pt": "Chegada"
+        },
+        {
+          "en": "Departure",
+          "pt": "Partida"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_40",
+      "pairs": [
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_41",
+      "pairs": [
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_42",
+      "pairs": [
+        {
+          "en": "Cabin crew",
+          "pt": "Tripulação"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_43",
+      "pairs": [
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_44",
+      "pairs": [
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        },
+        {
+          "en": "Connecting flight",
+          "pt": "Voo de conexão"
+        },
+        {
+          "en": "Arrival time",
+          "pt": "Horário de chegada"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_45",
+      "pairs": [
+        {
+          "en": "Departure time",
+          "pt": "Horário de partida"
+        },
+        {
+          "en": "Baggage tag",
+          "pt": "Etiqueta de bagagem"
+        },
+        {
+          "en": "Layover",
+          "pt": "Escala"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_46",
+      "pairs": [
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Duty-free",
+          "pt": "Livre de impostos"
+        },
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_47",
+      "pairs": [
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        },
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        },
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_48",
+      "pairs": [
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        },
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mp_travel_49",
+      "pairs": [
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Taxi rank",
+          "pt": "Ponto de táxi"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mp_travel_50",
+      "pairs": [
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        }
+      ],
+      "difficulty": "fácil"
+    }
+  ],
+  "multiple_choice": [
+    {
+      "id": "mc_travel_1",
+      "question": "O que é 'boarding gate'?",
+      "options": [
+        "Portão de embarque",
+        "Bagagem de mão",
+        "Sala de espera"
+      ],
+      "correct": "Portão de embarque",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_2",
+      "question": "Qual é a tradução de 'departure'?",
+      "options": [
+        "Chegada",
+        "Partida",
+        "Embarque"
+      ],
+      "correct": "Partida",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_3",
+      "question": "Como se diz 'bagagem' em inglês?",
+      "options": [
+        "Ticket",
+        "Luggage",
+        "Seat"
+      ],
+      "correct": "Luggage",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_4",
+      "question": "O que significa 'layover'?",
+      "options": [
+        "Voo direto",
+        "Escala",
+        "Cancelamento"
+      ],
+      "correct": "Escala",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_5",
+      "question": "O que é 'passport control'?",
+      "options": [
+        "Controle de passaporte",
+        "Balcão de comidas",
+        "Portão"
+      ],
+      "correct": "Controle de passaporte",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_6",
+      "question": "Quem trabalha dentro do avião ajudando passageiros?",
+      "options": [
+        "Pilot",
+        "Chef",
+        "Flight attendant"
+      ],
+      "correct": "Flight attendant",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_7",
+      "question": "O que é 'baggage claim'?",
+      "options": [
+        "Retirada de bagagem",
+        "Check-in",
+        "Portão"
+      ],
+      "correct": "Retirada de bagagem",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_8",
+      "question": "Traduza 'window seat'.",
+      "options": [
+        "Assento na janela",
+        "Assento no corredor",
+        "Assento extra"
+      ],
+      "correct": "Assento na janela",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_9",
+      "question": "O que significa 'overbooked'?",
+      "options": [
+        "Vagas sobrando",
+        "Lotado",
+        "Barato"
+      ],
+      "correct": "Lotado",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_10",
+      "question": "Como se diz 'embarque' em inglês?",
+      "options": [
+        "Boarding",
+        "Booking",
+        "Baggage"
+      ],
+      "correct": "Boarding",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_11",
+      "question": "O que é 'boarding gate'?",
+      "options": [
+        "Portão de embarque",
+        "Bagagem de mão",
+        "Sala de espera"
+      ],
+      "correct": "Portão de embarque",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_12",
+      "question": "Qual é a tradução de 'departure'?",
+      "options": [
+        "Chegada",
+        "Partida",
+        "Embarque"
+      ],
+      "correct": "Partida",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_13",
+      "question": "Como se diz 'bagagem' em inglês?",
+      "options": [
+        "Ticket",
+        "Luggage",
+        "Seat"
+      ],
+      "correct": "Luggage",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_14",
+      "question": "O que significa 'layover'?",
+      "options": [
+        "Voo direto",
+        "Escala",
+        "Cancelamento"
+      ],
+      "correct": "Escala",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_15",
+      "question": "O que é 'passport control'?",
+      "options": [
+        "Controle de passaporte",
+        "Balcão de comidas",
+        "Portão"
+      ],
+      "correct": "Controle de passaporte",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_16",
+      "question": "Quem trabalha dentro do avião ajudando passageiros?",
+      "options": [
+        "Pilot",
+        "Chef",
+        "Flight attendant"
+      ],
+      "correct": "Flight attendant",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_17",
+      "question": "O que é 'baggage claim'?",
+      "options": [
+        "Retirada de bagagem",
+        "Check-in",
+        "Portão"
+      ],
+      "correct": "Retirada de bagagem",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_18",
+      "question": "Traduza 'window seat'.",
+      "options": [
+        "Assento na janela",
+        "Assento no corredor",
+        "Assento extra"
+      ],
+      "correct": "Assento na janela",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_19",
+      "question": "O que significa 'overbooked'?",
+      "options": [
+        "Vagas sobrando",
+        "Lotado",
+        "Barato"
+      ],
+      "correct": "Lotado",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_20",
+      "question": "Como se diz 'embarque' em inglês?",
+      "options": [
+        "Boarding",
+        "Booking",
+        "Baggage"
+      ],
+      "correct": "Boarding",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_21",
+      "question": "O que é 'boarding gate'?",
+      "options": [
+        "Portão de embarque",
+        "Bagagem de mão",
+        "Sala de espera"
+      ],
+      "correct": "Portão de embarque",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_22",
+      "question": "Qual é a tradução de 'departure'?",
+      "options": [
+        "Chegada",
+        "Partida",
+        "Embarque"
+      ],
+      "correct": "Partida",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_23",
+      "question": "Como se diz 'bagagem' em inglês?",
+      "options": [
+        "Ticket",
+        "Luggage",
+        "Seat"
+      ],
+      "correct": "Luggage",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_24",
+      "question": "O que significa 'layover'?",
+      "options": [
+        "Voo direto",
+        "Escala",
+        "Cancelamento"
+      ],
+      "correct": "Escala",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_25",
+      "question": "O que é 'passport control'?",
+      "options": [
+        "Controle de passaporte",
+        "Balcão de comidas",
+        "Portão"
+      ],
+      "correct": "Controle de passaporte",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_26",
+      "question": "Quem trabalha dentro do avião ajudando passageiros?",
+      "options": [
+        "Pilot",
+        "Chef",
+        "Flight attendant"
+      ],
+      "correct": "Flight attendant",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_27",
+      "question": "O que é 'baggage claim'?",
+      "options": [
+        "Retirada de bagagem",
+        "Check-in",
+        "Portão"
+      ],
+      "correct": "Retirada de bagagem",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_28",
+      "question": "Traduza 'window seat'.",
+      "options": [
+        "Assento na janela",
+        "Assento no corredor",
+        "Assento extra"
+      ],
+      "correct": "Assento na janela",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_29",
+      "question": "O que significa 'overbooked'?",
+      "options": [
+        "Vagas sobrando",
+        "Lotado",
+        "Barato"
+      ],
+      "correct": "Lotado",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_30",
+      "question": "Como se diz 'embarque' em inglês?",
+      "options": [
+        "Boarding",
+        "Booking",
+        "Baggage"
+      ],
+      "correct": "Boarding",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_31",
+      "question": "O que é 'boarding gate'?",
+      "options": [
+        "Portão de embarque",
+        "Bagagem de mão",
+        "Sala de espera"
+      ],
+      "correct": "Portão de embarque",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_32",
+      "question": "Qual é a tradução de 'departure'?",
+      "options": [
+        "Chegada",
+        "Partida",
+        "Embarque"
+      ],
+      "correct": "Partida",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_33",
+      "question": "Como se diz 'bagagem' em inglês?",
+      "options": [
+        "Ticket",
+        "Luggage",
+        "Seat"
+      ],
+      "correct": "Luggage",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_34",
+      "question": "O que significa 'layover'?",
+      "options": [
+        "Voo direto",
+        "Escala",
+        "Cancelamento"
+      ],
+      "correct": "Escala",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_35",
+      "question": "O que é 'passport control'?",
+      "options": [
+        "Controle de passaporte",
+        "Balcão de comidas",
+        "Portão"
+      ],
+      "correct": "Controle de passaporte",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_36",
+      "question": "Quem trabalha dentro do avião ajudando passageiros?",
+      "options": [
+        "Pilot",
+        "Chef",
+        "Flight attendant"
+      ],
+      "correct": "Flight attendant",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_37",
+      "question": "O que é 'baggage claim'?",
+      "options": [
+        "Retirada de bagagem",
+        "Check-in",
+        "Portão"
+      ],
+      "correct": "Retirada de bagagem",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_38",
+      "question": "Traduza 'window seat'.",
+      "options": [
+        "Assento na janela",
+        "Assento no corredor",
+        "Assento extra"
+      ],
+      "correct": "Assento na janela",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_39",
+      "question": "O que significa 'overbooked'?",
+      "options": [
+        "Vagas sobrando",
+        "Lotado",
+        "Barato"
+      ],
+      "correct": "Lotado",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_40",
+      "question": "Como se diz 'embarque' em inglês?",
+      "options": [
+        "Boarding",
+        "Booking",
+        "Baggage"
+      ],
+      "correct": "Boarding",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_41",
+      "question": "O que é 'boarding gate'?",
+      "options": [
+        "Portão de embarque",
+        "Bagagem de mão",
+        "Sala de espera"
+      ],
+      "correct": "Portão de embarque",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_42",
+      "question": "Qual é a tradução de 'departure'?",
+      "options": [
+        "Chegada",
+        "Partida",
+        "Embarque"
+      ],
+      "correct": "Partida",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_43",
+      "question": "Como se diz 'bagagem' em inglês?",
+      "options": [
+        "Ticket",
+        "Luggage",
+        "Seat"
+      ],
+      "correct": "Luggage",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_44",
+      "question": "O que significa 'layover'?",
+      "options": [
+        "Voo direto",
+        "Escala",
+        "Cancelamento"
+      ],
+      "correct": "Escala",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_45",
+      "question": "O que é 'passport control'?",
+      "options": [
+        "Controle de passaporte",
+        "Balcão de comidas",
+        "Portão"
+      ],
+      "correct": "Controle de passaporte",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_46",
+      "question": "Quem trabalha dentro do avião ajudando passageiros?",
+      "options": [
+        "Pilot",
+        "Chef",
+        "Flight attendant"
+      ],
+      "correct": "Flight attendant",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_47",
+      "question": "O que é 'baggage claim'?",
+      "options": [
+        "Retirada de bagagem",
+        "Check-in",
+        "Portão"
+      ],
+      "correct": "Retirada de bagagem",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_48",
+      "question": "Traduza 'window seat'.",
+      "options": [
+        "Assento na janela",
+        "Assento no corredor",
+        "Assento extra"
+      ],
+      "correct": "Assento na janela",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mc_travel_49",
+      "question": "O que significa 'overbooked'?",
+      "options": [
+        "Vagas sobrando",
+        "Lotado",
+        "Barato"
+      ],
+      "correct": "Lotado",
+      "difficulty": "médio"
+    },
+    {
+      "id": "mc_travel_50",
+      "question": "Como se diz 'embarque' em inglês?",
+      "options": [
+        "Boarding",
+        "Booking",
+        "Baggage"
+      ],
+      "correct": "Boarding",
+      "difficulty": "fácil"
+    }
+  ],
+  "fill_blank": [
+    {
+      "id": "fb_travel_1",
+      "sentence": "She ___ her luggage at the airport.",
+      "options": [
+        "check",
+        "checks",
+        "checking"
+      ],
+      "correct": "checks",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_2",
+      "sentence": "They are waiting ___ the boarding gate.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct": "at",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_3",
+      "sentence": "I ___ my passport yesterday.",
+      "options": [
+        "lost",
+        "lose",
+        "loses"
+      ],
+      "correct": "lost",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_4",
+      "sentence": "The flight ___ at 6 pm.",
+      "options": [
+        "depart",
+        "departs",
+        "departing"
+      ],
+      "correct": "departs",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_5",
+      "sentence": "Can I ___ my seat?",
+      "options": [
+        "change",
+        "changes",
+        "changing"
+      ],
+      "correct": "change",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_6",
+      "sentence": "He ___ in the window seat.",
+      "options": [
+        "sit",
+        "sits",
+        "sitting"
+      ],
+      "correct": "sits",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_7",
+      "sentence": "The plane ___ soon.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arriving"
+      ],
+      "correct": "arrives",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_8",
+      "sentence": "We ___ for two hours.",
+      "options": [
+        "wait",
+        "waits",
+        "waiting"
+      ],
+      "correct": "wait",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_9",
+      "sentence": "She ___ a connecting flight.",
+      "options": [
+        "has",
+        "have",
+        "had"
+      ],
+      "correct": "has",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_10",
+      "sentence": "Passengers ___ their belts.",
+      "options": [
+        "fasten",
+        "fastens",
+        "fastened"
+      ],
+      "correct": "fasten",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_11",
+      "sentence": "She ___ her luggage at the airport.",
+      "options": [
+        "check",
+        "checks",
+        "checking"
+      ],
+      "correct": "checks",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_12",
+      "sentence": "They are waiting ___ the boarding gate.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct": "at",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_13",
+      "sentence": "I ___ my passport yesterday.",
+      "options": [
+        "lost",
+        "lose",
+        "loses"
+      ],
+      "correct": "lost",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_14",
+      "sentence": "The flight ___ at 6 pm.",
+      "options": [
+        "depart",
+        "departs",
+        "departing"
+      ],
+      "correct": "departs",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_15",
+      "sentence": "Can I ___ my seat?",
+      "options": [
+        "change",
+        "changes",
+        "changing"
+      ],
+      "correct": "change",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_16",
+      "sentence": "He ___ in the window seat.",
+      "options": [
+        "sit",
+        "sits",
+        "sitting"
+      ],
+      "correct": "sits",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_17",
+      "sentence": "The plane ___ soon.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arriving"
+      ],
+      "correct": "arrives",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_18",
+      "sentence": "We ___ for two hours.",
+      "options": [
+        "wait",
+        "waits",
+        "waiting"
+      ],
+      "correct": "wait",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_19",
+      "sentence": "She ___ a connecting flight.",
+      "options": [
+        "has",
+        "have",
+        "had"
+      ],
+      "correct": "has",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_20",
+      "sentence": "Passengers ___ their belts.",
+      "options": [
+        "fasten",
+        "fastens",
+        "fastened"
+      ],
+      "correct": "fasten",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_21",
+      "sentence": "She ___ her luggage at the airport.",
+      "options": [
+        "check",
+        "checks",
+        "checking"
+      ],
+      "correct": "checks",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_22",
+      "sentence": "They are waiting ___ the boarding gate.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct": "at",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_23",
+      "sentence": "I ___ my passport yesterday.",
+      "options": [
+        "lost",
+        "lose",
+        "loses"
+      ],
+      "correct": "lost",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_24",
+      "sentence": "The flight ___ at 6 pm.",
+      "options": [
+        "depart",
+        "departs",
+        "departing"
+      ],
+      "correct": "departs",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_25",
+      "sentence": "Can I ___ my seat?",
+      "options": [
+        "change",
+        "changes",
+        "changing"
+      ],
+      "correct": "change",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_26",
+      "sentence": "He ___ in the window seat.",
+      "options": [
+        "sit",
+        "sits",
+        "sitting"
+      ],
+      "correct": "sits",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_27",
+      "sentence": "The plane ___ soon.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arriving"
+      ],
+      "correct": "arrives",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_28",
+      "sentence": "We ___ for two hours.",
+      "options": [
+        "wait",
+        "waits",
+        "waiting"
+      ],
+      "correct": "wait",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_29",
+      "sentence": "She ___ a connecting flight.",
+      "options": [
+        "has",
+        "have",
+        "had"
+      ],
+      "correct": "has",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_30",
+      "sentence": "Passengers ___ their belts.",
+      "options": [
+        "fasten",
+        "fastens",
+        "fastened"
+      ],
+      "correct": "fasten",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_31",
+      "sentence": "She ___ her luggage at the airport.",
+      "options": [
+        "check",
+        "checks",
+        "checking"
+      ],
+      "correct": "checks",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_32",
+      "sentence": "They are waiting ___ the boarding gate.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct": "at",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_33",
+      "sentence": "I ___ my passport yesterday.",
+      "options": [
+        "lost",
+        "lose",
+        "loses"
+      ],
+      "correct": "lost",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_34",
+      "sentence": "The flight ___ at 6 pm.",
+      "options": [
+        "depart",
+        "departs",
+        "departing"
+      ],
+      "correct": "departs",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_35",
+      "sentence": "Can I ___ my seat?",
+      "options": [
+        "change",
+        "changes",
+        "changing"
+      ],
+      "correct": "change",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_36",
+      "sentence": "He ___ in the window seat.",
+      "options": [
+        "sit",
+        "sits",
+        "sitting"
+      ],
+      "correct": "sits",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_37",
+      "sentence": "The plane ___ soon.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arriving"
+      ],
+      "correct": "arrives",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_38",
+      "sentence": "We ___ for two hours.",
+      "options": [
+        "wait",
+        "waits",
+        "waiting"
+      ],
+      "correct": "wait",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_39",
+      "sentence": "She ___ a connecting flight.",
+      "options": [
+        "has",
+        "have",
+        "had"
+      ],
+      "correct": "has",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_40",
+      "sentence": "Passengers ___ their belts.",
+      "options": [
+        "fasten",
+        "fastens",
+        "fastened"
+      ],
+      "correct": "fasten",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_41",
+      "sentence": "She ___ her luggage at the airport.",
+      "options": [
+        "check",
+        "checks",
+        "checking"
+      ],
+      "correct": "checks",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_42",
+      "sentence": "They are waiting ___ the boarding gate.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "correct": "at",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_43",
+      "sentence": "I ___ my passport yesterday.",
+      "options": [
+        "lost",
+        "lose",
+        "loses"
+      ],
+      "correct": "lost",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_44",
+      "sentence": "The flight ___ at 6 pm.",
+      "options": [
+        "depart",
+        "departs",
+        "departing"
+      ],
+      "correct": "departs",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_45",
+      "sentence": "Can I ___ my seat?",
+      "options": [
+        "change",
+        "changes",
+        "changing"
+      ],
+      "correct": "change",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_46",
+      "sentence": "He ___ in the window seat.",
+      "options": [
+        "sit",
+        "sits",
+        "sitting"
+      ],
+      "correct": "sits",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_47",
+      "sentence": "The plane ___ soon.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arriving"
+      ],
+      "correct": "arrives",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_48",
+      "sentence": "We ___ for two hours.",
+      "options": [
+        "wait",
+        "waits",
+        "waiting"
+      ],
+      "correct": "wait",
+      "difficulty": "médio"
+    },
+    {
+      "id": "fb_travel_49",
+      "sentence": "She ___ a connecting flight.",
+      "options": [
+        "has",
+        "have",
+        "had"
+      ],
+      "correct": "has",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "fb_travel_50",
+      "sentence": "Passengers ___ their belts.",
+      "options": [
+        "fasten",
+        "fastens",
+        "fastened"
+      ],
+      "correct": "fasten",
+      "difficulty": "médio"
+    }
+  ],
+  "free_translation": [
+    {
+      "id": "ft_travel_1",
+      "portuguese": "Eu comprei um bilhete de ida e volta.",
+      "expected": "I bought a a one-way of ticket return",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_2",
+      "portuguese": "Eles estão prontos para embarcar.",
+      "expected": "They are ready to board",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_3",
+      "portuguese": "Onde está o balcão de informações?",
+      "expected": "Where is the information desk?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_4",
+      "portuguese": "Meu voo foi cancelado.",
+      "expected": "My flight was cancelled.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_5",
+      "portuguese": "Posso mudar meu voo?",
+      "expected": "Can I change my flight?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_6",
+      "portuguese": "Preciso declarar estas frutas.",
+      "expected": "I need declare these fruits",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_7",
+      "portuguese": "A bagagem está no carro.",
+      "expected": "baggage is in the car",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_8",
+      "portuguese": "Tem um banheiro perto do portão?",
+      "expected": "Is there a restroom near the gate?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_9",
+      "portuguese": "O desembarque será em breve.",
+      "expected": "The disembarkation will be soon.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_10",
+      "portuguese": "Tenho uma conexão curta.",
+      "expected": "I have a short connection.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_11",
+      "portuguese": "Mostre seu documento, por favor.",
+      "expected": "Show your ID, please.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_12",
+      "portuguese": "Onde é a imigração?",
+      "expected": "Where is immigration?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_13",
+      "portuguese": "O voo chega às oito.",
+      "expected": "The flight arrives at eight.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_14",
+      "portuguese": "Eu perdi a mala.",
+      "expected": "I lost my suitcase.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_15",
+      "portuguese": "Ele trabalha como piloto.",
+      "expected": "He works as a pilot.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_16",
+      "portuguese": "A sala VIP é ao lado.",
+      "expected": "The VIP lounge is nearby.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_17",
+      "portuguese": "Preciso de um formulário de visto.",
+      "expected": "I need a visa form.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_18",
+      "portuguese": "Quanto custa o bilhete?",
+      "expected": "How much is the ticket?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_19",
+      "portuguese": "Há Wi-Fi gratuito aqui.",
+      "expected": "There is free Wi-Fi here.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_20",
+      "portuguese": "Podemos embarcar agora?",
+      "expected": "Can we board now?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_21",
+      "portuguese": "Meu assento está quebrado.",
+      "expected": "My seat is broken.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_22",
+      "portuguese": "A escala é de duas horas.",
+      "expected": "The layover is two hours.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_23",
+      "portuguese": "Há espaço para pés?",
+      "expected": "Is there legroom?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_24",
+      "portuguese": "O piloto anunciou turbulência.",
+      "expected": "The pilot announced turbulence.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_25",
+      "portuguese": "Onde está o ponto de táxi?",
+      "expected": "Where is the taxi rank?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_26",
+      "portuguese": "Quero reservar um assento de corredor.",
+      "expected": "I want to book an aisle seat.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_27",
+      "portuguese": "Eles desembarcaram rapidamente.",
+      "expected": "They disembarked quickly.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_28",
+      "portuguese": "O voo internacional chega tarde.",
+      "expected": "The international flight arrives late.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_29",
+      "portuguese": "Tem restaurante no terminal?",
+      "expected": "Is there a restaurant in the terminal?",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_30",
+      "portuguese": "Onde fica o hotel do aeroporto?",
+      "expected": "Where is the airport hotel?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_31",
+      "portuguese": "Há um guichê de aluguel de carros?",
+      "expected": "Is there a car rental desk?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_32",
+      "portuguese": "O cartão de embarque está no meu e-mail.",
+      "expected": "The boarding pass is in my email.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_33",
+      "portuguese": "Alguém encontrou minha carteira?",
+      "expected": "Has anyone found my wallet?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_34",
+      "portuguese": "Tem seguro de viagem incluído?",
+      "expected": "Is travel insurance included?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_35",
+      "portuguese": "A entrada para o portão é restrita.",
+      "expected": "The gate entrance is restricted.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_36",
+      "portuguese": "Meu voo é direto.",
+      "expected": "My flight is direct.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_37",
+      "portuguese": "A companhia aérea oferece reembolso.",
+      "expected": "The airline offers a refund.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_38",
+      "portuguese": "A fila para segurança é longa.",
+      "expected": "The line for security is long.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_39",
+      "portuguese": "Tenho duas malas para despachar.",
+      "expected": "I have two suitcases to check in.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_40",
+      "portuguese": "O status do voo mudou.",
+      "expected": "The flight status has changed.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_41",
+      "portuguese": "Existe lounge para passageiros de primeira classe?",
+      "expected": "Is there a lounge for first-class passengers?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_42",
+      "portuguese": "Ela viaja a trabalho.",
+      "expected": "She travels for work.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_43",
+      "portuguese": "Posso levar um animal de estimação?",
+      "expected": "Can I take a pet?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_44",
+      "portuguese": "Onde é o balcão de reclamações?",
+      "expected": "Where is the complaints desk?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_45",
+      "portuguese": "O mostrador fecha em 30 minutos.",
+      "expected": "The desk closes in 30 minutes.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_46",
+      "portuguese": "Alguma bagagem foi danificada?",
+      "expected": "Has any baggage been damaged?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_47",
+      "portuguese": "Preciso de uma cadeira de rodas.",
+      "expected": "I need a wheelchair.",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_48",
+      "portuguese": "O embarque prioritário começa agora.",
+      "expected": "Priority boarding starts now.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "ft_travel_49",
+      "portuguese": "Há um posto de câmbio aqui.",
+      "expected": "Is there an exchange office here?",
+      "difficulty": "médio"
+    },
+    {
+      "id": "ft_travel_50",
+      "portuguese": "Eu comprei um bilhete de ida e volta.",
+      "expected": "I bought a a one-way of ticket return",
+      "difficulty": "médio"
+    }
+  ],
+  "match_madness": [
+    {
+      "id": "mm_travel_1",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Run",
+          "pt": "Correr"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Queue",
+          "pt": "Fila"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_2",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_3",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Customs",
+          "pt": "Alfândega"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Crew",
+          "pt": "Tripulação"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_4",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Carousel",
+          "pt": "Esteira"
+        },
+        {
+          "en": "Run",
+          "pt": "Correr"
+        },
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_5",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_6",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Carousel",
+          "pt": "Esteira"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Plane",
+          "pt": "Avião"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_7",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Luggage",
+          "pt": "Bagagem"
+        },
+        {
+          "en": "Ticket",
+          "pt": "Bilhete"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Gate",
+          "pt": "Portão"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_8",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_9",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_10",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_11",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_12",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        },
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        },
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        },
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_13",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Crew",
+          "pt": "Tripulação"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_14",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Claim",
+          "pt": "Reclamar"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_15",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Flight number",
+          "pt": "Número do voo"
+        },
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        },
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        },
+        {
+          "en": "Passport office",
+          "pt": "Serviço de passaporte"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_16",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_17",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_18",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_19",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_20",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        },
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        },
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        },
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_21",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Crew",
+          "pt": "Tripulação"
+        },
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_22",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Claim",
+          "pt": "Reclamar"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        },
+        {
+          "en": "Flight number",
+          "pt": "Número do voo"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_23",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        },
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        },
+        {
+          "en": "Passport office",
+          "pt": "Serviço de passaporte"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_24",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_25",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_26",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_27",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_28",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        },
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        },
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_29",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Crew",
+          "pt": "Tripulação"
+        },
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_30",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Claim",
+          "pt": "Reclamar"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        },
+        {
+          "en": "Flight number",
+          "pt": "Número do voo"
+        },
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_31",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        },
+        {
+          "en": "Passport office",
+          "pt": "Serviço de passaporte"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_32",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_33",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_34",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_35",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        },
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_36",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        },
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_37",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        },
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Crew",
+          "pt": "Tripulação"
+        },
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_38",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        },
+        {
+          "en": "Claim",
+          "pt": "Reclamar"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        },
+        {
+          "en": "Flight number",
+          "pt": "Número do voo"
+        },
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        },
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_39",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Passport office",
+          "pt": "Serviço de passaporte"
+        },
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_40",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_41",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        },
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_42",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_43",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        },
+        {
+          "en": "Lost and found",
+          "pt": "Achados e perdidos"
+        },
+        {
+          "en": "Passport control",
+          "pt": "Controle de passaporte"
+        },
+        {
+          "en": "Boarding time",
+          "pt": "Hora de embarque"
+        },
+        {
+          "en": "Flight attendant",
+          "pt": "Comissário de bordo"
+        },
+        {
+          "en": "Check-in desk",
+          "pt": "Balcão de check-in"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_44",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Immigration officer",
+          "pt": "Oficial de imigração"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Terminal",
+          "pt": "Terminal"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Runway",
+          "pt": "Pista de pouso"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_45",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Pilot",
+          "pt": "Piloto"
+        },
+        {
+          "en": "Crew",
+          "pt": "Tripulação"
+        },
+        {
+          "en": "Overbooked",
+          "pt": "Lotado"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        },
+        {
+          "en": "Boarding pass",
+          "pt": "Cartão de embarque"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_46",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Claim",
+          "pt": "Reclamar"
+        },
+        {
+          "en": "Gate change",
+          "pt": "Mudança de portão"
+        },
+        {
+          "en": "Flight number",
+          "pt": "Número do voo"
+        },
+        {
+          "en": "Travel insurance",
+          "pt": "Seguro de viagem"
+        },
+        {
+          "en": "Lounge",
+          "pt": "Sala VIP"
+        },
+        {
+          "en": "Passport office",
+          "pt": "Serviço de passaporte"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_47",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Customs form",
+          "pt": "Formulário de alfândega"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Visa",
+          "pt": "Visto"
+        },
+        {
+          "en": "Security",
+          "pt": "Segurança"
+        },
+        {
+          "en": "Passport",
+          "pt": "Passaporte"
+        }
+      ],
+      "difficulty": "fácil"
+    },
+    {
+      "id": "mm_travel_48",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Baggage claim",
+          "pt": "Retirada de bagagem"
+        },
+        {
+          "en": "Delay",
+          "pt": "Atraso"
+        },
+        {
+          "en": "Window",
+          "pt": "Janela"
+        },
+        {
+          "en": "Seat",
+          "pt": "Assento"
+        },
+        {
+          "en": "Aisle",
+          "pt": "Corredor"
+        },
+        {
+          "en": "Flight",
+          "pt": "Voo"
+        }
+      ],
+      "difficulty": "médio"
+    },
+    {
+      "id": "mm_travel_49",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Boarding",
+          "pt": "Embarque"
+        },
+        {
+          "en": "Immigration",
+          "pt": "Imigração"
+        },
+        {
+          "en": "Reservation",
+          "pt": "Reserva"
+        },
+        {
+          "en": "Taxi",
+          "pt": "Táxi"
+        },
+        {
+          "en": "Hotel",
+          "pt": "Hotel"
+        },
+        {
+          "en": "Carry-on",
+          "pt": "Bagagem de mão"
+        }
+      ],
+      "difficulty": "rápido"
+    },
+    {
+      "id": "mm_travel_50",
+      "timeLimit": 30,
+      "pairs": [
+        {
+          "en": "Check-in",
+          "pt": "Check-in"
+        },
+        {
+          "en": "Baggage trolley",
+          "pt": "Carrinho de bagagem"
+        },
+        {
+          "en": "Plug socket",
+          "pt": "Tomada"
+        },
+        {
+          "en": "Excess baggage",
+          "pt": "Excesso de bagagem"
+        },
+        {
+          "en": "Carry-on allowance",
+          "pt": "Franquia de bagagem de mão"
+        },
+        {
+          "en": "Security check",
+          "pt": "Verificação de segurança"
+        }
+      ],
+      "difficulty": "fácil"
+    }
+  ],
+
+
+"translation_ban": [
+{
+"id": "tb_travel_1",
+"portuguese": "Eu viajar o trem.",
+"words": [
+"I",
+"train",
+"travel",
+".",
+"the",
+"by"
+],
+"correct": [
+"I",
+"travel",
+"the",
+"train",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_food_2",
+"portuguese": "Ela comer o pão.",
+"words": [
+"She",
+"eats",
+"bread",
+".",
+"drink",
+"coffee"
+],
+"correct": [
+"She",
+"eats",
+"bread",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_school_3",
+"portuguese": "Nós estudar a escola hoje.",
+"words": [
+"We",
+"study",
+"school",
+"today",
+".",
+"play",
+"run"
+],
+"correct": [
+"We",
+"study",
+"school",
+"today",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_work_4",
+"portuguese": "Ele trabalhar o escritório.",
+"words": [
+"He",
+"works",
+"office",
+".",
+"hotel",
+"bus"
+],
+"correct": [
+"He",
+"works",
+"office",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_health_5",
+"portuguese": "Eu beber o café de manhã.",
+"words": [
+"I",
+"drink",
+"coffee",
+".",
+"eat",
+"tea"
+],
+"correct": [
+"I",
+"drink",
+"coffee",
+"in the morning",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_technology_6",
+"portuguese": "Ela usar o computador.",
+"words": [
+"She",
+"uses",
+"computer",
+".",
+"phone",
+"music"
+],
+"correct": [
+"She",
+"uses",
+"computer",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_hobbies_7",
+"portuguese": "Nós jogar futebol.",
+"words": [
+"We",
+"play",
+"football",
+".",
+"read",
+"music"
+],
+"correct": [
+"We",
+"play",
+"football",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_transport_8",
+"portuguese": "Eles pegar o ônibus.",
+"words": [
+"They",
+"take",
+"the",
+"bus",
+".",
+"train",
+"car"
+],
+"correct": [
+"They",
+"take",
+"the",
+"bus",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_weather_9",
+"portuguese": "Eu ver chuva hoje.",
+"words": [
+"I",
+"see",
+"rain",
+"today",
+".",
+"sun",
+"snow"
+],
+"correct": [
+"I",
+"see",
+"rain",
+"today",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_family_10",
+"portuguese": "Ela visitar a família amanhã.",
+"words": [
+"She",
+"will",
+"visit",
+"family",
+"tomorrow",
+"."
+],
+"correct": [
+"She",
+"visit",
+"family",
+"tomorrow",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_home_11",
+"portuguese": "Nós morar a casa.",
+"words": [
+"We",
+"live",
+"in",
+"the",
+"house",
+".",
+"hotel",
+"room"
+],
+"correct": [
+"We",
+"live",
+"in",
+"the",
+"house",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_city_12",
+"portuguese": "Ele caminhar a rua.",
+"words": [
+"He",
+"walks",
+"the",
+"street",
+".",
+"park",
+"map"
+],
+"correct": [
+"He",
+"walks",
+"the",
+"street",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_shopping_13",
+"portuguese": "Eu comprar o mapa.",
+"words": [
+"I",
+"buy",
+"the",
+"map",
+".",
+"ticket",
+"passport"
+],
+"correct": [
+"I",
+"buy",
+"the",
+"map",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_routine_14",
+"portuguese": "Ela acordar cedo.",
+"words": [
+"She",
+"wakes",
+"up",
+"early",
+".",
+"sleep",
+"late"
+],
+"correct": [
+"She",
+"wakes",
+"up",
+"early",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_sports_15",
+"portuguese": "Nós jogar tênis amanhã.",
+"words": [
+"We",
+"play",
+"tennis",
+"tomorrow",
+".",
+"football",
+"run"
+],
+"correct": [
+"We",
+"play",
+"tennis",
+"tomorrow",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_nature_16",
+"portuguese": "Eles ver o monte.",
+"words": [
+"They",
+"see",
+"the",
+"mountain",
+".",
+"river",
+"beach"
+],
+"correct": [
+"They",
+"see",
+"the",
+"mountain",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_animals_17",
+"portuguese": "Eu tenho um cachorro.",
+"words": [
+"I",
+"have",
+"a",
+"dog",
+".",
+"cat",
+"bird"
+],
+"correct": [
+"I",
+"have",
+"a",
+"dog",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_music_18",
+"portuguese": "Ela ouvir música.",
+"words": [
+"She",
+"listens",
+"to",
+"music",
+".",
+"watch",
+"play"
+],
+"correct": [
+"She",
+"listens",
+"to",
+"music",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_movies_19",
+"portuguese": "Nós assistir o filme à noite.",
+"words": [
+"We",
+"watch",
+"the",
+"movie",
+"at night",
+".",
+"tomorrow",
+"today"
+],
+"correct": [
+"We",
+"watch",
+"the",
+"movie",
+"at night",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_friends_20",
+"portuguese": "Eles chamar amigo.",
+"words": [
+"They",
+"call",
+"a",
+"friend",
+".",
+"family",
+"neighbor"
+],
+"correct": [
+"They",
+"call",
+"a",
+"friend",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_education_21",
+"portuguese": "Eu estudar com professor.",
+"words": [
+"I",
+"study",
+"with",
+"the",
+"teacher",
+".",
+"student",
+"class"
+],
+"correct": [
+"I",
+"study",
+"with",
+"the",
+"teacher",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_jobs_22",
+"portuguese": "Ela começar o trabalho cedo.",
+"words": [
+"She",
+"starts",
+"work",
+"early",
+".",
+"late",
+"stop"
+],
+"correct": [
+"She",
+"starts",
+"work",
+"early",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_food_drinks_23",
+"portuguese": "Nós beber chá à tarde.",
+"words": [
+"We",
+"drink",
+"tea",
+"in the afternoon",
+".",
+"coffee",
+"water"
+],
+"correct": [
+"We",
+"drink",
+"tea",
+"in the afternoon",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_festivals_24",
+"portuguese": "Eles celebrar festival amanhã.",
+"words": [
+"They",
+"celebrate",
+"a",
+"festival",
+"tomorrow",
+".",
+"party",
+"dance"
+],
+"correct": [
+"They",
+"celebrate",
+"a",
+"festival",
+"tomorrow",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_directions_25",
+"portuguese": "Eu procurar a estação.",
+"words": [
+"I",
+"look for",
+"the",
+"station",
+".",
+"map",
+"ticket"
+],
+"correct": [
+"I",
+"look for",
+"the",
+"station",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_travel_26",
+"portuguese": "Ela pegar o trem amanhã.",
+"words": [
+"She",
+"takes",
+"the",
+"train",
+"tomorrow",
+".",
+"bus",
+"plane"
+],
+"correct": [
+"She",
+"takes",
+"the",
+"train",
+"tomorrow",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_food_27",
+"portuguese": "Eles comer a maçã.",
+"words": [
+"They",
+"eat",
+"an",
+"apple",
+".",
+"bread",
+"tea"
+],
+"correct": [
+"They",
+"eat",
+"an",
+"apple",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_school_28",
+"portuguese": "Eu tenho um livro novo.",
+"words": [
+"I",
+"have",
+"a",
+"new",
+"book",
+".",
+"pen",
+"bag"
+],
+"correct": [
+"I",
+"have",
+"a",
+"new",
+"book",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_work_29",
+"portuguese": "Nós terminar o trabalho hoje.",
+"words": [
+"We",
+"finish",
+"work",
+"today",
+".",
+"tomorrow",
+"start"
+],
+"correct": [
+"We",
+"finish",
+"work",
+"today",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_health_30",
+"portuguese": "Ela ter remédio.",
+"words": [
+"She",
+"has",
+"medicine",
+".",
+"doctor",
+"appointment"
+],
+"correct": [
+"She",
+"has",
+"medicine",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_technology_31",
+"portuguese": "Ele ligar o telefone.",
+"words": [
+"He",
+"calls",
+"the",
+"phone",
+".",
+"computer",
+"message"
+],
+"correct": [
+"He",
+"calls",
+"the",
+"phone",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_hobbies_32",
+"portuguese": "Eu tocar violão à noite.",
+"words": [
+"I",
+"play",
+"guitar",
+"at night",
+".",
+"listen",
+"song"
+],
+"correct": [
+"I",
+"play",
+"guitar",
+"at night",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_transport_33",
+"portuguese": "Nós pegar o carro cedo.",
+"words": [
+"We",
+"take",
+"the",
+"car",
+"early",
+".",
+"bus",
+"train"
+],
+"correct": [
+"We",
+"take",
+"the",
+"car",
+"early",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_weather_34",
+"portuguese": "Eles ver o sol hoje.",
+"words": [
+"They",
+"see",
+"the",
+"sun",
+"today",
+".",
+"rain",
+"snow"
+],
+"correct": [
+"They",
+"see",
+"the",
+"sun",
+"today",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_family_35",
+"portuguese": "Eu visitar minha família amanhã.",
+"words": [
+"I",
+"visit",
+"my",
+"family",
+"tomorrow",
+".",
+"friend",
+"neighbor"
+],
+"correct": [
+"I",
+"visit",
+"my",
+"family",
+"tomorrow",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_home_36",
+"portuguese": "Ele abrir a porta agora.",
+"words": [
+"He",
+"opens",
+"the",
+"door",
+"now",
+".",
+"room",
+"window"
+],
+"correct": [
+"He",
+"opens",
+"the",
+"door",
+"now",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_city_37",
+"portuguese": "Nós ver o mapa na loja.",
+"words": [
+"We",
+"see",
+"the",
+"map",
+"in",
+"the",
+"shop",
+"."
+],
+"correct": [
+"We",
+"see",
+"the",
+"map",
+"in",
+"the",
+"shop",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_shopping_38",
+"portuguese": "Ela pagar os bilhetes hoje.",
+"words": [
+"She",
+"pays",
+"the",
+"tickets",
+"today",
+".",
+"buy",
+"sell"
+],
+"correct": [
+"She",
+"pays",
+"the",
+"tickets",
+"today",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_routine_39",
+"portuguese": "Eu correr no parque.",
+"words": [
+"I",
+"run",
+"in",
+"the",
+"park",
+".",
+"walk",
+"play"
+],
+"correct": [
+"I",
+"run",
+"in",
+"the",
+"park",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_sports_40",
+"portuguese": "Ele treinar de manhã.",
+"words": [
+"He",
+"trains",
+"in",
+"the",
+"morning",
+".",
+"evening",
+"night"
+],
+"correct": [
+"He",
+"trains",
+"in",
+"the",
+"morning",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_nature_41",
+"portuguese": "Nós ver o rio.",
+"words": [
+"We",
+"see",
+"the",
+"river",
+".",
+"mountain",
+"beach"
+],
+"correct": [
+"We",
+"see",
+"the",
+"river",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_animals_42",
+"portuguese": "Ela ter um gato.",
+"words": [
+"She",
+"has",
+"a",
+"cat",
+".",
+"dog",
+"bird"
+],
+"correct": [
+"She",
+"has",
+"a",
+"cat",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_music_43",
+"portuguese": "Ele ouvir uma canção.",
+"words": [
+"He",
+"listens",
+"to",
+"a",
+"song",
+".",
+"guitar",
+"piano"
+],
+"correct": [
+"He",
+"listens",
+"to",
+"a",
+"song",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_movies_44",
+"portuguese": "Eu comprar um ingresso para o filme.",
+"words": [
+"I",
+"buy",
+"a",
+"ticket",
+"for",
+"the",
+"movie",
+"."
+],
+"correct": [
+"I",
+"buy",
+"a",
+"ticket",
+"for",
+"the",
+"movie",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_friends_45",
+"portuguese": "Nós encontrar os amigos no parque.",
+"words": [
+"We",
+"meet",
+"friends",
+"in",
+"the",
+"park",
+".",
+"play",
+"eat"
+],
+"correct": [
+"We",
+"meet",
+"friends",
+"in",
+"the",
+"park",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_education_46",
+"portuguese": "Ela ensinar a classe.",
+"words": [
+"She",
+"teaches",
+"the",
+"class",
+".",
+"student",
+"teacher"
+],
+"correct": [
+"She",
+"teaches",
+"the",
+"class",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_jobs_47",
+"portuguese": "Eu procurar um emprego.",
+"words": [
+"I",
+"look for",
+"a",
+"job",
+".",
+"work",
+"apply"
+],
+"correct": [
+"I",
+"look for",
+"a",
+"job",
+"."
+],
+"difficulty": "médio"
+},
+{
+"id": "tb_food_drinks_48",
+"portuguese": "Eles beber água agora.",
+"words": [
+"They",
+"drink",
+"water",
+"now",
+".",
+"tea",
+"coffee"
+],
+"correct": [
+"They",
+"drink",
+"water",
+"now",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_festivals_49",
+"portuguese": "Eu dançar na festa.",
+"words": [
+"I",
+"dance",
+"at",
+"the",
+"party",
+".",
+"sing",
+"listen"
+],
+"correct": [
+"I",
+"dance",
+"at",
+"the",
+"party",
+"."
+],
+"difficulty": "fácil"
+},
+{
+"id": "tb_directions_50",
+"portuguese": "Ela virar a esquerda.",
+"words": [
+"She",
+"turns",
+"left",
+".",
+"right",
+"straight"
+],
+"correct": [
+"She",
+"turns",
+"left",
+"."
+],
+"difficulty": "médio"
+}
+],
+"match_pairs": [
+{
+"id": "mp_school_1",
+"pairs": [
+{
+"en": "House",
+"pt": "Casa"
+},
+{
+"en": "Book",
+"pt": "Livro"
+},
+{
+"en": "Water",
+"pt": "Água"
+},
+{
+"en": "Food",
+"pt": "Comida"
+},
+{
+"en": "Car",
+"pt": "Carro"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_travel_2",
+"pairs": [
+{
+"en": "Train",
+"pt": "Trem"
+},
+{
+"en": "Plane",
+"pt": "Avião"
+},
+{
+"en": "Bus",
+"pt": "Ônibus"
+},
+{
+"en": "Airport",
+"pt": "Aeroporto"
+},
+{
+"en": "Ticket",
+"pt": "Bilhete"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_food_3",
+"pairs": [
+{
+"en": "Map",
+"pt": "Mapa"
+},
+{
+"en": "Hotel",
+"pt": "Hotel"
+},
+{
+"en": "Beach",
+"pt": "Praia"
+},
+{
+"en": "Park",
+"pt": "Parque"
+},
+{
+"en": "Market",
+"pt": "Mercado"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_work_4",
+"pairs": [
+{
+"en": "Station",
+"pt": "Estação"
+},
+{
+"en": "Passport",
+"pt": "Passaporte"
+},
+{
+"en": "Bag",
+"pt": "Bolsa"
+},
+{
+"en": "Door",
+"pt": "Porta"
+},
+{
+"en": "Room",
+"pt": "Quarto"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_health_5",
+"pairs": [
+{
+"en": "Street",
+"pt": "Rua"
+},
+{
+"en": "City",
+"pt": "Cidade"
+},
+{
+"en": "Friend",
+"pt": "Amigo"
+},
+{
+"en": "Family",
+"pt": "Família"
+},
+{
+"en": "Shop",
+"pt": "Loja"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_technology_6",
+"pairs": [
+{
+"en": "Doctor",
+"pt": "Médico"
+},
+{
+"en": "Medicine",
+"pt": "Remédio"
+},
+{
+"en": "Job",
+"pt": "Trabalho"
+},
+{
+"en": "Computer",
+"pt": "Computador"
+},
+{
+"en": "Phone",
+"pt": "Telefone"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_hobbies_7",
+"pairs": [
+{
+"en": "Music",
+"pt": "Música"
+},
+{
+"en": "Song",
+"pt": "Canção"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+},
+{
+"en": "Picture",
+"pt": "Foto"
+},
+{
+"en": "Football",
+"pt": "Futebol"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_transport_8",
+"pairs": [
+{
+"en": "Tennis",
+"pt": "Tênis"
+},
+{
+"en": "Weather",
+"pt": "Tempo"
+},
+{
+"en": "Rain",
+"pt": "Chuva"
+},
+{
+"en": "Sun",
+"pt": "Sol"
+},
+{
+"en": "Snow",
+"pt": "Neve"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_weather_9",
+"pairs": [
+{
+"en": "Mountain",
+"pt": "Montanha"
+},
+{
+"en": "River",
+"pt": "Rio"
+},
+{
+"en": "Dog",
+"pt": "Cachorro"
+},
+{
+"en": "Cat",
+"pt": "Gato"
+},
+{
+"en": "Bird",
+"pt": "Pássaro"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_family_10",
+"pairs": [
+{
+"en": "Breakfast",
+"pt": "Café da manhã"
+},
+{
+"en": "Lunch",
+"pt": "Almoço"
+},
+{
+"en": "Dinner",
+"pt": "Jantar"
+},
+{
+"en": "Tea",
+"pt": "Chá"
+},
+{
+"en": "Apple",
+"pt": "Maçã"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_home_11",
+"pairs": [
+{
+"en": "Bread",
+"pt": "Pão"
+},
+{
+"en": "House",
+"pt": "Casa"
+},
+{
+"en": "Book",
+"pt": "Livro"
+},
+{
+"en": "Movie",
+"pt": "Filme"
+},
+{
+"en": "School",
+"pt": "Escola"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_city_12",
+"pairs": [
+{
+"en": "Teacher",
+"pt": "Professor"
+},
+{
+"en": "Student",
+"pt": "Aluno"
+},
+{
+"en": "Friend",
+"pt": "Amigo"
+},
+{
+"en": "Family",
+"pt": "Família"
+},
+{
+"en": "Shop",
+"pt": "Loja"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_shopping_13",
+"pairs": [
+{
+"en": "Market",
+"pt": "Mercado"
+},
+{
+"en": "Station",
+"pt": "Estação"
+},
+{
+"en": "Passport",
+"pt": "Passaporte"
+},
+{
+"en": "Bag",
+"pt": "Bolsa"
+},
+{
+"en": "Ticket",
+"pt": "Bilhete"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_routine_14",
+"pairs": [
+{
+"en": "Door",
+"pt": "Porta"
+},
+{
+"en": "Room",
+"pt": "Quarto"
+},
+{
+"en": "Street",
+"pt": "Rua"
+},
+{
+"en": "City",
+"pt": "Cidade"
+},
+{
+"en": "Map",
+"pt": "Mapa"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_sports_15",
+"pairs": [
+{
+"en": "Football",
+"pt": "Futebol"
+},
+{
+"en": "Tennis",
+"pt": "Tênis"
+},
+{
+"en": "Music",
+"pt": "Música"
+},
+{
+"en": "Song",
+"pt": "Canção"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_nature_16",
+"pairs": [
+{
+"en": "Mountain",
+"pt": "Montanha"
+},
+{
+"en": "River",
+"pt": "Rio"
+},
+{
+"en": "Beach",
+"pt": "Praia"
+},
+{
+"en": "Park",
+"pt": "Parque"
+},
+{
+"en": "Market",
+"pt": "Mercado"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_animals_17",
+"pairs": [
+{
+"en": "Dog",
+"pt": "Cachorro"
+},
+{
+"en": "Cat",
+"pt": "Gato"
+},
+{
+"en": "Bird",
+"pt": "Pássaro"
+},
+{
+"en": "Fish",
+"pt": "Peixe"
+},
+{
+"en": "Horse",
+"pt": "Cavalo"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_music_18",
+"pairs": [
+{
+"en": "Picture",
+"pt": "Foto"
+},
+{
+"en": "Movie",
+"pt": "Filme"
+},
+{
+"en": "Book",
+"pt": "Livro"
+},
+{
+"en": "Teacher",
+"pt": "Professor"
+},
+{
+"en": "Student",
+"pt": "Aluno"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_movies_19",
+"pairs": [
+{
+"en": "Ticket",
+"pt": "Bilhete"
+},
+{
+"en": "Passport",
+"pt": "Passaporte"
+},
+{
+"en": "Bag",
+"pt": "Bolsa"
+},
+{
+"en": "Phone",
+"pt": "Telefone"
+},
+{
+"en": "Computer",
+"pt": "Computador"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_friends_20",
+"pairs": [
+{
+"en": "Friend",
+"pt": "Amigo"
+},
+{
+"en": "Family",
+"pt": "Família"
+},
+{
+"en": "Neighbor",
+"pt": "Vizinho"
+},
+{
+"en": "Colleague",
+"pt": "Colega"
+},
+{
+"en": "Partner",
+"pt": "Parceiro"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_education_21",
+"pairs": [
+{
+"en": "Class",
+"pt": "Aula"
+},
+{
+"en": "Exam",
+"pt": "Prova"
+},
+{
+"en": "Grade",
+"pt": "Nota"
+},
+{
+"en": "Lesson",
+"pt": "Lição"
+},
+{
+"en": "Homework",
+"pt": "Tarefa"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_jobs_22",
+"pairs": [
+{
+"en": "Job",
+"pt": "Emprego"
+},
+{
+"en": "Work",
+"pt": "Trabalho"
+},
+{
+"en": "Salary",
+"pt": "Salário"
+},
+{
+"en": "Office",
+"pt": "Escritório"
+},
+{
+"en": "Meeting",
+"pt": "Reunião"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_food_drinks_23",
+"pairs": [
+{
+"en": "Coffee",
+"pt": "Café"
+},
+{
+"en": "Tea",
+"pt": "Chá"
+},
+{
+"en": "Water",
+"pt": "Água"
+},
+{
+"en": "Bread",
+"pt": "Pão"
+},
+{
+"en": "Apple",
+"pt": "Maçã"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_festivals_24",
+"pairs": [
+{
+"en": "Party",
+"pt": "Festa"
+},
+{
+"en": "Dance",
+"pt": "Dança"
+},
+{
+"en": "Music",
+"pt": "Música"
+},
+{
+"en": "Food",
+"pt": "Comida"
+},
+{
+"en": "Friend",
+"pt": "Amigo"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_directions_25",
+"pairs": [
+{
+"en": "Left",
+"pt": "Esquerda"
+},
+{
+"en": "Right",
+"pt": "Direita"
+},
+{
+"en": "Straight",
+"pt": "Em frente"
+},
+{
+"en": "Map",
+"pt": "Mapa"
+},
+{
+"en": "Sign",
+"pt": "Placa"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_travel_26",
+"pairs": [
+{
+"en": "Ticket",
+"pt": "Bilhete"
+},
+{
+"en": "Airport",
+"pt": "Aeroporto"
+},
+{
+"en": "Train",
+"pt": "Trem"
+},
+{
+"en": "Station",
+"pt": "Estação"
+},
+{
+"en": "Passport",
+"pt": "Passaporte"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_food_27",
+"pairs": [
+{
+"en": "Apple",
+"pt": "Maçã"
+},
+{
+"en": "Bread",
+"pt": "Pão"
+},
+{
+"en": "Coffee",
+"pt": "Café"
+},
+{
+"en": "Tea",
+"pt": "Chá"
+},
+{
+"en": "Water",
+"pt": "Água"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_school_28",
+"pairs": [
+{
+"en": "Book",
+"pt": "Livro"
+},
+{
+"en": "Pen",
+"pt": "Caneta"
+},
+{
+"en": "Bag",
+"pt": "Bolsa"
+},
+{
+"en": "Desk",
+"pt": "Carteira"
+},
+{
+"en": "Chair",
+"pt": "Cadeira"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_work_29",
+"pairs": [
+{
+"en": "Office",
+"pt": "Escritório"
+},
+{
+"en": "Meeting",
+"pt": "Reunião"
+},
+{
+"en": "Salary",
+"pt": "Salário"
+},
+{
+"en": "Job",
+"pt": "Emprego"
+},
+{
+"en": "Boss",
+"pt": "Chefe"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_health_30",
+"pairs": [
+{
+"en": "Doctor",
+"pt": "Médico"
+},
+{
+"en": "Medicine",
+"pt": "Remédio"
+},
+{
+"en": "Hospital",
+"pt": "Hospital"
+},
+{
+"en": "Appointment",
+"pt": "Consulta"
+},
+{
+"en": "Clinic",
+"pt": "Clínica"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_technology_31",
+"pairs": [
+{
+"en": "Computer",
+"pt": "Computador"
+},
+{
+"en": "Phone",
+"pt": "Telefone"
+},
+{
+"en": "Internet",
+"pt": "Internet"
+},
+{
+"en": "Email",
+"pt": "Email"
+},
+{
+"en": "Message",
+"pt": "Mensagem"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_hobbies_32",
+"pairs": [
+{
+"en": "Music",
+"pt": "Música"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+},
+{
+"en": "Picture",
+"pt": "Foto"
+},
+{
+"en": "Book",
+"pt": "Livro"
+},
+{
+"en": "Game",
+"pt": "Jogo"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_transport_33",
+"pairs": [
+{
+"en": "Bus",
+"pt": "Ônibus"
+},
+{
+"en": "Car",
+"pt": "Carro"
+},
+{
+"en": "Train",
+"pt": "Trem"
+},
+{
+"en": "Plane",
+"pt": "Avião"
+},
+{
+"en": "Boat",
+"pt": "Barco"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_weather_34",
+"pairs": [
+{
+"en": "Rain",
+"pt": "Chuva"
+},
+{
+"en": "Sun",
+"pt": "Sol"
+},
+{
+"en": "Snow",
+"pt": "Neve"
+},
+{
+"en": "Wind",
+"pt": "Vento"
+},
+{
+"en": "Cloud",
+"pt": "Nuvem"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_family_35",
+"pairs": [
+{
+"en": "Mother",
+"pt": "Mãe"
+},
+{
+"en": "Father",
+"pt": "Pai"
+},
+{
+"en": "Brother",
+"pt": "Irmão"
+},
+{
+"en": "Sister",
+"pt": "Irmã"
+},
+{
+"en": "Child",
+"pt": "Criança"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_home_36",
+"pairs": [
+{
+"en": "Kitchen",
+"pt": "Cozinha"
+},
+{
+"en": "Bathroom",
+"pt": "Banheiro"
+},
+{
+"en": "Bedroom",
+"pt": "Quarto"
+},
+{
+"en": "Garden",
+"pt": "Jardim"
+},
+{
+"en": "Door",
+"pt": "Porta"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_city_37",
+"pairs": [
+{
+"en": "Street",
+"pt": "Rua"
+},
+{
+"en": "Square",
+"pt": "Praça"
+},
+{
+"en": "Bridge",
+"pt": "Ponte"
+},
+{
+"en": "Market",
+"pt": "Mercado"
+},
+{
+"en": "Station",
+"pt": "Estação"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_shopping_38",
+"pairs": [
+{
+"en": "Sale",
+"pt": "Promoção"
+},
+{
+"en": "Price",
+"pt": "Preço"
+},
+{
+"en": "Change",
+"pt": "Trocar"
+},
+{
+"en": "Cash",
+"pt": "Dinheiro"
+},
+{
+"en": "Card",
+"pt": "Cartão"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_routine_39",
+"pairs": [
+{
+"en": "Morning",
+"pt": "Manhã"
+},
+{
+"en": "Afternoon",
+"pt": "Tarde"
+},
+{
+"en": "Night",
+"pt": "Noite"
+},
+{
+"en": "Today",
+"pt": "Hoje"
+},
+{
+"en": "Tomorrow",
+"pt": "Amanhã"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_sports_40",
+"pairs": [
+{
+"en": "Run",
+"pt": "Correr"
+},
+{
+"en": "Walk",
+"pt": "Andar"
+},
+{
+"en": "Jump",
+"pt": "Pular"
+},
+{
+"en": "Swim",
+"pt": "Nadar"
+},
+{
+"en": "Play",
+"pt": "Jogar"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_nature_41",
+"pairs": [
+{
+"en": "Tree",
+"pt": "Árvore"
+},
+{
+"en": "Leaf",
+"pt": "Folha"
+},
+{
+"en": "Flower",
+"pt": "Flor"
+},
+{
+"en": "Grass",
+"pt": "Grama"
+},
+{
+"en": "Rock",
+"pt": "Pedra"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_animals_42",
+"pairs": [
+{
+"en": "Cat",
+"pt": "Gato"
+},
+{
+"en": "Dog",
+"pt": "Cachorro"
+},
+{
+"en": "Bird",
+"pt": "Pássaro"
+},
+{
+"en": "Mouse",
+"pt": "Rato"
+},
+{
+"en": "Cow",
+"pt": "Vaca"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_music_43",
+"pairs": [
+{
+"en": "Singer",
+"pt": "Cantor"
+},
+{
+"en": "Song",
+"pt": "Canção"
+},
+{
+"en": "Band",
+"pt": "Banda"
+},
+{
+"en": "Concert",
+"pt": "Concerto"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_movies_44",
+"pairs": [
+{
+"en": "Actor",
+"pt": "Ator"
+},
+{
+"en": "Director",
+"pt": "Diretor"
+},
+{
+"en": "Scene",
+"pt": "Cena"
+},
+{
+"en": "Ticket",
+"pt": "Bilhete"
+},
+{
+"en": "Screen",
+"pt": "Tela"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_friends_45",
+"pairs": [
+{
+"en": "Smile",
+"pt": "Sorriso"
+},
+{
+"en": "Laugh",
+"pt": "Rir"
+},
+{
+"en": "Share",
+"pt": "Compartilhar"
+},
+{
+"en": "Help",
+"pt": "Ajudar"
+},
+{
+"en": "Talk",
+"pt": "Conversar"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_education_46",
+"pairs": [
+{
+"en": "Learn",
+"pt": "Aprender"
+},
+{
+"en": "Teach",
+"pt": "Ensinar"
+},
+{
+"en": "Practice",
+"pt": "Praticar"
+},
+{
+"en": "Study",
+"pt": "Estudar"
+},
+{
+"en": "Review",
+"pt": "Revisar"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_jobs_47",
+"pairs": [
+{
+"en": "Interview",
+"pt": "Entrevista"
+},
+{
+"en": "Apply",
+"pt": "Candidatar"
+},
+{
+"en": "Hire",
+"pt": "Contratar"
+},
+{
+"en": "Fire",
+"pt": "Demitir"
+},
+{
+"en": "Resume",
+"pt": "Currículo"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_food_drinks_48",
+"pairs": [
+{
+"en": "Recipe",
+"pt": "Receita"
+},
+{
+"en": "Drink",
+"pt": "Bebida"
+},
+{
+"en": "Snack",
+"pt": "Lanche"
+},
+{
+"en": "Plate",
+"pt": "Prato"
+},
+{
+"en": "Fork",
+"pt": "Garfo"
+}
+],
+"difficulty": "médio"
+},
+{
+"id": "mp_festivals_49",
+"pairs": [
+{
+"en": "Festival",
+"pt": "Festival"
+},
+{
+"en": "Parade",
+"pt": "Desfile"
+},
+{
+"en": "Costume",
+"pt": "Fantasia"
+},
+{
+"en": "Drum",
+"pt": "Tambor"
+},
+{
+"en": "Light",
+"pt": "Luz"
+}
+],
+"difficulty": "fácil"
+},
+{
+"id": "mp_directions_50",
+"pairs": [
+{
+"en": "Map",
+"pt": "Mapa"
+},
+{
+"en": "Sign",
+"pt": "Placa"
+},
+{
+"en": "Left",
+"pt": "Esquerda"
+},
+{
+"en": "Right",
+"pt": "Direita"
+},
+{
+"en": "Straight",
+"pt": "Em frente"
+}
+],
+"difficulty": "médio"
+}
+],
+"multiple_choice": [
+{
+"id": "mc_travel_1",
+"question": "Qual é a tradução de 'trem' para o inglês?",
+"options": [
+"Train",
+"Plane",
+"Bus"
+],
+"correct": "Train",
+"difficulty": "fácil"
+},
+{
+"id": "mc_food_2",
+"question": "Qual é a tradução de 'pão' para o inglês?",
+"options": [
+"Bread",
+"Apple",
+"Coffee"
+],
+"correct": "Bread",
+"difficulty": "fácil"
+},
+{
+"id": "mc_school_3",
+"question": "Qual é a tradução de 'escola' para o inglês?",
+"options": [
+"School",
+"Office",
+"Market"
+],
+"correct": "School",
+"difficulty": "fácil"
+},
+{
+"id": "mc_work_4",
+"question": "Qual é a tradução de 'trabalho' para o inglês?",
+"options": [
+"Work",
+"Play",
+"Rest"
+],
+"correct": "Work",
+"difficulty": "médio"
+},
+{
+"id": "mc_health_5",
+"question": "Qual é a tradução de 'médico' para o inglês?",
+"options": [
+"Doctor",
+"Teacher",
+"Driver"
+],
+"correct": "Doctor",
+"difficulty": "fácil"
+},
+{
+"id": "mc_technology_6",
+"question": "Qual é a tradução de 'computador' para o inglês?",
+"options": [
+"Computer",
+"Phone",
+"Camera"
+],
+"correct": "Computer",
+"difficulty": "fácil"
+},
+{
+"id": "mc_hobbies_7",
+"question": "Qual é a tradução de 'música' para o inglês?",
+"options": [
+"Music",
+"Film",
+"Book"
+],
+"correct": "Music",
+"difficulty": "fácil"
+},
+{
+"id": "mc_transport_8",
+"question": "Qual é a tradução de 'ônibus' para o inglês?",
+"options": [
+"Bus",
+"Car",
+"Train"
+],
+"correct": "Bus",
+"difficulty": "fácil"
+},
+{
+"id": "mc_weather_9",
+"question": "Qual é a tradução de 'chuva' para o inglês?",
+"options": [
+"Rain",
+"Sun",
+"Snow"
+],
+"correct": "Rain",
+"difficulty": "fácil"
+},
+{
+"id": "mc_family_10",
+"question": "Qual é a tradução de 'família' para o inglês?",
+"options": [
+"Family",
+"Friend",
+"Neighbor"
+],
+"correct": "Family",
+"difficulty": "médio"
+},
+{
+"id": "mc_home_11",
+"question": "Qual é a tradução de 'casa' para o inglês?",
+"options": [
+"House",
+"Hotel",
+"Room"
+],
+"correct": "House",
+"difficulty": "fácil"
+},
+{
+"id": "mc_city_12",
+"question": "Qual é a tradução de 'rua' para o inglês?",
+"options": [
+"Street",
+"Square",
+"Bridge"
+],
+"correct": "Street",
+"difficulty": "fácil"
+},
+{
+"id": "mc_shopping_13",
+"question": "Qual é a tradução de 'mercado' para o inglês?",
+"options": [
+"Market",
+"Mall",
+"Store"
+],
+"correct": "Market",
+"difficulty": "médio"
+},
+{
+"id": "mc_routine_14",
+"question": "Qual é a tradução de 'manhã' para o inglês?",
+"options": [
+"Morning",
+"Night",
+"Afternoon"
+],
+"correct": "Morning",
+"difficulty": "fácil"
+},
+{
+"id": "mc_sports_15",
+"question": "Qual é a tradução de 'futebol' para o inglês?",
+"options": [
+"Football",
+"Tennis",
+"Basketball"
+],
+"correct": "Football",
+"difficulty": "fácil"
+},
+{
+"id": "mc_nature_16",
+"question": "Qual é a tradução de 'montanha' para o inglês?",
+"options": [
+"Mountain",
+"River",
+"Beach"
+],
+"correct": "Mountain",
+"difficulty": "médio"
+},
+{
+"id": "mc_animals_17",
+"question": "Qual é a tradução de 'cachorro' para o inglês?",
+"options": [
+"Dog",
+"Cat",
+"Bird"
+],
+"correct": "Dog",
+"difficulty": "fácil"
+},
+{
+"id": "mc_music_18",
+"question": "Qual é a tradução de 'canção' para o inglês?",
+"options": [
+"Song",
+"Book",
+"Film"
+],
+"correct": "Song",
+"difficulty": "fácil"
+},
+{
+"id": "mc_movies_19",
+"question": "Qual é a tradução de 'filme' para o inglês?",
+"options": [
+"Movie",
+"Play",
+"Show"
+],
+"correct": "Movie",
+"difficulty": "médio"
+},
+{
+"id": "mc_friends_20",
+"question": "Qual é a tradução de 'amigo' para o inglês?",
+"options": [
+"Friend",
+"Family",
+"Neighbor"
+],
+"correct": "Friend",
+"difficulty": "fácil"
+},
+{
+"id": "mc_education_21",
+"question": "Qual é a tradução de 'professor' para o inglês?",
+"options": [
+"Teacher",
+"Student",
+"Doctor"
+],
+"correct": "Teacher",
+"difficulty": "médio"
+},
+{
+"id": "mc_jobs_22",
+"question": "Qual é a tradução de 'emprego' para o inglês?",
+"options": [
+"Job",
+"Work",
+"Task"
+],
+"correct": "Job",
+"difficulty": "fácil"
+},
+{
+"id": "mc_food_drinks_23",
+"question": "Qual é a tradução de 'chá' para o inglês?",
+"options": [
+"Tea",
+"Coffee",
+"Juice"
+],
+"correct": "Tea",
+"difficulty": "fácil"
+},
+{
+"id": "mc_festivals_24",
+"question": "Qual é a tradução de 'festa' para o inglês?",
+"options": [
+"Party",
+"Festival",
+"Meeting"
+],
+"correct": "Party",
+"difficulty": "médio"
+},
+{
+"id": "mc_directions_25",
+"question": "Qual é a tradução de 'esquerda' para o inglês?",
+"options": [
+"Left",
+"Right",
+"Straight"
+],
+"correct": "Left",
+"difficulty": "fácil"
+},
+{
+"id": "mc_travel_26",
+"question": "Qual é a tradução de 'bilhete' para o inglês?",
+"options": [
+"Ticket",
+"Passport",
+"Map"
+],
+"correct": "Ticket",
+"difficulty": "fácil"
+},
+{
+"id": "mc_food_27",
+"question": "Qual é a tradução de 'maçã' para o inglês?",
+"options": [
+"Apple",
+"Orange",
+"Banana"
+],
+"correct": "Apple",
+"difficulty": "fácil"
+},
+{
+"id": "mc_school_28",
+"question": "Qual é a tradução de 'aula' para o inglês?",
+"options": [
+"Class",
+"Exam",
+"Grade"
+],
+"correct": "Class",
+"difficulty": "médio"
+},
+{
+"id": "mc_work_29",
+"question": "Qual é a tradução de 'escritório' para o inglês?",
+"options": [
+"Office",
+"Store",
+"House"
+],
+"correct": "Office",
+"difficulty": "fácil"
+},
+{
+"id": "mc_health_30",
+"question": "Qual é a tradução de 'remédio' para o inglês?",
+"options": [
+"Medicine",
+"Doctor",
+"Clinic"
+],
+"correct": "Medicine",
+"difficulty": "médio"
+},
+{
+"id": "mc_technology_31",
+"question": "Qual é a tradução de 'telefone' para o inglês?",
+"options": [
+"Phone",
+"Computer",
+"Camera"
+],
+"correct": "Phone",
+"difficulty": "fácil"
+},
+{
+"id": "mc_hobbies_32",
+"question": "Qual é a tradução de 'violão' para o inglês?",
+"options": [
+"Guitar",
+"Piano",
+"Drum"
+],
+"correct": "Guitar",
+"difficulty": "fácil"
+},
+{
+"id": "mc_transport_33",
+"question": "Qual é a tradução de 'avião' para o inglês?",
+"options": [
+"Plane",
+"Boat",
+"Train"
+],
+"correct": "Plane",
+"difficulty": "médio"
+},
+{
+"id": "mc_weather_34",
+"question": "Qual é a tradução de 'neve' para o inglês?",
+"options": [
+"Snow",
+"Rain",
+"Sun"
+],
+"correct": "Snow",
+"difficulty": "fácil"
+},
+{
+"id": "mc_family_35",
+"question": "Qual é a tradução de 'mãe' para o inglês?",
+"options": [
+"Mother",
+"Sister",
+"Aunt"
+],
+"correct": "Mother",
+"difficulty": "médio"
+},
+{
+"id": "mc_home_36",
+"question": "Qual é a tradução de 'cozinha' para o inglês?",
+"options": [
+"Kitchen",
+"Bathroom",
+"Bedroom"
+],
+"correct": "Kitchen",
+"difficulty": "fácil"
+},
+{
+"id": "mc_city_37",
+"question": "Qual é a tradução de 'ponte' para o inglês?",
+"options": [
+"Bridge",
+"Square",
+"Street"
+],
+"correct": "Bridge",
+"difficulty": "fácil"
+},
+{
+"id": "mc_shopping_38",
+"question": "Qual é a tradução de 'preço' para o inglês?",
+"options": [
+"Price",
+"Cost",
+"Value"
+],
+"correct": "Price",
+"difficulty": "médio"
+},
+{
+"id": "mc_routine_39",
+"question": "Qual é a tradução de 'hoje' para o inglês?",
+"options": [
+"Today",
+"Tomorrow",
+"Yesterday"
+],
+"correct": "Today",
+"difficulty": "fácil"
+},
+{
+"id": "mc_sports_40",
+"question": "Qual é a tradução de 'nadar' para o inglês?",
+"options": [
+"Swim",
+"Run",
+"Jump"
+],
+"correct": "Swim",
+"difficulty": "fácil"
+},
+{
+"id": "mc_nature_41",
+"question": "Qual é a tradução de 'árvore' para o inglês?",
+"options": [
+"Tree",
+"Flower",
+"Leaf"
+],
+"correct": "Tree",
+"difficulty": "médio"
+},
+{
+"id": "mc_animals_42",
+"question": "Qual é a tradução de 'pássaro' para o inglês?",
+"options": [
+"Bird",
+"Dog",
+"Cat"
+],
+"correct": "Bird",
+"difficulty": "fácil"
+},
+{
+"id": "mc_music_43",
+"question": "Qual é a tradução de 'banda' para o inglês?",
+"options": [
+"Band",
+"Solo",
+"Choir"
+],
+"correct": "Band",
+"difficulty": "fácil"
+},
+{
+"id": "mc_movies_44",
+"question": "Qual é a tradução de 'ator' para o inglês?",
+"options": [
+"Actor",
+"Writer",
+"Reader"
+],
+"correct": "Actor",
+"difficulty": "médio"
+},
+{
+"id": "mc_friends_45",
+"question": "Qual é a tradução de 'sorriso' para o inglês?",
+"options": [
+"Smile",
+"Cry",
+"Frown"
+],
+"correct": "Smile",
+"difficulty": "fácil"
+},
+{
+"id": "mc_education_46",
+"question": "Qual é a tradução de 'aprender' para o inglês?",
+"options": [
+"Learn",
+"Teach",
+"Test"
+],
+"correct": "Learn",
+"difficulty": "médio"
+},
+{
+"id": "mc_jobs_47",
+"question": "Qual é a tradução de 'entrevista' para o inglês?",
+"options": [
+"Interview",
+"Exam",
+"Lesson"
+],
+"correct": "Interview",
+"difficulty": "fácil"
+},
+{
+"id": "mc_food_drinks_48",
+"question": "Qual é a tradução de 'lanche' para o inglês?",
+"options": [
+"Snack",
+"Meal",
+"Dinner"
+],
+"correct": "Snack",
+"difficulty": "fácil"
+},
+{
+"id": "mc_festivals_49",
+"question": "Qual é a tradução de 'desfile' para o inglês?",
+"options": [
+"Parade",
+"Show",
+"Contest"
+],
+"correct": "Parade",
+"difficulty": "médio"
+},
+{
+"id": "mc_directions_50",
+"question": "Qual é a tradução de 'mapa' para o inglês?",
+"options": [
+"Map",
+"Sign",
+"Guide"
+],
+"correct": "Map",
+"difficulty": "fácil"
+}
+],
+"fill_blank": [
+{
+"id": "fb_routine_1",
+"sentence": "She ___ school every day.",
+"options": [
+"go",
+"goes",
+"going"
+],
+"correct": "goes",
+"difficulty": "fácil"
+},
+{
+"id": "fb_travel_2",
+"sentence": "They ___ the bus to work.",
+"options": [
+"take",
+"takes",
+"taking"
+],
+"correct": "take",
+"difficulty": "fácil"
+},
+{
+"id": "fb_food_3",
+"sentence": "He ___ an apple for breakfast.",
+"options": [
+"eat",
+"eats",
+"eating"
+],
+"correct": "eats",
+"difficulty": "fácil"
+},
+{
+"id": "fb_school_4",
+"sentence": "We ___ English on Mondays.",
+"options": [
+"study",
+"studies",
+"studying"
+],
+"correct": "study",
+"difficulty": "médio"
+},
+{
+"id": "fb_work_5",
+"sentence": "She ___ at the office every day.",
+"options": [
+"works",
+"work",
+"working"
+],
+"correct": "works",
+"difficulty": "médio"
+},
+{
+"id": "fb_health_6",
+"sentence": "I ___ water when I'm thirsty.",
+"options": [
+"drink",
+"drinks",
+"drinking"
+],
+"correct": "drink",
+"difficulty": "fácil"
+},
+{
+"id": "fb_technology_7",
+"sentence": "He ___ a message to his friend.",
+"options": [
+"sends",
+"send",
+"sending"
+],
+"correct": "sends",
+"difficulty": "médio"
+},
+{
+"id": "fb_hobbies_8",
+"sentence": "We ___ the guitar on weekends.",
+"options": [
+"play",
+"plays",
+"playing"
+],
+"correct": "play",
+"difficulty": "fácil"
+},
+{
+"id": "fb_transport_9",
+"sentence": "She ___ the train every morning.",
+"options": [
+"takes",
+"take",
+"taking"
+],
+"correct": "takes",
+"difficulty": "médio"
+},
+{
+"id": "fb_weather_10",
+"sentence": "It ___ in winter here.",
+"options": [
+"snows",
+"snow",
+"snowing"
+],
+"correct": "snows",
+"difficulty": "médio"
+},
+{
+"id": "fb_family_11",
+"sentence": "They ___ their grandparents on Sundays.",
+"options": [
+"visit",
+"visits",
+"visiting"
+],
+"correct": "visit",
+"difficulty": "fácil"
+},
+{
+"id": "fb_home_12",
+"sentence": "He ___ the door in the morning.",
+"options": [
+"opens",
+"open",
+"opening"
+],
+"correct": "opens",
+"difficulty": "fácil"
+},
+{
+"id": "fb_city_13",
+"sentence": "I ___ my keys every day.",
+"options": [
+"forget",
+"forgets",
+"forgetting"
+],
+"correct": "forget",
+"difficulty": "médio"
+},
+{
+"id": "fb_shopping_14",
+"sentence": "She ___ clothes at the store.",
+"options": [
+"buys",
+"buy",
+"buying"
+],
+"correct": "buys",
+"difficulty": "fácil"
+},
+{
+"id": "fb_routine_15",
+"sentence": "We ___ breakfast together.",
+"options": [
+"have",
+"has",
+"having"
+],
+"correct": "have",
+"difficulty": "fácil"
+},
+{
+"id": "fb_sports_16",
+"sentence": "He ___ football on Saturdays.",
+"options": [
+"plays",
+"play",
+"playing"
+],
+"correct": "plays",
+"difficulty": "médio"
+},
+{
+"id": "fb_nature_17",
+"sentence": "They ___ the river in summer.",
+"options": [
+"visit",
+"visits",
+"visiting"
+],
+"correct": "visit",
+"difficulty": "fácil"
+},
+{
+"id": "fb_animals_18",
+"sentence": "I ___ my dog every evening.",
+"options": [
+"walk",
+"walks",
+"walking"
+],
+"correct": "walk",
+"difficulty": "fácil"
+},
+{
+"id": "fb_music_19",
+"sentence": "She ___ to music after work.",
+"options": [
+"listens",
+"listen",
+"listening"
+],
+"correct": "listens",
+"difficulty": "médio"
+},
+{
+"id": "fb_movies_20",
+"sentence": "We ___ a movie tonight.",
+"options": [
+"watch",
+"watches",
+"watching"
+],
+"correct": "watch",
+"difficulty": "fácil"
+},
+{
+"id": "fb_friends_21",
+"sentence": "They ___ to the cafe together.",
+"options": [
+"go",
+"goes",
+"going"
+],
+"correct": "go",
+"difficulty": "fácil"
+},
+{
+"id": "fb_education_22",
+"sentence": "He ___ English every day.",
+"options": [
+"studies",
+"study",
+"studying"
+],
+"correct": "studies",
+"difficulty": "médio"
+},
+{
+"id": "fb_jobs_23",
+"sentence": "I ___ at nine o'clock.",
+"options": [
+"start",
+"starts",
+"starting"
+],
+"correct": "start",
+"difficulty": "fácil"
+},
+{
+"id": "fb_food_drinks_24",
+"sentence": "She ___ breakfast at eight.",
+"options": [
+"has",
+"have",
+"having"
+],
+"correct": "has",
+"difficulty": "fácil"
+},
+{
+"id": "fb_festivals_25",
+"sentence": "We ___ in the parade.",
+"options": [
+"participate",
+"participates",
+"participating"
+],
+"correct": "participate",
+"difficulty": "médio"
+},
+{
+"id": "fb_directions_26",
+"sentence": "Turn ___ at the corner.",
+"options": [
+"left",
+"right",
+"straight"
+],
+"correct": "left",
+"difficulty": "fácil"
+},
+{
+"id": "fb_travel_27",
+"sentence": "He ___ his passport at home.",
+"options": [
+"left",
+"leave",
+"leaves"
+],
+"correct": "left",
+"difficulty": "médio"
+},
+{
+"id": "fb_food_28",
+"sentence": "I ___ lunch at noon.",
+"options": [
+"have",
+"has",
+"having"
+],
+"correct": "have",
+"difficulty": "fácil"
+},
+{
+"id": "fb_school_29",
+"sentence": "They ___ homework after class.",
+"options": [
+"do",
+"does",
+"doing"
+],
+"correct": "do",
+"difficulty": "fácil"
+},
+{
+"id": "fb_work_30",
+"sentence": "She ___ emails in the morning.",
+"options": [
+"reads",
+"read",
+"reading"
+],
+"correct": "reads",
+"difficulty": "médio"
+},
+{
+"id": "fb_health_31",
+"sentence": "I ___ medicine when I'm sick.",
+"options": [
+"take",
+"takes",
+"taking"
+],
+"correct": "take",
+"difficulty": "fácil"
+},
+{
+"id": "fb_technology_32",
+"sentence": "He ___ the computer every day.",
+"options": [
+"uses",
+"use",
+"using"
+],
+"correct": "uses",
+"difficulty": "médio"
+},
+{
+"id": "fb_hobbies_33",
+"sentence": "We ___ pictures on holidays.",
+"options": [
+"take",
+"takes",
+"taking"
+],
+"correct": "take",
+"difficulty": "fácil"
+},
+{
+"id": "fb_transport_34",
+"sentence": "They ___ by plane to the city.",
+"options": [
+"travel",
+"travels",
+"traveling"
+],
+"correct": "travel",
+"difficulty": "médio"
+},
+{
+"id": "fb_weather_35",
+"sentence": "It ___ hot in summer.",
+"options": [
+"is",
+"are",
+"be"
+],
+"correct": "is",
+"difficulty": "fácil"
+},
+{
+"id": "fb_family_36",
+"sentence": "She ___ her children to school.",
+"options": [
+"takes",
+"take",
+"taking"
+],
+"correct": "takes",
+"difficulty": "médio"
+},
+{
+"id": "fb_home_37",
+"sentence": "I ___ the house every weekend.",
+"options": [
+"clean",
+"cleans",
+"cleaning"
+],
+"correct": "clean",
+"difficulty": "fácil"
+},
+{
+"id": "fb_city_38",
+"sentence": "He ___ the bus stop every morning.",
+"options": [
+"passes",
+"pass",
+"passing"
+],
+"correct": "passes",
+"difficulty": "médio"
+},
+{
+"id": "fb_shopping_39",
+"sentence": "We ___ new clothes in summer.",
+"options": [
+"buy",
+"buys",
+"buying"
+],
+"correct": "buy",
+"difficulty": "fácil"
+},
+{
+"id": "fb_routine_40",
+"sentence": "They ___ the news at night.",
+"options": [
+"watch",
+"watches",
+"watching"
+],
+"correct": "watch",
+"difficulty": "fácil"
+},
+{
+"id": "fb_sports_41",
+"sentence": "I ___ early to train.",
+"options": [
+"wake up",
+"wakes up",
+"waking up"
+],
+"correct": "wake up",
+"difficulty": "médio"
+},
+{
+"id": "fb_nature_42",
+"sentence": "She ___ flowers in the garden.",
+"options": [
+"plants",
+"plant",
+"planting"
+],
+"correct": "plants",
+"difficulty": "fácil"
+},
+{
+"id": "fb_animals_43",
+"sentence": "They ___ the bird yesterday.",
+"options": [
+"saw",
+"see",
+"seen"
+],
+"correct": "saw",
+"difficulty": "médio"
+},
+{
+"id": "fb_music_44",
+"sentence": "I ___ to the radio every morning.",
+"options": [
+"listen",
+"listens",
+"listening"
+],
+"correct": "listen",
+"difficulty": "fácil"
+},
+{
+"id": "fb_movies_45",
+"sentence": "She ___ a good film last night.",
+"options": [
+"watched",
+"watch",
+"watches"
+],
+"correct": "watched",
+"difficulty": "médio"
+},
+{
+"id": "fb_friends_46",
+"sentence": "We ___ about our plans.",
+"options": [
+"talk",
+"talks",
+"talking"
+],
+"correct": "talk",
+"difficulty": "fácil"
+},
+{
+"id": "fb_education_47",
+"sentence": "He ___ English lessons on Fridays.",
+"options": [
+"has",
+"have",
+"having"
+],
+"correct": "has",
+"difficulty": "médio"
+},
+{
+"id": "fb_jobs_48",
+"sentence": "I ___ my CV last week.",
+"options": [
+"sent",
+"send",
+"sending"
+],
+"correct": "sent",
+"difficulty": "médio"
+},
+{
+"id": "fb_food_drinks_49",
+"sentence": "They ___ coffee every morning.",
+"options": [
+"drink",
+"drinks",
+"drinking"
+],
+"correct": "drink",
+"difficulty": "fácil"
+},
+{
+"id": "fb_festivals_50",
+"sentence": "He ___ a costume for the festival.",
+"options": [
+"buys",
+"buy",
+"buying"
+],
+"correct": "buys",
+"difficulty": "médio"
+}
+],
+"free_translation": [
+{
+"id": "ft_travel_1",
+"portuguese": "Eu viajar o trem.",
+"expected": "I travel the train.",
+"difficulty": "médio"
+},
+{
+"id": "ft_food_2",
+"portuguese": "Ela comer o pão.",
+"expected": "She eats bread.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_school_3",
+"portuguese": "Nós estudar na escola hoje.",
+"expected": "We study at school today.",
+"difficulty": "médio"
+},
+{
+"id": "ft_work_4",
+"portuguese": "Ele trabalhar no escritório.",
+"expected": "He works at the office.",
+"difficulty": "médio"
+},
+{
+"id": "ft_health_5",
+"portuguese": "Eu beber café de manhã.",
+"expected": "I drink coffee in the morning.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_technology_6",
+"portuguese": "Ela usar o computador.",
+"expected": "She uses the computer.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_hobbies_7",
+"portuguese": "Nós jogar futebol.",
+"expected": "We play football.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_transport_8",
+"portuguese": "Eles pegar o ônibus.",
+"expected": "They take the bus.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_weather_9",
+"portuguese": "Eu ver chuva hoje.",
+"expected": "I see rain today.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_family_10",
+"portuguese": "Ela visitar a família amanhã.",
+"expected": "She visits the family tomorrow.",
+"difficulty": "médio"
+},
+{
+"id": "ft_home_11",
+"portuguese": "Nós morar na casa.",
+"expected": "We live in the house.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_city_12",
+"portuguese": "Ele andar na rua.",
+"expected": "He walks on the street.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_shopping_13",
+"portuguese": "Eu comprar o mapa.",
+"expected": "I buy the map.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_routine_14",
+"portuguese": "Ela acordar cedo.",
+"expected": "She wakes up early.",
+"difficulty": "médio"
+},
+{
+"id": "ft_sports_15",
+"portuguese": "Nós jogar tênis amanhã.",
+"expected": "We play tennis tomorrow.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_nature_16",
+"portuguese": "Eles ver a montanha.",
+"expected": "They see the mountain.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_animals_17",
+"portuguese": "Eu tenho um cachorro.",
+"expected": "I have a dog.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_music_18",
+"portuguese": "Ela ouvir música.",
+"expected": "She listens to music.",
+"difficulty": "médio"
+},
+{
+"id": "ft_movies_19",
+"portuguese": "Nós assistir o filme à noite.",
+"expected": "We watch the movie at night.",
+"difficulty": "médio"
+},
+{
+"id": "ft_friends_20",
+"portuguese": "Eles convidar um amigo.",
+"expected": "They invite a friend.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_education_21",
+"portuguese": "Eu estudar com o professor.",
+"expected": "I study with the teacher.",
+"difficulty": "médio"
+},
+{
+"id": "ft_jobs_22",
+"portuguese": "Ela começar o trabalho cedo.",
+"expected": "She starts work early.",
+"difficulty": "médio"
+},
+{
+"id": "ft_food_drinks_23",
+"portuguese": "Nós beber chá à tarde.",
+"expected": "We drink tea in the afternoon.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_festivals_24",
+"portuguese": "Eles celebrar o festival amanhã.",
+"expected": "They celebrate the festival tomorrow.",
+"difficulty": "médio"
+},
+{
+"id": "ft_directions_25",
+"portuguese": "Eu procurar a estação.",
+"expected": "I look for the station.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_travel_26",
+"portuguese": "Ela pegar o trem amanhã.",
+"expected": "She takes the train tomorrow.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_food_27",
+"portuguese": "Eles comer uma maçã.",
+"expected": "They eat an apple.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_school_28",
+"portuguese": "Eu tenho um livro novo.",
+"expected": "I have a new book.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_work_29",
+"portuguese": "Nós terminar o trabalho hoje.",
+"expected": "We finish work today.",
+"difficulty": "médio"
+},
+{
+"id": "ft_health_30",
+"portuguese": "Ela ter remédio.",
+"expected": "She has medicine.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_technology_31",
+"portuguese": "Ele ligar o telefone.",
+"expected": "He calls the phone.",
+"difficulty": "médio"
+},
+{
+"id": "ft_hobbies_32",
+"portuguese": "Eu tocar violão à noite.",
+"expected": "I play guitar at night.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_transport_33",
+"portuguese": "Nós pegar o carro cedo.",
+"expected": "We take the car early.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_weather_34",
+"portuguese": "Eles ver o sol hoje.",
+"expected": "They see the sun today.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_family_35",
+"portuguese": "Eu visitar minha família amanhã.",
+"expected": "I visit my family tomorrow.",
+"difficulty": "médio"
+},
+{
+"id": "ft_home_36",
+"portuguese": "Ele abrir a porta agora.",
+"expected": "He opens the door now.",
+"difficulty": "médio"
+},
+{
+"id": "ft_city_37",
+"portuguese": "Nós ver o mapa na loja.",
+"expected": "We see the map in the shop.",
+"difficulty": "médio"
+},
+{
+"id": "ft_shopping_38",
+"portuguese": "Ela pagar os bilhetes hoje.",
+"expected": "She pays the tickets today.",
+"difficulty": "médio"
+},
+{
+"id": "ft_routine_39",
+"portuguese": "Eu correr no parque.",
+"expected": "I run in the park.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_sports_40",
+"portuguese": "Ele treinar de manhã.",
+"expected": "He trains in the morning.",
+"difficulty": "médio"
+},
+{
+"id": "ft_nature_41",
+"portuguese": "Nós ver o rio.",
+"expected": "We see the river.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_animals_42",
+"portuguese": "Ela ter um gato.",
+"expected": "She has a cat.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_music_43",
+"portuguese": "Ele ouvir uma canção.",
+"expected": "He listens to a song.",
+"difficulty": "médio"
+},
+{
+"id": "ft_movies_44",
+"portuguese": "Eu comprar um ingresso para o filme.",
+"expected": "I buy a ticket for the movie.",
+"difficulty": "médio"
+},
+{
+"id": "ft_friends_45",
+"portuguese": "Nós encontrar os amigos no parque.",
+"expected": "We meet friends in the park.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_education_46",
+"portuguese": "Ela ensinar a classe.",
+"expected": "She teaches the class.",
+"difficulty": "médio"
+},
+{
+"id": "ft_jobs_47",
+"portuguese": "Eu procurar um emprego.",
+"expected": "I look for a job.",
+"difficulty": "médio"
+},
+{
+"id": "ft_food_drinks_48",
+"portuguese": "Eles beber água agora.",
+"expected": "They drink water now.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_festivals_49",
+"portuguese": "Eu dançar na festa.",
+"expected": "I dance at the party.",
+"difficulty": "fácil"
+},
+{
+"id": "ft_directions_50",
+"portuguese": "Ela virar a esquerda.",
+"expected": "She turns left.",
+"difficulty": "médio"
+}
+],
+"match_madness": [
+{
+"id": "mm_travel_1",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Train",
+"pt": "Trem"
+},
+{
+"en": "Plane",
+"pt": "Avião"
+},
+{
+"en": "Bus",
+"pt": "Ônibus"
+},
+{
+"en": "Car",
+"pt": "Carro"
+},
+{
+"en": "Airport",
+"pt": "Aeroporto"
+},
+{
+"en": "Ticket",
+"pt": "Bilhete"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_food_2",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Apple",
+"pt": "Maçã"
+},
+{
+"en": "Bread",
+"pt": "Pão"
+},
+{
+"en": "Coffee",
+"pt": "Café"
+},
+{
+"en": "Tea",
+"pt": "Chá"
+},
+{
+"en": "Water",
+"pt": "Água"
+},
+{
+"en": "Plate",
+"pt": "Prato"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_school_3",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Book",
+"pt": "Livro"
+},
+{
+"en": "Pen",
+"pt": "Caneta"
+},
+{
+"en": "Desk",
+"pt": "Carteira"
+},
+{
+"en": "Chair",
+"pt": "Cadeira"
+},
+{
+"en": "Class",
+"pt": "Aula"
+},
+{
+"en": "Exam",
+"pt": "Prova"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_work_4",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Office",
+"pt": "Escritório"
+},
+{
+"en": "Meeting",
+"pt": "Reunião"
+},
+{
+"en": "Salary",
+"pt": "Salário"
+},
+{
+"en": "Job",
+"pt": "Emprego"
+},
+{
+"en": "Boss",
+"pt": "Chefe"
+},
+{
+"en": "Resume",
+"pt": "Currículo"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_health_5",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Doctor",
+"pt": "Médico"
+},
+{
+"en": "Medicine",
+"pt": "Remédio"
+},
+{
+"en": "Hospital",
+"pt": "Hospital"
+},
+{
+"en": "Clinic",
+"pt": "Clínica"
+},
+{
+"en": "Appointment",
+"pt": "Consulta"
+},
+{
+"en": "Care",
+"pt": "Cuidado"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_technology_6",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Computer",
+"pt": "Computador"
+},
+{
+"en": "Phone",
+"pt": "Telefone"
+},
+{
+"en": "Internet",
+"pt": "Internet"
+},
+{
+"en": "Email",
+"pt": "Email"
+},
+{
+"en": "Message",
+"pt": "Mensagem"
+},
+{
+"en": "App",
+"pt": "Aplicativo"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_hobbies_7",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Music",
+"pt": "Música"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+},
+{
+"en": "Picture",
+"pt": "Foto"
+},
+{
+"en": "Game",
+"pt": "Jogo"
+},
+{
+"en": "Song",
+"pt": "Canção"
+},
+{
+"en": "Band",
+"pt": "Banda"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_transport_8",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Bus",
+"pt": "Ônibus"
+},
+{
+"en": "Car",
+"pt": "Carro"
+},
+{
+"en": "Train",
+"pt": "Trem"
+},
+{
+"en": "Plane",
+"pt": "Avião"
+},
+{
+"en": "Boat",
+"pt": "Barco"
+},
+{
+"en": "Station",
+"pt": "Estação"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_weather_9",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Rain",
+"pt": "Chuva"
+},
+{
+"en": "Sun",
+"pt": "Sol"
+},
+{
+"en": "Snow",
+"pt": "Neve"
+},
+{
+"en": "Wind",
+"pt": "Vento"
+},
+{
+"en": "Cloud",
+"pt": "Nuvem"
+},
+{
+"en": "Storm",
+"pt": "Tempestade"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_family_10",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Mother",
+"pt": "Mãe"
+},
+{
+"en": "Father",
+"pt": "Pai"
+},
+{
+"en": "Brother",
+"pt": "Irmão"
+},
+{
+"en": "Sister",
+"pt": "Irmã"
+},
+{
+"en": "Child",
+"pt": "Criança"
+},
+{
+"en": "Grandparent",
+"pt": "Avô/Avó"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_home_11",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Kitchen",
+"pt": "Cozinha"
+},
+{
+"en": "Bathroom",
+"pt": "Banheiro"
+},
+{
+"en": "Bedroom",
+"pt": "Quarto"
+},
+{
+"en": "Garden",
+"pt": "Jardim"
+},
+{
+"en": "Door",
+"pt": "Porta"
+},
+{
+"en": "Window",
+"pt": "Janela"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_city_12",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Street",
+"pt": "Rua"
+},
+{
+"en": "Square",
+"pt": "Praça"
+},
+{
+"en": "Bridge",
+"pt": "Ponte"
+},
+{
+"en": "Market",
+"pt": "Mercado"
+},
+{
+"en": "Station",
+"pt": "Estação"
+},
+{
+"en": "Park",
+"pt": "Parque"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_shopping_13",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Price",
+"pt": "Preço"
+},
+{
+"en": "Sale",
+"pt": "Promoção"
+},
+{
+"en": "Cash",
+"pt": "Dinheiro"
+},
+{
+"en": "Card",
+"pt": "Cartão"
+},
+{
+"en": "Store",
+"pt": "Loja"
+},
+{
+"en": "Change",
+"pt": "Troco"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_routine_14",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Morning",
+"pt": "Manhã"
+},
+{
+"en": "Afternoon",
+"pt": "Tarde"
+},
+{
+"en": "Night",
+"pt": "Noite"
+},
+{
+"en": "Today",
+"pt": "Hoje"
+},
+{
+"en": "Tomorrow",
+"pt": "Amanhã"
+},
+{
+"en": "Yesterday",
+"pt": "Ontem"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_sports_15",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Run",
+"pt": "Correr"
+},
+{
+"en": "Walk",
+"pt": "Andar"
+},
+{
+"en": "Jump",
+"pt": "Pular"
+},
+{
+"en": "Swim",
+"pt": "Nadar"
+},
+{
+"en": "Play",
+"pt": "Jogar"
+},
+{
+"en": "Coach",
+"pt": "Treinador"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_nature_16",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Tree",
+"pt": "Árvore"
+},
+{
+"en": "Leaf",
+"pt": "Folha"
+},
+{
+"en": "Flower",
+"pt": "Flor"
+},
+{
+"en": "Grass",
+"pt": "Grama"
+},
+{
+"en": "Rock",
+"pt": "Pedra"
+},
+{
+"en": "River",
+"pt": "Rio"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_animals_17",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Cat",
+"pt": "Gato"
+},
+{
+"en": "Dog",
+"pt": "Cachorro"
+},
+{
+"en": "Bird",
+"pt": "Pássaro"
+},
+{
+"en": "Fish",
+"pt": "Peixe"
+},
+{
+"en": "Cow",
+"pt": "Vaca"
+},
+{
+"en": "Horse",
+"pt": "Cavalo"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_music_18",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Singer",
+"pt": "Cantor"
+},
+{
+"en": "Song",
+"pt": "Canção"
+},
+{
+"en": "Band",
+"pt": "Banda"
+},
+{
+"en": "Concert",
+"pt": "Concerto"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+},
+{
+"en": "Drum",
+"pt": "Tambor"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_movies_19",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Actor",
+"pt": "Ator"
+},
+{
+"en": "Director",
+"pt": "Diretor"
+},
+{
+"en": "Scene",
+"pt": "Cena"
+},
+{
+"en": "Screen",
+"pt": "Tela"
+},
+{
+"en": "Ticket",
+"pt": "Bilhete"
+},
+{
+"en": "Trailer",
+"pt": "Trailer"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_friends_20",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Smile",
+"pt": "Sorriso"
+},
+{
+"en": "Laugh",
+"pt": "Rir"
+},
+{
+"en": "Share",
+"pt": "Compartilhar"
+},
+{
+"en": "Help",
+"pt": "Ajudar"
+},
+{
+"en": "Talk",
+"pt": "Conversar"
+},
+{
+"en": "Gift",
+"pt": "Presente"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_education_21",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Learn",
+"pt": "Aprender"
+},
+{
+"en": "Teach",
+"pt": "Ensinar"
+},
+{
+"en": "Practice",
+"pt": "Praticar"
+},
+{
+"en": "Study",
+"pt": "Estudar"
+},
+{
+"en": "Review",
+"pt": "Revisar"
+},
+{
+"en": "Lesson",
+"pt": "Lição"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_jobs_22",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Interview",
+"pt": "Entrevista"
+},
+{
+"en": "Apply",
+"pt": "Candidatar"
+},
+{
+"en": "Hire",
+"pt": "Contratar"
+},
+{
+"en": "Fire",
+"pt": "Demitir"
+},
+{
+"en": "Resume",
+"pt": "Currículo"
+},
+{
+"en": "Salary",
+"pt": "Salário"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_food_drinks_23",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Recipe",
+"pt": "Receita"
+},
+{
+"en": "Snack",
+"pt": "Lanche"
+},
+{
+"en": "Drink",
+"pt": "Bebida"
+},
+{
+"en": "Plate",
+"pt": "Prato"
+},
+{
+"en": "Fork",
+"pt": "Garfo"
+},
+{
+"en": "Knife",
+"pt": "Faca"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_festivals_24",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Parade",
+"pt": "Desfile"
+},
+{
+"en": "Costume",
+"pt": "Fantasia"
+},
+{
+"en": "Drum",
+"pt": "Tambor"
+},
+{
+"en": "Light",
+"pt": "Luz"
+},
+{
+"en": "Food",
+"pt": "Comida"
+},
+{
+"en": "Dance",
+"pt": "Dança"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_directions_25",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Map",
+"pt": "Mapa"
+},
+{
+"en": "Sign",
+"pt": "Placa"
+},
+{
+"en": "Left",
+"pt": "Esquerda"
+},
+{
+"en": "Right",
+"pt": "Direita"
+},
+{
+"en": "Straight",
+"pt": "Em frente"
+},
+{
+"en": "Corner",
+"pt": "Esquina"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_travel_26",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Luggage",
+"pt": "Bagagem"
+},
+{
+"en": "Passport",
+"pt": "Passaporte"
+},
+{
+"en": "Tourist",
+"pt": "Turista"
+},
+{
+"en": "Guide",
+"pt": "Guia"
+},
+{
+"en": "Trip",
+"pt": "Viagem"
+},
+{
+"en": "Plane",
+"pt": "Avião"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_food_27",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Breakfast",
+"pt": "Café da manhã"
+},
+{
+"en": "Lunch",
+"pt": "Almoço"
+},
+{
+"en": "Dinner",
+"pt": "Jantar"
+},
+{
+"en": "Snack",
+"pt": "Lanche"
+},
+{
+"en": "Drink",
+"pt": "Bebida"
+},
+{
+"en": "Recipe",
+"pt": "Receita"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_school_28",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Homework",
+"pt": "Tarefa"
+},
+{
+"en": "Lesson",
+"pt": "Lição"
+},
+{
+"en": "Grade",
+"pt": "Nota"
+},
+{
+"en": "Exam",
+"pt": "Prova"
+},
+{
+"en": "Class",
+"pt": "Aula"
+},
+{
+"en": "Teacher",
+"pt": "Professor"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_work_29",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Apply",
+"pt": "Candidatar"
+},
+{
+"en": "Hire",
+"pt": "Contratar"
+},
+{
+"en": "Fire",
+"pt": "Demitir"
+},
+{
+"en": "Meeting",
+"pt": "Reunião"
+},
+{
+"en": "Office",
+"pt": "Escritório"
+},
+{
+"en": "Salary",
+"pt": "Salário"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_health_30",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Clinic",
+"pt": "Clínica"
+},
+{
+"en": "Hospital",
+"pt": "Hospital"
+},
+{
+"en": "Doctor",
+"pt": "Médico"
+},
+{
+"en": "Medicine",
+"pt": "Remédio"
+},
+{
+"en": "Appointment",
+"pt": "Consulta"
+},
+{
+"en": "Care",
+"pt": "Cuidado"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_technology_31",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "App",
+"pt": "Aplicativo"
+},
+{
+"en": "Email",
+"pt": "Email"
+},
+{
+"en": "Internet",
+"pt": "Internet"
+},
+{
+"en": "Message",
+"pt": "Mensagem"
+},
+{
+"en": "Computer",
+"pt": "Computador"
+},
+{
+"en": "Phone",
+"pt": "Telefone"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_hobbies_32",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Music",
+"pt": "Música"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+},
+{
+"en": "Picture",
+"pt": "Foto"
+},
+{
+"en": "Game",
+"pt": "Jogo"
+},
+{
+"en": "Song",
+"pt": "Canção"
+},
+{
+"en": "Band",
+"pt": "Banda"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_transport_33",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Bus",
+"pt": "Ônibus"
+},
+{
+"en": "Train",
+"pt": "Trem"
+},
+{
+"en": "Plane",
+"pt": "Avião"
+},
+{
+"en": "Car",
+"pt": "Carro"
+},
+{
+"en": "Boat",
+"pt": "Barco"
+},
+{
+"en": "Station",
+"pt": "Estação"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_weather_34",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Cloud",
+"pt": "Nuvem"
+},
+{
+"en": "Storm",
+"pt": "Tempestade"
+},
+{
+"en": "Rain",
+"pt": "Chuva"
+},
+{
+"en": "Sun",
+"pt": "Sol"
+},
+{
+"en": "Wind",
+"pt": "Vento"
+},
+{
+"en": "Snow",
+"pt": "Neve"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_family_35",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Mother",
+"pt": "Mãe"
+},
+{
+"en": "Father",
+"pt": "Pai"
+},
+{
+"en": "Brother",
+"pt": "Irmão"
+},
+{
+"en": "Sister",
+"pt": "Irmã"
+},
+{
+"en": "Child",
+"pt": "Criança"
+},
+{
+"en": "Grandparent",
+"pt": "Avô/Avó"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_home_36",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Door",
+"pt": "Porta"
+},
+{
+"en": "Window",
+"pt": "Janela"
+},
+{
+"en": "Kitchen",
+"pt": "Cozinha"
+},
+{
+"en": "Bathroom",
+"pt": "Banheiro"
+},
+{
+"en": "Bedroom",
+"pt": "Quarto"
+},
+{
+"en": "Garden",
+"pt": "Jardim"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_city_37",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Square",
+"pt": "Praça"
+},
+{
+"en": "Bridge",
+"pt": "Ponte"
+},
+{
+"en": "Market",
+"pt": "Mercado"
+},
+{
+"en": "Street",
+"pt": "Rua"
+},
+{
+"en": "Station",
+"pt": "Estação"
+},
+{
+"en": "Park",
+"pt": "Parque"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_shopping_38",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Sale",
+"pt": "Promoção"
+},
+{
+"en": "Price",
+"pt": "Preço"
+},
+{
+"en": "Cash",
+"pt": "Dinheiro"
+},
+{
+"en": "Card",
+"pt": "Cartão"
+},
+{
+"en": "Store",
+"pt": "Loja"
+},
+{
+"en": "Change",
+"pt": "Troco"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_routine_39",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Today",
+"pt": "Hoje"
+},
+{
+"en": "Tomorrow",
+"pt": "Amanhã"
+},
+{
+"en": "Yesterday",
+"pt": "Ontem"
+},
+{
+"en": "Morning",
+"pt": "Manhã"
+},
+{
+"en": "Afternoon",
+"pt": "Tarde"
+},
+{
+"en": "Night",
+"pt": "Noite"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_sports_40",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Coach",
+"pt": "Treinador"
+},
+{
+"en": "Player",
+"pt": "Jogador"
+},
+{
+"en": "Team",
+"pt": "Equipe"
+},
+{
+"en": "Game",
+"pt": "Jogo"
+},
+{
+"en": "Score",
+"pt": "Pontuação"
+},
+{
+"en": "Field",
+"pt": "Campo"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_nature_41",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Tree",
+"pt": "Árvore"
+},
+{
+"en": "Leaf",
+"pt": "Folha"
+},
+{
+"en": "Flower",
+"pt": "Flor"
+},
+{
+"en": "Rock",
+"pt": "Pedra"
+},
+{
+"en": "Grass",
+"pt": "Grama"
+},
+{
+"en": "River",
+"pt": "Rio"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_animals_42",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Cat",
+"pt": "Gato"
+},
+{
+"en": "Dog",
+"pt": "Cachorro"
+},
+{
+"en": "Bird",
+"pt": "Pássaro"
+},
+{
+"en": "Fish",
+"pt": "Peixe"
+},
+{
+"en": "Cow",
+"pt": "Vaca"
+},
+{
+"en": "Horse",
+"pt": "Cavalo"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_music_43",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Singer",
+"pt": "Cantor"
+},
+{
+"en": "Song",
+"pt": "Canção"
+},
+{
+"en": "Band",
+"pt": "Banda"
+},
+{
+"en": "Concert",
+"pt": "Concerto"
+},
+{
+"en": "Guitar",
+"pt": "Violão"
+},
+{
+"en": "Drum",
+"pt": "Tambor"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_movies_44",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Actor",
+"pt": "Ator"
+},
+{
+"en": "Director",
+"pt": "Diretor"
+},
+{
+"en": "Scene",
+"pt": "Cena"
+},
+{
+"en": "Screen",
+"pt": "Tela"
+},
+{
+"en": "Ticket",
+"pt": "Bilhete"
+},
+{
+"en": "Trailer",
+"pt": "Trailer"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_friends_45",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Smile",
+"pt": "Sorriso"
+},
+{
+"en": "Laugh",
+"pt": "Rir"
+},
+{
+"en": "Share",
+"pt": "Compartilhar"
+},
+{
+"en": "Help",
+"pt": "Ajudar"
+},
+{
+"en": "Talk",
+"pt": "Conversar"
+},
+{
+"en": "Gift",
+"pt": "Presente"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_education_46",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Learn",
+"pt": "Aprender"
+},
+{
+"en": "Teach",
+"pt": "Ensinar"
+},
+{
+"en": "Practice",
+"pt": "Praticar"
+},
+{
+"en": "Study",
+"pt": "Estudar"
+},
+{
+"en": "Review",
+"pt": "Revisar"
+},
+{
+"en": "Lesson",
+"pt": "Lição"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_jobs_47",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Interview",
+"pt": "Entrevista"
+},
+{
+"en": "Apply",
+"pt": "Candidatar"
+},
+{
+"en": "Hire",
+"pt": "Contratar"
+},
+{
+"en": "Fire",
+"pt": "Demitir"
+},
+{
+"en": "Resume",
+"pt": "Currículo"
+},
+{
+"en": "Salary",
+"pt": "Salário"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_food_drinks_48",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Recipe",
+"pt": "Receita"
+},
+{
+"en": "Snack",
+"pt": "Lanche"
+},
+{
+"en": "Drink",
+"pt": "Bebida"
+},
+{
+"en": "Plate",
+"pt": "Prato"
+},
+{
+"en": "Fork",
+"pt": "Garfo"
+},
+{
+"en": "Knife",
+"pt": "Faca"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_festivals_49",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Parade",
+"pt": "Desfile"
+},
+{
+"en": "Costume",
+"pt": "Fantasia"
+},
+{
+"en": "Drum",
+"pt": "Tambor"
+},
+{
+"en": "Light",
+"pt": "Luz"
+},
+{
+"en": "Food",
+"pt": "Comida"
+},
+{
+"en": "Dance",
+"pt": "Dança"
+}
+],
+"difficulty": "rápido"
+},
+{
+"id": "mm_directions_50",
+"timeLimit": 30,
+"pairs": [
+{
+"en": "Map",
+"pt": "Mapa"
+},
+{
+"en": "Sign",
+"pt": "Placa"
+},
+{
+"en": "Left",
+"pt": "Esquerda"
+},
+{
+"en": "Right",
+"pt": "Direita"
+},
+{
+"en": "Straight",
+"pt": "Em frente"
+},
+{
+"en": "Corner",
+"pt": "Esquina"
+}
+],
+"difficulty": "rápido"
+}
+]
+}

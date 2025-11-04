@@ -4,11 +4,13 @@ import { useState } from "react"
 import "./App.css"
 import Login from "./pages/Login"
 import DashboardAluno from "./pages/DashboardAluno"
+import Atividades from "./pages/Atividades"
 import SplashScreen from "./components/SplashScreen"
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [showSplash, setShowSplash] = useState(true)
+  const [currentPage, setCurrentPage] = useState("dashboard")
 
   const handleLoginSuccess = () => {
     setIsLoggedIn(true)
@@ -16,6 +18,7 @@ function App() {
 
   const handleLogout = () => {
     setIsLoggedIn(false)
+    setCurrentPage("dashboard")
   }
 
   if (showSplash) {
@@ -23,7 +26,10 @@ function App() {
   }
 
   if (isLoggedIn) {
-    return <DashboardAluno onLogout={handleLogout} />
+    if (currentPage === "atividades") {
+      return <Atividades onNavigate={setCurrentPage} onLogout={handleLogout} />
+    }
+    return <DashboardAluno onNavigate={setCurrentPage} onLogout={handleLogout} />
   } else {
     return <Login onLoginSuccess={handleLoginSuccess} />
   }

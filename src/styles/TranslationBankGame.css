@@ -1,0 +1,178 @@
+.translation-bank {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.game-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.game-header h2 {
+  font-size: 1.5rem;
+  color: #283890;
+  margin-bottom: 0.5rem;
+}
+
+.portuguese-phrase {
+  font-size: 1.2rem;
+  color: #555;
+  font-style: italic;
+}
+
+.selected-sequence {
+  margin-bottom: 2rem;
+}
+
+.sequence-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.sequence-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 3rem;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border: 2px dashed #283890;
+}
+
+/* Quando a frase estiver completa e mostrada como um único bloco, centraliza o conteúdo */
+.sequence-words.single-block {
+  justify-content: center;
+}
+
+.placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.word-block {
+  display: inline-block;
+  background: #283890;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.word-bank {
+  margin-bottom: 2rem;
+}
+
+.word-bank-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.words-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.75rem;
+}
+
+.word-button {
+  padding: 0.75rem;
+  background: white;
+  border: 2px solid #283890;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #283890;
+  transition: all 0.3s ease;
+}
+
+.word-button:hover:not(:disabled) {
+  background: #283890;
+  color: white;
+  transform: scale(1.05);
+}
+
+.word-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Feedback visual para arrastar sobre destinos */
+.selected-sequence.drag-over .sequence-words {
+  background: #eef2ff;
+  border-color: #1f2660;
+}
+
+.words-grid.drag-over {
+  outline: 2px dashed #283890;
+  outline-offset: 4px;
+}
+
+.feedback {
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.feedback.correct {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.feedback.incorrect {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.game-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.875rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #283890;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #1f2660;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(40, 56, 144, 0.3);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: white;
+  color: #283890;
+  border: 2px solid #283890;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #f0f0f0;
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

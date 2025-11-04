@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "validate:data": "node scripts/validateGameData.cjs",
+    "validate:data:smart": "node scripts/validateGameData.cjs --smart-ids",
     "preview": "vite preview"
   },
   "dependencies": {
