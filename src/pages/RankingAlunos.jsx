@@ -1,5 +1,5 @@
-import SidebarSemIcones from '../components/Sidebar'; 
-import HeaderAdmin from '../components/Header'; 
+import Sidebar from "../components/Sidebar"
+import Header from "../components/Header"
 import RankingCard from '../components/RankingCard';
 
 // Dados de Simulação
@@ -38,7 +38,7 @@ const generateRanking = (currentUserMatricula) => {
     }));
 };
 
-function RankingAlunos({ onLogout }) {
+function RankingAlunos({ onNavigate, onLogout }) {
     
     // Simulação do aluno logado (a matricula é a chave de identificação)
     const currentUserMatricula = 'M1020'; 
@@ -57,12 +57,12 @@ function RankingAlunos({ onLogout }) {
     return (
         <div className="flex min-h-screen bg-gray-100">
             
-            <SidebarSemIcones onLogout={onLogout} /> 
+            <Sidebar onNavigate={onNavigate} currentPage="ranking" onLogout={onLogout} />
             
             <div className="flex-1 flex flex-col">
                 
                 {/* Usando o Header Admin para simplificar, você pode criar um HeaderAluno */}
-                <HeaderAdmin adminName="Aluno" /> 
+                <Header adminName="Aluno" /> 
                 
                 <main className="flex-1 p-8 overflow-y-auto">
                     
