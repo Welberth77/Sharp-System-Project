@@ -58,6 +58,64 @@
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-weight: 500;
+  vertical-align: middle;
+}
+
+/* Indicador visual de inserção antes da palavra alvo */
+.word-block.insert-before {
+  box-shadow: -3px 0 0 0 #1f2660 inset;
+}
+
+/* Cauda invisível para permitir drop no final da linha */
+.invisible-drop-tail {
+  display: inline-block;
+  width: 1px;
+  height: 1.8rem;
+}
+
+.invisible-drop-head {
+  display: inline-block;
+  width: 1px;
+  height: 1.8rem;
+}
+
+/* Slot visível entre palavras para inserção durante drag */
+.drop-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 6px; /* bem discreto quando inativo */
+  min-height: 1.8rem;
+  height: auto; /* permite crescer para o tamanho do placeholder */
+  margin: 0 2px;
+  border-radius: 4px;
+  transition: all 0.12s ease;
+  vertical-align: middle;
+}
+
+.drop-slot.active {
+  min-width: 40px; /* abre espaço apenas no slot ativo */
+  outline: 2px dashed #283890;
+  outline-offset: -2px;
+  background: rgba(40, 56, 144, 0.06);
+}
+
+.drop-slot .placeholder-text {
+  color: #283890;
+  opacity: 0.5;
+  font-weight: 600;
+  padding: 0 6px;
+}
+
+/* No slot ativo, o placeholder vira um "preview" com o mesmo tamanho do bloco real */
+.drop-slot.active .placeholder-text {
+  display: inline-block;
+  /* Mesmo tamanho do bloco, mas mantendo o visual anterior (sem fundo) */
+  padding: 0.5rem 1rem; /* igual ao .word-block */
+  border-radius: 6px;   /* igual ao .word-block */
+  font-weight: 500;
+  color: #283890;       /* visual anterior */
+  opacity: 0.5;         /* translúcido como antes */
 }
 
 .word-bank {
@@ -84,18 +142,31 @@
   cursor: pointer;
   font-weight: 500;
   color: #283890;
-  transition: all 0.3s ease;
+  /* Remover transições pesadas para não atrasar o drag */
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  /* Melhor feedback de arraste */
+  cursor: grab;
+  -webkit-user-drag: element;
+  user-select: none;
 }
 
 .word-button:hover:not(:disabled) {
   background: #283890;
   color: white;
-  transform: scale(1.05);
+  /* evitar transform que pode afetar o início do drag */
 }
 
 .word-button:disabled {
   opacity: 0.3;
   cursor: not-allowed;
+}
+
+/* Durante o arraste, desligar transições e evitar qualquer deslocamento */
+.word-button.dragging,
+.word-button:active {
+  transition: none;
+  transform: none;
+  cursor: grabbing;
 }
 
 /* Feedback visual para arrastar sobre destinos */

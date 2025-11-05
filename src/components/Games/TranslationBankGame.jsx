@@ -14,6 +14,8 @@ function TranslationBankGame({ gameData, onComplete }) {
   const [dragOverBank, setDragOverBank] = useState(false)
   const [hoveringCompletedPhrase, setHoveringCompletedPhrase] = useState(false)
   const [draggingFromTranslation, setDraggingFromTranslation] = useState(false)
+  const [dragInsertIndex, setDragInsertIndex] = useState(null)
+  const isDraggingBank = draggedWord && draggedWord.source === "bank"
 
   useEffect(() => {
     setSelected([])
@@ -33,7 +35,10 @@ function TranslationBankGame({ gameData, onComplete }) {
   const handleDragStart = (e, word, index, source) => {
     if (isCorrect === true) return
     e.dataTransfer.effectAllowed = "move"
+    try { e.dataTransfer.setData("text/plain", String(word)) } catch {}
     if (source === "bank") {
+      // marca visualmente e evita transições durante o arraste
+      e.currentTarget?.classList?.add("dragging")
       setDraggedWord({ word, index, source })
     } else {
       // source: translation — use selPos (posição no array selected)
@@ -41,26 +46,40 @@ function TranslationBankGame({ gameData, onComplete }) {
     }
   }
 
-  const handleDragEnd = () => {
+  const handleDragEnd = (e) => {
+    // remove classe de arraste caso aplicada em botões do banco
+    e?.currentTarget?.classList?.remove("dragging")
     setDraggedWord(null)
+    setDraggingFromTranslation(false)
+    setDragInsertIndex(null)
   }
 
   const handleDragOverTranslation = (e) => {
     e.preventDefault()
     setDragOverTranslation(true)
+    // Se a frase estiver completa, force o estado "quebrado" durante o drag para permitir inserção
+    const expectedLen = stripPunctuation(gameData.correct).length
+    if (selected.length === expectedLen) {
+      setHoveringCompletedPhrase(true)
+    }
   }
 
   const handleDragLeaveTranslation = () => {
     setDragOverTranslation(false)
   }
 
-  const handleDropTranslation = (e) => {
+  const handleDropTranslation = (e, insertIndex = null) => {
     e.preventDefault()
     setDragOverTranslation(false)
 
     // Adiciona palavra do banco para a tradução
     if (draggedWord && draggedWord.source === "bank") {
-      const newSelected = [...selected, draggedWord]
+      const newSelected = [...selected]
+      if (insertIndex === null || insertIndex < 0 || insertIndex > newSelected.length) {
+        newSelected.push(draggedWord)
+      } else {
+        newSelected.splice(insertIndex, 0, draggedWord)
+      }
       setSelected(newSelected)
 
       const newRemaining = remaining.filter((_, i) => i !== draggedWord.index)
@@ -70,6 +89,8 @@ function TranslationBankGame({ gameData, onComplete }) {
     }
 
     setDraggedWord(null)
+    setDraggingFromTranslation(false)
+    setDragInsertIndex(null)
   }
 
   const handleUndo = () => {
@@ -93,6 +114,7 @@ function TranslationBankGame({ gameData, onComplete }) {
   const handleDragStartFromBrokenPhrase = (e, word, index) => {
     if (isCorrect === true) return
     e.dataTransfer.effectAllowed = "move"
+    try { e.dataTransfer.setData("text/plain", String(word)) } catch {}
     setDraggedWord({ word, selPos: index, source: "translation" })
     setDraggingFromTranslation(true)
   }
@@ -123,6 +145,39 @@ function TranslationBankGame({ gameData, onComplete }) {
 
     setDraggedWord(null)
     setDraggingFromTranslation(false)
+  }
+
+  const handleDragOverWord = (e, idx) => {
+    e.preventDefault()
+    setDragOverTranslation(true)
+    setDragInsertIndex(idx)
+  }
+
+  const handleDropOnWord = (e, idx) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setDragOverTranslation(false)
+    if (draggedWord && draggedWord.source === "bank") {
+      // inserir antes do índice alvo
+      handleDropTranslation(e, idx)
+    }
+    setDragInsertIndex(null)
+  }
+
+  const handleDragOverSlot = (e, idx) => {
+    e.preventDefault()
+    setDragOverTranslation(true)
+    setDragInsertIndex(idx)
+  }
+
+  const handleDropOnSlot = (e, idx) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setDragOverTranslation(false)
+    if (draggedWord && draggedWord.source === "bank") {
+      handleDropTranslation(e, idx)
+    }
+    setDragInsertIndex(null)
   }
 
   return (
@@ -166,23 +221,75 @@ function TranslationBankGame({ gameData, onComplete }) {
                     if (!sentence.endsWith(".")) sentence += "."
 
                     if (hoveringCompletedPhrase) {
-                      return words.map((w, idx) => (
-                        <span
-                          key={idx}
-                          className="word-block word-block-breakable"
-                          draggable
-                          onDragStart={(e) => handleDragStartFromBrokenPhrase(e, w, idx)}
-                          onDragEnd={handleDragEnd}
-                        >
-                          {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
-                        </span>
-                      ))
+                      if (isDraggingBank) {
+                        // Renderiza slots de drop entre palavras, com placeholder do item arrastado
+                        const renderSlot = (slotIdx) => (
+                          <span
+                            key={`slot-${slotIdx}`}
+                            className={`drop-slot${dragInsertIndex === slotIdx ? " active" : ""}`}
+                            onDragOver={(e) => handleDragOverSlot(e, slotIdx)}
+                            onDrop={(e) => handleDropOnSlot(e, slotIdx)}
+                          >
+                            {dragInsertIndex === slotIdx ? (
+                              <span className="placeholder-text">
+                                {slotIdx === 0
+                                  ? (() => {
+                                      const p = String(draggedWord.word || "").toLowerCase()
+                                      return p.length ? p[0].toUpperCase() + p.slice(1) : p
+                                    })()
+                                  : String(draggedWord.word || "").toLowerCase()}
+                              </span>
+                            ) : null}
+                          </span>
+                        )
+
+                        const content = []
+                        // head slot
+                        content.push(renderSlot(0))
+                        words.forEach((w, idx) => {
+                          content.push(
+                            <span
+                              key={`w-${idx}`}
+                              className="word-block word-block-breakable"
+                              draggable
+                              onDragStart={(e) => handleDragStartFromBrokenPhrase(e, w, idx)}
+                              onDragEnd={handleDragEnd}
+                            >
+                              {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
+                            </span>
+                          )
+                          // slot after this word
+                          content.push(renderSlot(idx + 1))
+                        })
+                        return <>{content}</>
+                      }
+
+                      // Não está arrastando do banco: só mostra as palavras quebradas (sem slots)
+                      return (
+                        <>
+                          {words.map((w, idx) => (
+                            <span
+                              key={`w-${idx}`}
+                              className="word-block word-block-breakable"
+                              draggable
+                              onDragStart={(e) => handleDragStartFromBrokenPhrase(e, w, idx)}
+                              onDragEnd={handleDragEnd}
+                            >
+                              {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
+                            </span>
+                          ))}
+                        </>
+                      )
                     }
 
                     return (
                       <span
                         className="word-block word-block-completed"
                         draggable
+                        onDragOver={(e) => {
+                          e.preventDefault()
+                          setHoveringCompletedPhrase(true)
+                        }}
                         onMouseEnter={() => setHoveringCompletedPhrase(true)}
                         onMouseLeave={() => setHoveringCompletedPhrase(false)}
                         title="Passe o mouse para remover uma palavra"
@@ -192,17 +299,63 @@ function TranslationBankGame({ gameData, onComplete }) {
                     )
                   }
 
-                  return words.map((w, idx) => (
-                    <span
-                      key={idx}
-                      className="word-block"
-                      draggable
-                      onDragStart={(e) => handleDragStart(e, w, idx, "translation")}
-                      onDragEnd={handleDragEnd}
-                    >
-                      {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
-                    </span>
-                  ))
+                  if (isDraggingBank) {
+                    // Parcial: slots entre palavras somente quando arrastando do banco
+                    const renderSlot = (slotIdx) => (
+                      <span
+                        key={`slot-${slotIdx}`}
+                        className={`drop-slot${dragInsertIndex === slotIdx ? " active" : ""}`}
+                        onDragOver={(e) => handleDragOverSlot(e, slotIdx)}
+                        onDrop={(e) => handleDropOnSlot(e, slotIdx)}
+                      >
+                        {dragInsertIndex === slotIdx ? (
+                          <span className="placeholder-text">
+                            {slotIdx === 0
+                              ? (() => {
+                                  const p = String(draggedWord.word || "").toLowerCase()
+                                  return p.length ? p[0].toUpperCase() + p.slice(1) : p
+                                })()
+                              : String(draggedWord.word || "").toLowerCase()}
+                          </span>
+                        ) : null}
+                      </span>
+                    )
+
+                    const content = []
+                    content.push(renderSlot(0))
+                    words.forEach((w, idx) => {
+                      content.push(
+                        <span
+                          key={`w-${idx}`}
+                          className="word-block"
+                          draggable
+                          onDragStart={(e) => handleDragStart(e, w, idx, "translation")}
+                          onDragEnd={handleDragEnd}
+                        >
+                          {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
+                        </span>
+                      )
+                      content.push(renderSlot(idx + 1))
+                    })
+                    return <>{content}</>
+                  }
+
+                  // Não está arrastando do banco: apenas as palavras
+                  return (
+                    <>
+                      {words.map((w, idx) => (
+                        <span
+                          key={`w-${idx}`}
+                          className="word-block"
+                          draggable
+                          onDragStart={(e) => handleDragStart(e, w, idx, "translation")}
+                          onDragEnd={handleDragEnd}
+                        >
+                          {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
+                        </span>
+                      ))}
+                    </>
+                  )
                 })()}
               </div>
             )
