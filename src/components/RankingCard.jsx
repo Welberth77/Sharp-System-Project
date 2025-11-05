@@ -1,5 +1,3 @@
-// src/components/RankingCard.jsx (SEM ÍCONES)
-import React from 'react';
 // Ajuste o caminho da logo se necessário
 import logo from '../assets/logo-sharpSystem.jpg'; 
 
@@ -7,7 +5,7 @@ import logo from '../assets/logo-sharpSystem.jpg';
 function RankingCard({ aluno, isCurrentUser, isTop3 }) {
   
   // Define o estilo de destaque para Pódio e Aluno Logado
-  let cardClass = "bg-white border-l-4 border-gray-200";
+  let cardClass = "bg-gray-100 border-l-4 border-gray-200";
   let positionClass = "text-gray-500";
 
   if (isCurrentUser) {
@@ -15,10 +13,10 @@ function RankingCard({ aluno, isCurrentUser, isTop3 }) {
     positionClass = "text-blue-600 font-bold";
   } else if (isTop3) {
     if (aluno.posicao === 1) {
-        cardClass = "bg-yellow-50 border-l-4 border-yellow-500 shadow-lg scale-105";
+        cardClass = "bg-yellow-50 border-l-4 border-yellow-500 shadow-lg";
         positionClass = "text-yellow-500 text-3xl font-extrabold";
     } else if (aluno.posicao === 2) {
-        cardClass = "bg-gray-100 border-l-4 border-gray-400 shadow-md";
+        cardClass = "bg-gray-100 border-l-4 border-slate-400 shadow-md";
         positionClass = "text-gray-400 text-2xl font-bold";
     } else if (aluno.posicao === 3) {
         cardClass = "bg-yellow-50 border-l-4 border-yellow-700 shadow";
