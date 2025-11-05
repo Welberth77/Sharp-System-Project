@@ -1,11 +1,29 @@
+/* Enhanced with modern styling, better visual feedback, and smooth animations */
 .match-pairs {
   max-width: 700px;
   margin: 2rem auto;
 }
 
+.game-header h2 {
+  text-align: center;
+  color: #1a2456;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
 .progress {
   color: #666;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5rem;
+  background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 .pairs-container {
@@ -21,62 +39,100 @@
 }
 
 .column h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  color: #283890;
-  margin-bottom: 1rem;
+  color: #1a2456;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #283890;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 
 .items {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.875rem;
 }
 
 .pair-button {
-  padding: 1rem;
-  border: 2px solid #283890;
+  padding: 1.1rem;
+  border: 2px solid #e0e8f8;
   background: white;
   color: #283890;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   font-weight: 500;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   text-align: left;
+  box-shadow: 0 2px 8px rgba(40, 56, 144, 0.06);
 }
 
 .pair-button:hover:not(:disabled) {
   background: #283890;
   color: white;
-  transform: translateX(4px);
+  transform: translateX(6px);
+  box-shadow: 0 6px 16px rgba(40, 56, 144, 0.15);
+  border-color: #283890;
 }
 
 .pair-button.selected {
-  background: #283890;
+  background: linear-gradient(135deg, #283890 0%, #1f2660 100%);
   color: white;
-  box-shadow: 0 0 0 3px rgba(40, 56, 144, 0.2);
+  box-shadow: 0 0 0 3px rgba(40, 56, 144, 0.25);
+  border-color: #1f2660;
+  animation: pulse-select 0.4s ease;
 }
 
 .pair-button.matched {
-  background: #d4edda;
+  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
   border-color: #28a745;
   color: #155724;
   cursor: not-allowed;
+  box-shadow: 0 2px 8px rgba(40, 167, 69, 0.1);
+  text-decoration: line-through;
+  opacity: 0.8;
 }
 
 .pair-button:disabled {
   cursor: not-allowed;
 }
 
+@keyframes pulse-select {
+  0% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .feedback {
   text-align: center;
-  padding: 1rem;
-  background: #fff3cd;
-  border: 1px solid #ffc107;
-  border-radius: 8px;
+  padding: 1.2rem;
+  background: linear-gradient(135deg, #fff3cd 0%, #ffe69c 100%);
+  border: 2px solid #ffc107;
+  border-radius: 10px;
   margin: 1.5rem 0;
   font-weight: 600;
   color: #856404;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.15);
+  animation: fade-in 0.3s ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 600px) {

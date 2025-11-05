@@ -1,6 +1,6 @@
 "use client"
 
-import logo from "../assets/logo-sharpSystem.jpg"
+import logo from "../assets/Logo-SharpSystem.jpg"
 
 function Sidebar({ onNavigate, currentPage, onLogout }) {
   const navItems = [

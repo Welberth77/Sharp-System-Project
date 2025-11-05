@@ -2,7 +2,7 @@
 
 // Componetes
 import { useState } from "react"
-import logo from "../assets/logo-sharpSystem.jpg"
+import logo from "../assets/Logo-SharpSystem.jpg"
 import AnimatedInput from "../components/AnimatedInput"
 
 const TEST_EMAIL = "teste@sharpsystem.com"

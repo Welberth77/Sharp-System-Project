@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import "../../styles/TranslationBankGame.css"
-import { gameLibrary } from "../../utils/gameData"
+import { gameLibrary } from "../../utils/GameData"
 
 function TranslationBankGame({ gameData, onComplete }) {
   const [selected, setSelected] = useState([])
@@ -35,7 +35,11 @@ function TranslationBankGame({ gameData, onComplete }) {
   const handleDragStart = (e, word, index, source) => {
     if (isCorrect === true) return
     e.dataTransfer.effectAllowed = "move"
-    try { e.dataTransfer.setData("text/plain", String(word)) } catch {}
+    try {
+      e.dataTransfer.setData("text/plain", String(word))
+    } catch {
+      /* ignore: dataTransfer may be restricted in some environments */
+    }
     if (source === "bank") {
       // marca visualmente e evita transições durante o arraste
       e.currentTarget?.classList?.add("dragging")
@@ -114,7 +118,11 @@ function TranslationBankGame({ gameData, onComplete }) {
   const handleDragStartFromBrokenPhrase = (e, word, index) => {
     if (isCorrect === true) return
     e.dataTransfer.effectAllowed = "move"
-    try { e.dataTransfer.setData("text/plain", String(word)) } catch {}
+    try {
+      e.dataTransfer.setData("text/plain", String(word))
+    } catch {
+      /* ignore: dataTransfer may be restricted in some environments */
+    }
     setDraggedWord({ word, selPos: index, source: "translation" })
     setDraggingFromTranslation(true)
   }
@@ -130,7 +138,7 @@ function TranslationBankGame({ gameData, onComplete }) {
 
   const handleDropBank = (e) => {
     e.preventDefault()
-  setDragOverBank(false)
+    setDragOverBank(false)
 
     // Remove palavra da tradução e devolve ao banco
     if (draggedWord && draggedWord.source === "translation") {
@@ -147,22 +155,7 @@ function TranslationBankGame({ gameData, onComplete }) {
     setDraggingFromTranslation(false)
   }
 
-  const handleDragOverWord = (e, idx) => {
-    e.preventDefault()
-    setDragOverTranslation(true)
-    setDragInsertIndex(idx)
-  }
-
-  const handleDropOnWord = (e, idx) => {
-    e.preventDefault()
-    e.stopPropagation()
-    setDragOverTranslation(false)
-    if (draggedWord && draggedWord.source === "bank") {
-      // inserir antes do índice alvo
-      handleDropTranslation(e, idx)
-    }
-    setDragInsertIndex(null)
-  }
+  // handlers de slot substituem os antigos de palavra
 
   const handleDragOverSlot = (e, idx) => {
     e.preventDefault()
@@ -256,7 +249,7 @@ function TranslationBankGame({ gameData, onComplete }) {
                               onDragEnd={handleDragEnd}
                             >
                               {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
-                            </span>
+                            </span>,
                           )
                           // slot after this word
                           content.push(renderSlot(idx + 1))
@@ -333,7 +326,7 @@ function TranslationBankGame({ gameData, onComplete }) {
                           onDragEnd={handleDragEnd}
                         >
                           {idx === 0 ? (w.length ? w[0].toUpperCase() + w.slice(1) : w) : w}
-                        </span>
+                        </span>,
                       )
                       content.push(renderSlot(idx + 1))
                     })
@@ -371,17 +364,25 @@ function TranslationBankGame({ gameData, onComplete }) {
             onDrop={handleDropBank}
           >
             {remaining.map((word, idx) => (
-              <button
+              <div
                 key={idx}
                 className="word-button"
-                onClick={() => handleWordClick(word, idx)}
+                role="button"
+                tabIndex={0}
+                aria-disabled={isCorrect === true}
+                onClick={() => {
+                  if (isCorrect === true) return
+                  handleWordClick(word, idx)
+                }}
                 draggable
-                onDragStart={(e) => handleDragStart(e, word, idx, "bank")}
+                onDragStart={(e) => {
+                  if (isCorrect === true) return
+                  handleDragStart(e, word, idx, "bank")
+                }}
                 onDragEnd={handleDragEnd}
-                disabled={isCorrect === true}
               >
                 {String(word).toLowerCase()}
-              </button>
+              </div>
             ))}
           </div>
         </div>

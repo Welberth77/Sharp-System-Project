@@ -13,7 +13,7 @@ import FillBlankGame from "../components/Games/FillBlankGame"
 import FreeTranslationGame from "../components/Games/FreeTranslationGame"
 import MatchMadnessGame from "../components/Games/MatchMadnessGame"
 import GameProgressStats from "../components/GameProgressStats"
-import { getRandomGames, initializeProgressData, GAME_TYPES, gameLibrary } from "../utils/gameData"
+import { getRandomGames, initializeProgressData, GAME_TYPES, gameLibrary } from "../utils/GameData"
 import "../styles/ChallengeSelectorGame.css"
 
 function Atividades({ onNavigate, onLogout }) {
@@ -21,6 +21,7 @@ function Atividades({ onNavigate, onLogout }) {
   const [currentGameIndex, setCurrentGameIndex] = useState(0)
   const [dailyGames, setDailyGames] = useState([])
   const [selectedGameType, setSelectedGameType] = useState(null)
+  const [freeGameCounter, setFreeGameCounter] = useState(0)
 
   const [progress, setProgress] = useState(() => {
     const saved = localStorage.getItem("gameProgress")
@@ -79,7 +80,9 @@ function Atividades({ onNavigate, onLogout }) {
 
       return updated
     })
+  }
 
+  const handleProceedToNext = () => {
     if (gameMode === "daily") {
       if (currentGameIndex < dailyGames.length - 1) {
         setCurrentGameIndex(currentGameIndex + 1)
@@ -126,21 +129,39 @@ function Atividades({ onNavigate, onLogout }) {
       return null
     }
 
-    const commonProps = { gameData, onComplete: handleGameComplete }
+    let onCompleteCallback = handleGameComplete
+
+    if (gameType === GAME_TYPES.MATCH_MADNESS) {
+      if (gameMode === "daily") {
+        // Embarcar progresso e avançar para o próximo ao concluir no modo diário
+        onCompleteCallback = (isComplete) => {
+          handleGameComplete(isComplete)
+          handleProceedToNext()
+        }
+      } else if (gameMode === "free") {
+        // No modo livre, avançar para um novo desafio do mesmo tipo
+        onCompleteCallback = (isComplete) => {
+          handleGameComplete(isComplete)
+          setFreeGameCounter((c) => c + 1)
+        }
+      }
+    }
+
+    const commonProps = { gameData, onComplete: onCompleteCallback }
 
     switch (gameType) {
       case GAME_TYPES.TRANSLATION_BANK:
-        return <TranslationBankGame {...commonProps} />
+        return <TranslationBankGame key={`${gameMode}-${gameType}-${currentGameIndex}-${freeGameCounter}`} {...commonProps} />
       case GAME_TYPES.MATCH_PAIRS:
-        return <MatchPairsGame {...commonProps} />
+        return <MatchPairsGame key={`${gameMode}-${gameType}-${currentGameIndex}-${freeGameCounter}`} {...commonProps} />
       case GAME_TYPES.MULTIPLE_CHOICE:
-        return <MultipleChoiceGame {...commonProps} />
+        return <MultipleChoiceGame key={`${gameMode}-${gameType}-${currentGameIndex}-${freeGameCounter}`} {...commonProps} />
       case GAME_TYPES.FILL_BLANK:
-        return <FillBlankGame {...commonProps} />
+        return <FillBlankGame key={`${gameMode}-${gameType}-${currentGameIndex}-${freeGameCounter}`} {...commonProps} />
       case GAME_TYPES.FREE_TRANSLATION:
-        return <FreeTranslationGame {...commonProps} />
+        return <FreeTranslationGame key={`${gameMode}-${gameType}-${currentGameIndex}-${freeGameCounter}`} {...commonProps} />
       case GAME_TYPES.MATCH_MADNESS:
-        return <MatchMadnessGame {...commonProps} />
+        return <MatchMadnessGame key={`${gameMode}-${gameType}-${currentGameIndex}-${freeGameCounter}`} {...commonProps} />
       default:
         return null
     }
@@ -230,6 +251,11 @@ function Atividades({ onNavigate, onLogout }) {
                 </button>
               </div>
               {renderGame()}
+              {currentGameIndex < dailyGames.length - 1 && (
+                <button className="btn-next" onClick={handleProceedToNext}>
+                  Próximo
+                </button>
+              )}
             </div>
           ) : gameMode === "free" && !selectedGameType ? (
             <div className="free-challenge-selector">

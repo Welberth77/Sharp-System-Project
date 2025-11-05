@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import logo from "../assets/logo-sharpSystem.jpg"
+import logo from "../assets/Logo-SharpSystem.jpg"
 import "../styles/SplashScreen.css"
 
 function SplashScreen({ onAnimationComplete }) {
