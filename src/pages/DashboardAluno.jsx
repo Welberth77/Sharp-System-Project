@@ -6,7 +6,7 @@ import DashboardCard from '../components/DashboardCard';
 function DashboardAluno({ onNavigate, onLogout, currentPage }) {
   return (
     <div className="flex min-h-screen bg-gray-100">
-  <Sidebar onNavigate={onNavigate} currentPage={currentPage || "dashboard"} onLogout={onLogout} />
+    <Sidebar onNavigate={onNavigate} currentPage={currentPage || "dashboard"} onLogout={onLogout} />
 
       <div className="flex-1 flex flex-col">
         <Header studentName="JOÃO SILVA" />
@@ -29,15 +29,14 @@ function DashboardAluno({ onNavigate, onLogout, currentPage }) {
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-10">
             
-            {/* 3. Card: Pontuação Total - Ícone removido */}
+            {/* 3. Card: Pontuação Total */}
             <DashboardCard 
               title="Pontuação Total" 
               value="1250 Pontos" 
-              // icon={HiTrophy} <-- Removido
               colorClass="text-yellow-500"
             />
             
-            {/* 3. Card: Próxima Atividade - Ícone removido */}
+            {/* 3. Card: Próxima Atividade */}
             <DashboardCard 
               title="Próxima Atividade" 
               value="Unit 21" 
