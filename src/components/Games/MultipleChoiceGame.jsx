@@ -42,7 +42,7 @@ function MultipleChoiceGame({ gameData, onComplete }) {
   return (
     <div className="game-container multiple-choice">
       <div className="game-header">
-        <h2>Múltipla Escolha</h2>
+        <h2>Escolha Certa</h2>
       </div>
 
       <div className="game-content">

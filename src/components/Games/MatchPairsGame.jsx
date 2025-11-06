@@ -58,7 +58,7 @@ function MatchPairsGame({ gameData, onComplete }) {
   return (
     <div className="game-container match-pairs">
       <div className="game-header">
-        <h2>Combine os Pares</h2>
+        <h2>Par Ideal</h2>
         <p className="progress">
           {matched.length} de {gameData.pairs.length} pares encontrados
         </p>

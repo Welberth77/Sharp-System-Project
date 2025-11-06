@@ -270,16 +270,16 @@ function Atividades({ onNavigate, onLogout }) {
                   <button key={type} className="challenge-card" onClick={() => setSelectedGameType(type)}>
                     <h3>
                       {type === GAME_TYPES.TRANSLATION_BANK
-                        ? "Tradução com Banco"
+                        ? "Match-Frase"
                         : type === GAME_TYPES.MATCH_PAIRS
-                          ? "Combinar Pares"
+                          ? "Par Ideal"
                           : type === GAME_TYPES.MULTIPLE_CHOICE
-                            ? "Múltipla Escolha"
+                            ? "Escolha Certa"
                             : type === GAME_TYPES.FILL_BLANK
-                              ? "Preencher Lacuna"
+                              ? "Complete a Frase"
                               : type === GAME_TYPES.FREE_TRANSLATION
                                 ? "Tradução Livre"
-                                : "Match Madness"}
+                                : "Corrida dos Pares"}
                     </h3>
                   </button>
                 ))}

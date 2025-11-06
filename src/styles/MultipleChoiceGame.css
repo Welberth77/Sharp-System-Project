@@ -59,6 +59,9 @@
   transform: translateX(8px);
   box-shadow: 0 6px 16px rgba(40, 56, 144, 0.12);
 }
+.option-button:hover:not(:disabled) .option-text {
+  color: white;
+}
 
 .option-button.correct {
   background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
@@ -113,6 +116,7 @@
   font-size: 1.1rem;
   flex-shrink: 0;
   box-shadow: 0 2px 8px rgba(40, 56, 144, 0.2);
+
 }
 
 .option-button.correct .option-letter,
@@ -128,6 +132,7 @@
   font-size: 1.05rem;
   flex: 1;
 }
+
 
 .option-button.correct .option-text {
   color: #155724;

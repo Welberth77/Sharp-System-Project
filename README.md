@@ -5,11 +5,11 @@
 ## ✨ Recursos
 
 - Jogos inclusos:
-	- Tradução com Banco de Palavras (drag‑and‑drop com inserção entre palavras e decoys)
-	- Combinar Pares (Match Pairs)
-	- Match Madness (pares sob tempo, colunas embaralhadas independentemente)
-	- Múltipla Escolha
-	- Preencher Lacuna (Fill Blank)
+	- Match-Frase (drag‑and‑drop com inserção entre palavras e decoys)
+	- Par Ideal
+	- Corrida dos Pares (pares sob tempo, colunas embaralhadas independentemente)
+	- Escolha Certa
+	- Complete a Frase (Fill Blank)
 	- Tradução Livre
 - UX consistente
 	- Sem auto‑advance: sempre há botão “Próximo” ao concluir
@@ -126,24 +126,24 @@ npm run preview
 
 ## 🎮 Mini‑jogos
 
-- Tradução com Banco de Palavras
+- Match-Frase
 	- Banco embaralhado com 4–6 palavras “decoy” além das corretas
 	- Montagem por drag‑and‑drop da “Sua tradução” com slots entre palavras e placeholder no slot ativo
 	- Remoção e inserção precisas; caixa inteira arrastável (não só o texto)
 	- Ponto final ignorado no dado (apenas visual no bloco completo)
 	- Botão “Enviar” e depois “Próximo” (sem auto‑advance)
 
-- Preencher Lacuna (Fill Blank)
+- Complete a Frase (Fill Blank)
 	- Comparação case‑insensitive e opções exibidas em minúsculas
 	- Reset ao mudar de desafio; “Próximo” ao acertar
 
-- Múltipla Escolha
+- Escolha Certa
 	- Opções minúsculas; verificação case‑insensitive; “Próximo” ao acertar
 
-- Combinar Pares (Match Pairs)
+- Par Ideal
 	- Colunas e labels em minúsculas; “Próximo” ao concluir
 
-- Match Madness
+- Corrida dos Pares
 	- Colunas esquerda/direita embaralhadas independentemente
 	- Timer que para ao concluir; mostra “Próximo” (sem auto‑advance)
 

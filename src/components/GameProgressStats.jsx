@@ -7,12 +7,12 @@ function GameProgressStats({ progress }) {
       : 0
 
   const gameTypeNames = {
-    translation_bank: "Tradução com Banco",
-    match_pairs: "Combinar Pares",
-    multiple_choice: "Múltipla Escolha",
-    fill_blank: "Preencher Lacuna",
+    translation_bank: "Match-Frase",
+    match_pairs: "Par Ideal",
+    multiple_choice: "Escolha Certa",
+    fill_blank: "Complete a Frase",
     free_translation: "Tradução Livre",
-    match_madness: "Match Madness",
+    match_madness: "Corrida dos Pares",
   }
 
   return (

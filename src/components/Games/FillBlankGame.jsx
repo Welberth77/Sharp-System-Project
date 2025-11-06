@@ -33,7 +33,7 @@ function FillBlankGame({ gameData, onComplete }) {
   return (
     <div className="game-container fill-blank">
       <div className="game-header">
-        <h2>Preencha a Lacuna</h2>
+        <h2>Complete a Frase</h2>
       </div>
 
       <div className="game-content">

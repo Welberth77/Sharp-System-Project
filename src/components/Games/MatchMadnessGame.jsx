@@ -76,7 +76,7 @@ function MatchMadnessGame({ gameData, onComplete }) {
   return (
     <div className="game-container match-madness">
       <div className="madness-header">
-        <h2>Match Madness - Contra o Tempo!</h2>
+        <h2>Corrida dos Pares</h2>
         {gameStarted && (
           <div className="madness-stats">
             <div className={`timer ${timeColor}`}>⏱️ {timeLeft}s</div>

@@ -176,7 +176,7 @@ function TranslationBankGame({ gameData, onComplete }) {
   return (
     <div className="game-container translation-bank">
       <div className="game-header">
-        <h2>Tradução com Banco de Palavras</h2>
+        <h2>Match-Frase</h2>
         <p className="portuguese-phrase">{gameData.portuguese}</p>
       </div>
 

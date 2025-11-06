@@ -43,8 +43,8 @@
 
 .challenge-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.75rem;
   margin-top: 1rem;
 }
 
@@ -52,14 +52,14 @@
   background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
   border: 2px solid #e0e0e0;
   border-radius: 12px;
-  padding: 2rem;
+  padding: 2.25rem;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 200px;
+  min-height: 240px;
   position: relative;
   overflow: hidden;
 }
@@ -90,7 +90,7 @@
 .challenge-card h3 {
   position: relative;
   z-index: 1;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #283890;
   margin: 0;
@@ -125,6 +125,12 @@
   margin: 0;
 }
 
+@media (max-width: 1200px) {
+  .challenge-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .challenge-grid {
     grid-template-columns: 1fr;
@@ -147,12 +153,12 @@
   }
 
   .challenge-card {
-    min-height: 160px;
-    padding: 1.5rem;
+    min-height: 180px;
+    padding: 1.75rem;
   }
 
   .challenge-card h3 {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
 
   .game-session-header {
