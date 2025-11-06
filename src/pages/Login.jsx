@@ -2,35 +2,43 @@
 
 // Componetes
 import { useState } from "react"
+import { useAuth } from "../context/AuthContext.jsx"
 import logo from "../assets/Logo-SharpSystem.jpg"
 import AnimatedInput from "../components/AnimatedInput"
 
-const TEST_EMAIL = "teste@sharpsystem.com"
-const TEST_PASSWORD = "123456"
-
+const TEST_EMAIL = "admin"
+const TEST_PASSWORD = "admin"
+const API_URL = 'https://api.giorgiorafael.com/';
 function Login({ onLoginSuccess }) {
-  const [email, setEmail] = useState("teste@sharpsystem.com")
-  const [password, setPassword] = useState("123456")
+  const [email, setEmail] = useState("admin")
+  const [password, setPassword] = useState("admin")
   const [error, setError] = useState("")
   const [emailError, setEmailError] = useState("")
-
+  const { login } = useAuth();
   const primaryColor = "#283890"
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     setError("")
     setEmailError("")
-
-    const isValidEmail = (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
-    if (!isValidEmail(email)) {
-      setEmailError("Por favor, utilize um e-mail válido.")
+    
+    // Aceitar login por usuário OU e-mail (apenas checa se está preenchido)
+    if (!email || email.trim() === "") {
+      setEmailError("Informe seu login")
+      return
+    }
+    // Credenciais de teste para ambiente local
+    if (email === TEST_EMAIL && password === TEST_PASSWORD) {
+      onLoginSuccess()
       return
     }
 
-    if (email === TEST_EMAIL && password === TEST_PASSWORD) {
+    // Tenta login na API
+    const success = await login(email, password)
+    if (success) {
       onLoginSuccess()
     } else {
-      setError("E-mail ou senha incorretos. Use teste@sharpsystem.com / 123456")
+      setError("E-mail ou senha incorretos.")
     }
   }
 
@@ -56,23 +64,19 @@ function Login({ onLoginSuccess }) {
 
           <form onSubmit={handleSubmit} method="POST">
             <AnimatedInput
-              type="email"
-              name="email"
-              placeholder="E-mail"
+              type="text"
+              name="login"
+              placeholder="Login"
               value={email}
               onChange={(e) => {
                 const v = e.target.value
                 setEmail(v)
-                // enquanto o usuário digita, não mostramos erro; apenas limpamos
                 if (emailError) setEmailError("")
               }}
               onBlur={(e) => {
                 const v = e.target.value
-                const isValidEmail = (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
-                if (!v) {
-                  setEmailError("")
-                } else if (!isValidEmail(v)) {
-                  setEmailError("Por favor, utilize um e-mail válido.")
+                if (!v || v.trim() === "") {
+                  setEmailError("Informe seu login")
                 } else {
                   setEmailError("")
                 }
