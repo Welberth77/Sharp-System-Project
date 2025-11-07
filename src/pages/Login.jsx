@@ -5,6 +5,7 @@ import { useState } from "react"
 import { useAuth } from "../context/AuthContext.jsx"
 import logo from "../assets/Logo-SharpSystem.jpg"
 import AnimatedInput from "../components/AnimatedInput"
+import "../styles/Login.css"
 
 const TEST_EMAIL = "admin"
 const TEST_PASSWORD = "admin"
@@ -43,16 +44,16 @@ function Login({ onLoginSuccess }) {
   }
 
   return (
-    <div className="flex min-h-screen">
-      <div className="hidden w-1/2 flex-col items-center justify-center space-y-8 bg-[#283890] p-12 text-white lg:flex">
+    <div className="flex min-h-screen login-container">
+      <div className="hidden w-1/2 flex-col items-center justify-center space-y-8 bg-[#283890] p-12 text-white lg:flex login-left-panel">
         <div className="flex flex-col items-center text-center">
           <img src={logo || "/placeholder.svg"} alt="Sharp System Logo" className="w-80" />
           <span className="text-4xl font-bold">Sharp System Course</span>
         </div>
       </div>
 
-      <div className="w-full bg-[#F5F5F5] p-8 lg:w-1/2 lg:p-16 flex items-center justify-center">
-        <div className="w-full max-w-sm">
+      <div className="w-full bg-[#F5F5F5] p-8 lg:w-1/2 lg:p-16 flex items-center justify-center login-right-panel">
+        <div className="w-full max-w-sm login-form-container">
           <h2 className="text-4xl font-extrabold text-[#283890] mb-2">Bem-vindo(a)!</h2>
           <p className="mb-10 text-4xl font-extrabold text-[#283890]">Faça seu login.</p>
 

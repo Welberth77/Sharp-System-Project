@@ -4,22 +4,26 @@ import { useEffect, useState } from "react"
 import logo from "../assets/Logo-SharpSystem.jpg"
 import "../styles/SplashScreen.css"
 
-function SplashScreen({ onAnimationComplete }) {
+function SplashScreen({ onStartExit, onAnimationComplete }) {
   const [isExiting, setIsExiting] = useState(false)
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsExiting(true)
-    }, 2500)
+      // Notifica que a animação de saída começou
+      if (onStartExit) {
+        onStartExit()
+      }
+    }, 2000) // Reduzido de 2500 para 2000
 
     return () => clearTimeout(timer)
-  }, [])
+  }, [onStartExit])
 
   useEffect(() => {
     if (isExiting) {
       const exitTimer = setTimeout(() => {
         onAnimationComplete()
-      }, 1000)
+      }, 1200) // Reduzido de 1500 para 1200
       return () => clearTimeout(exitTimer)
     }
   }, [isExiting, onAnimationComplete])

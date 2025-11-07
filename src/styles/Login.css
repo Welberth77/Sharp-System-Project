@@ -1,0 +1,97 @@
+/* Animações para transição fluida da Splash Screen para Login */
+.login-container {
+  animation: fadeInLogin 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.1s; /* Delay mínimo */
+  opacity: 0;
+}
+
+@keyframes fadeInLogin {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+    filter: blur(3px);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(5px);
+    filter: blur(1px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    filter: blur(0px);
+  }
+}
+
+.login-left-panel {
+  animation: slideInLeft 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.2s; /* Delay mínimo */
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.login-right-panel {
+  animation: slideInRight 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.15s; /* Delay mínimo */
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.login-form-container {
+  animation: scaleInForm 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.25s; /* Delay mínimo */
+  transform: scale(0.9);
+  opacity: 0;
+}
+
+@keyframes scaleInForm {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+}
+
+/* Suavizar ainda mais a transição para elementos específicos */
+.login-form-container h2,
+.login-form-container p {
+  animation: fadeInText 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: 0.3s; /* Delay mínimo */
+  opacity: 0;
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

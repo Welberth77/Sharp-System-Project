@@ -1,0 +1,40 @@
+.app-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Sincronização das transições */
+.app-container .login-transition {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.app-container .splash-screen {
+  z-index: 9999;
+}
+
+/* Login estático (sem animação) */
+.login-static {
+  animation: none !important;
+}
+
+.login-static .login-container {
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+.login-static .login-left-panel,
+.login-static .login-right-panel,
+.login-static .login-form-container,
+.login-static .login-form-container h2,
+.login-static .login-form-container p {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}

@@ -11,6 +11,7 @@ import SplashScreen from "./components/SplashScreen"
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [showSplash, setShowSplash] = useState(true)
+  const [splashExiting, setSplashExiting] = useState(false)
   const [currentPage, setCurrentPage] = useState("dashboard")
 
   const handleLoginSuccess = () => {
@@ -22,8 +23,31 @@ function App() {
     setCurrentPage("dashboard")
   }
 
+  const handleSplashExit = () => {
+    setSplashExiting(true)
+  }
+
+  const handleSplashComplete = () => {
+    setShowSplash(false)
+    setSplashExiting(false)
+  }
+
+  // Renderização com transição fluida
   if (showSplash) {
-    return <SplashScreen onAnimationComplete={() => setShowSplash(false)} />
+    return (
+      <div className="app-container">
+        {/* A tela de login fica por baixo da splash screen */}
+        {splashExiting && !isLoggedIn && (
+          <div className="login-transition">
+            <Login onLoginSuccess={handleLoginSuccess} />
+          </div>
+        )}
+        <SplashScreen 
+          onStartExit={handleSplashExit}
+          onAnimationComplete={handleSplashComplete} 
+        />
+      </div>
+    )
   }
 
   if (isLoggedIn) {
@@ -36,7 +60,11 @@ function App() {
     }
     return <DashboardAluno onNavigate={setCurrentPage} onLogout={handleLogout} />
   } else {
-    return <Login onLoginSuccess={handleLoginSuccess} />
+    return (
+      <div className="login-static">
+        <Login onLoginSuccess={handleLoginSuccess} />
+      </div>
+    )
   }
 }
 

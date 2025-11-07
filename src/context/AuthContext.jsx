@@ -30,7 +30,6 @@ export function AuthProvider({ children }) {
         password,
       })
 
-      // Ajuste o nome da propriedade conforme retorno da sua API
       const bearerToken = response.data?.bearerToken || response.data?.token
       if (!bearerToken) throw new Error("Token ausente na resposta do login")
 
