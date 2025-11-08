@@ -7,39 +7,51 @@ import logo from "../assets/Logo-SharpSystem.jpg"
 import AnimatedInput from "../components/AnimatedInput"
 import "../styles/Login.css"
 
-const TEST_EMAIL = "admin"
-const TEST_PASSWORD = "admin"
-const API_URL = 'https://api.giorgiorafael.com/';
 function Login({ onLoginSuccess }) {
-  const [email, setEmail] = useState("admin")
-  const [password, setPassword] = useState("admin")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
   const [error, setError] = useState("")
   const [emailError, setEmailError] = useState("")
-  const { login } = useAuth();
+  const [isLoading, setIsLoading] = useState(false)
+  const { login } = useAuth()
   const primaryColor = "#283890"
 
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError("")
     setEmailError("")
+    setIsLoading(true)
     
-    // Aceitar login por usuário OU e-mail (apenas checa se está preenchido)
+    // Validar campos
     if (!email || email.trim() === "") {
       setEmailError("Informe seu login")
+      setIsLoading(false)
       return
     }
-    // Credenciais de teste para ambiente local
-    if (email === TEST_EMAIL && password === TEST_PASSWORD) {
-      onLoginSuccess()
+    
+    if (!password || password.trim() === "") {
+      setError("Informe sua senha")
+      setIsLoading(false)
       return
     }
-
-    // Tenta login na API
-    const success = await login(email, password)
-    if (success) {
-      onLoginSuccess()
-    } else {
-      setError("E-mail ou senha incorretos.")
+    
+    console.log('Fazendo login com:', email) // Debug log
+    
+    try {
+      // Login real na API
+      const success = await login(email, password)
+      if (success) {
+        console.log('Login bem-sucedido!')
+        onLoginSuccess()
+      } else {
+        console.log('Falha no login')
+        setError("Login ou senha incorretos.")
+      }
+    } catch (error) {
+      console.error('Erro durante login:', error)
+      setError("Erro de conexão. Tente novamente.")
+    } finally {
+      setIsLoading(false)
     }
   }
 
@@ -107,9 +119,10 @@ function Login({ onLoginSuccess }) {
             <div>
               <button
                 type="submit"
-                className={`flex w-full justify-center rounded-lg bg-[${primaryColor}] cursor-pointer px-4 py-3 text-lg font-bold uppercase tracking-wider text-white shadow-lg transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2`}
+                disabled={isLoading}
+                className={`flex w-full justify-center rounded-lg bg-[${primaryColor}] cursor-pointer px-4 py-3 text-lg font-bold uppercase tracking-wider text-white shadow-lg transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed`}
               >
-                Entrar
+                {isLoading ? 'Entrando...' : 'Entrar'}
               </button>
             </div>
           </form>

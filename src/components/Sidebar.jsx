@@ -1,17 +1,55 @@
 "use client"
 
 import logo from "../assets/Logo-SharpSystem.jpg"
+import { usePermissions } from "../hooks/usePermissions"
 
 function Sidebar({ onNavigate, currentPage, onLogout }) {
-  const navItems = [
+  const { canAccessProfessors, isAluno, isResponsavel, userRole } = usePermissions()
+
+  // Menu items base para todos os usuários
+  const baseNavItems = [
     { name: "Home", page: "dashboard", active: currentPage === "dashboard" },
+  ]
+
+  // Menu items para alunos
+  const alunoNavItems = [
     { name: "Atividades", page: "atividades", active: currentPage === "atividades" },
     { name: "Ranking", page: "ranking", active: currentPage === "ranking" },
+    { name: "Perfil do aluno", page: "perfil", active: currentPage === "perfil" },
+  ]
+
+  // Menu items administrativos
+  const adminNavItems = [
     { name: "Relatório de Desempenho", page: "relatorio", active: currentPage === "relatorio" },
     { name: "Comunicados", page: "comunicados", active: currentPage === "comunicados" },
     { name: "Pagamentos", page: "pagamentos", active: currentPage === "pagamentos" },
-    { name: "Perfil do aluno", page: "perfil", active: currentPage === "perfil" },
   ]
+
+  // Menu items para gestão
+  const gestaoNavItems = []
+  
+  if (canAccessProfessors()) {
+    gestaoNavItems.push({
+      name: "Gestão de Professores", 
+      page: "professores", 
+      active: currentPage === "professores"
+    })
+  }
+
+  // Construir o menu final baseado na role
+  let navItems = [...baseNavItems]
+  
+  if (isAluno()) {
+    navItems = [...navItems, ...alunoNavItems]
+  } else if (isResponsavel()) {
+    // Responsáveis podem ver algumas informações dos alunos
+    navItems = [...navItems, ...alunoNavItems.filter(item => 
+      item.page !== "atividades" // Responsáveis não fazem atividades
+    )]
+  } else {
+    // Outros roles (admin, coordenador, secretaria, professor)
+    navItems = [...navItems, ...adminNavItems, ...gestaoNavItems]
+  }
 
   return (
     <div className="flex h-screen w-64 flex-col justify-between bg-[#D9D9D9] text-white shadow-xl">

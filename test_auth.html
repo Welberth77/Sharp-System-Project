@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste Autenticação</title>
+</head>
+<body>
+    <h1>Teste de Autenticação</h1>
+    
+    <div>
+        <h3>localStorage:</h3>
+        <pre id="localStorage"></pre>
+    </div>
+    
+    <div>
+        <h3>Teste GET /professores:</h3>
+        <button onclick="testProfessores()">Testar</button>
+        <pre id="result"></pre>
+    </div>
+    
+    <script>
+        // Mostrar localStorage
+        document.getElementById('localStorage').textContent = JSON.stringify({
+            authToken: localStorage.getItem('authToken'),
+            userRole: localStorage.getItem('userRole'),
+            userData: localStorage.getItem('userData')
+        }, null, 2);
+        
+        async function testProfessores() {
+            const token = localStorage.getItem('authToken');
+            const result = document.getElementById('result');
+            
+            if (!token) {
+                result.textContent = 'Token não encontrado no localStorage';
+                return;
+            }
+            
+            result.textContent = 'Testando...\n\n' + 
+                                `Token: ${token.substring(0, 30)}...\n` +
+                                `Headers: Authorization: Bearer ${token.substring(0, 30)}...\n\n`;
+            
+            try {
+                const response = await fetch('https://api.giorgiorafael.com/professores', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                const responseText = await response.text();
+                let data;
+                
+                try {
+                    data = JSON.parse(responseText);
+                } catch (e) {
+                    data = responseText;
+                }
+                
+                result.textContent = `Status: ${response.status} ${response.statusText}\n\n` +
+                                   `Headers enviados:\n` +
+                                   `Authorization: Bearer ${token.substring(0, 30)}...\n` +
+                                   `Content-Type: application/json\n\n` +
+                                   `Resposta:\n${typeof data === 'object' ? JSON.stringify(data, null, 2) : data}`;
+            } catch (error) {
+                result.textContent = `Erro: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>
