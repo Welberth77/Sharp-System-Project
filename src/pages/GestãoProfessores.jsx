@@ -9,6 +9,88 @@ function GestãoProfessores({ onNavigate, onLogout }) {
   const { api, isAuthenticated, token, userRole } = useAuth()
   const { canAccessProfessors, canManageProfessors, canDeleteProfessors } = usePermissions()
   
+  // Funções de formatação automática
+  const formatCPF = (value) => {
+    // Remove tudo que não é número
+    const numbers = value.replace(/\D/g, '')
+    
+    // Aplica a máscara XXX.XXX.XXX-XX
+    if (numbers.length <= 3) return numbers
+    if (numbers.length <= 6) return `${numbers.slice(0, 3)}.${numbers.slice(3)}`
+    if (numbers.length <= 9) return `${numbers.slice(0, 3)}.${numbers.slice(3, 6)}.${numbers.slice(6)}`
+    return `${numbers.slice(0, 3)}.${numbers.slice(3, 6)}.${numbers.slice(6, 9)}-${numbers.slice(9, 11)}`
+  }
+
+  const formatRGNumber = (value) => {
+    // Remove tudo que não é número e limita a 7 dígitos
+    return value.replace(/\D/g, '').slice(0, 7)
+  }
+
+  const formatOrgaoEmissor = (value) => {
+    // Remove números e caracteres especiais, mantém apenas letras e barra
+    let clean = value.replace(/[^a-zA-Z\/]/g, '').toUpperCase()
+    
+    // Se tem mais de 3 letras sem barra, adiciona barra automaticamente
+    if (clean.length >= 5 && !clean.includes('/')) {
+      const orgao = clean.slice(0, -2)
+      const uf = clean.slice(-2)
+      return `${orgao}/${uf}`
+    }
+    
+    return clean
+  }
+
+  const formatTelefone = (value) => {
+    // Remove tudo que não é número
+    const numbers = value.replace(/\D/g, '')
+    
+    // Aplica a máscara (XX) XXXXX-XXXX ou (XX) XXXX-XXXX
+    if (numbers.length <= 2) return numbers
+    if (numbers.length <= 7) return `(${numbers.slice(0, 2)}) ${numbers.slice(2)}`
+    if (numbers.length <= 10) return `(${numbers.slice(0, 2)}) ${numbers.slice(2, 6)}-${numbers.slice(6)}`
+    return `(${numbers.slice(0, 2)}) ${numbers.slice(2, 7)}-${numbers.slice(7, 11)}`
+  }
+
+  const formatCEP = (value) => {
+    // Remove tudo que não é número
+    const numbers = value.replace(/\D/g, '')
+    
+    // Aplica a máscara XXXXX-XXX
+    if (numbers.length <= 5) return numbers
+    return `${numbers.slice(0, 5)}-${numbers.slice(5, 8)}`
+  }
+
+  // Funções de validação
+  const validateCPF = (cpf) => {
+    const numbers = cpf.replace(/\D/g, '')
+    if (numbers.length !== 11) return false
+    
+    // Verifica se não é uma sequência de números iguais
+    if (/^(\d)\1+$/.test(numbers)) return false
+    
+    // Algoritmo de validação do CPF
+    let sum = 0
+    for (let i = 0; i < 9; i++) {
+      sum += parseInt(numbers[i]) * (10 - i)
+    }
+    let digit1 = 11 - (sum % 11)
+    if (digit1 > 9) digit1 = 0
+    
+    sum = 0
+    for (let i = 0; i < 10; i++) {
+      sum += parseInt(numbers[i]) * (11 - i)
+    }
+    let digit2 = 11 - (sum % 11)
+    if (digit2 > 9) digit2 = 0
+    
+    return parseInt(numbers[9]) === digit1 && parseInt(numbers[10]) === digit2
+  }
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    return emailRegex.test(email)
+  }
+  
   // Verificar se o usuário tem permissão para acessar esta página
   if (!isAuthenticated) {
     return (
@@ -56,11 +138,13 @@ function GestãoProfessores({ onNavigate, onLogout }) {
   const [showModal, setShowModal] = useState(false)
   const [editingProfessor, setEditingProfessor] = useState(null)
   const [activeTab, setActiveTab] = useState('ativos') // 'ativos' ou 'inativos'
+  const [validationErrors, setValidationErrors] = useState({}) // Para erros de validação inline
   const [formData, setFormData] = useState({
     nomeCompleto: '',
     email: '',
     cpf: '',
-    rg: '',
+    rgNumero: '',
+    orgaoEmissor: '',
     dataNascimento: '',
     telefoneContato: '',
     endereco: {
@@ -177,18 +261,32 @@ function GestãoProfessores({ onNavigate, onLogout }) {
     e.preventDefault()
     
     try {
-      console.log('Enviando dados do professor:', formData) // Debug log
+      // Combinar RG número e órgão emissor
+      const rgCompleto = formData.rgNumero && formData.orgaoEmissor 
+        ? `${formData.rgNumero} ${formData.orgaoEmissor}`
+        : formData.rgNumero || ''
+      
+      const dataToSend = {
+        ...formData,
+        rg: rgCompleto
+      }
+      
+      // Remove campos temporários
+      delete dataToSend.rgNumero
+      delete dataToSend.orgaoEmissor
+      
+      console.log('Enviando dados do professor:', dataToSend) // Debug log
       console.log('Token configurado:', api.defaults.headers.common.Authorization) // Debug log
 
       if (editingProfessor) {
         // Editar professor existente
         console.log('Atualizando professor ID:', editingProfessor.id) // Debug log
-        await api.put(`/professores/${editingProfessor.id}`, formData)
+        await api.put(`/professores/${editingProfessor.id}`, dataToSend)
         alert('Professor atualizado com sucesso!')
       } else {
         // Criar novo professor
         console.log('Criando novo professor') // Debug log
-        const response = await api.post('/professores', formData)
+        const response = await api.post('/professores', dataToSend)
         console.log('Professor criado:', response.data) // Debug log
         alert('Professor criado com sucesso!')
       }
@@ -211,11 +309,18 @@ function GestãoProfessores({ onNavigate, onLogout }) {
 
   const handleEdit = (professor) => {
     setEditingProfessor(professor)
+    
+    // Separar RG em número e órgão emissor
+    const rgParts = professor.rg ? professor.rg.split(' ') : ['', '']
+    const rgNumero = rgParts[0] || ''
+    const orgaoEmissor = rgParts.slice(1).join(' ') || ''
+    
     setFormData({
       nomeCompleto: professor.nomeCompleto || '',
       email: professor.email || '',
       cpf: professor.cpf || '',
-      rg: professor.rg || '',
+      rgNumero: rgNumero,
+      orgaoEmissor: orgaoEmissor,
       dataNascimento: professor.dataNascimento || '',
       telefoneContato: professor.telefoneContato || '',
       endereco: {
@@ -316,11 +421,13 @@ function GestãoProfessores({ onNavigate, onLogout }) {
 
   const openCreateModal = () => {
     setEditingProfessor(null)
+    setValidationErrors({}) // Limpar erros de validação
     setFormData({
       nomeCompleto: '',
       email: '',
       cpf: '',
-      rg: '',
+      rgNumero: '',
+      orgaoEmissor: '',
       dataNascimento: '',
       telefoneContato: '',
       endereco: {
@@ -343,11 +450,13 @@ function GestãoProfessores({ onNavigate, onLogout }) {
   const closeModal = () => {
     setShowModal(false)
     setEditingProfessor(null)
+    setValidationErrors({}) // Limpar erros de validação
     setFormData({
       nomeCompleto: '',
       email: '',
       cpf: '',
-      rg: '',
+      rgNumero: '',
+      orgaoEmissor: '',
       dataNascimento: '',
       telefoneContato: '',
       endereco: {
@@ -564,18 +673,23 @@ function GestãoProfessores({ onNavigate, onLogout }) {
 
       {/* Modal para criar/editar professor */}
       {showModal && (
-        <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50 overflow-y-auto">
-          <div className="bg-white rounded-lg p-6 w-full max-w-4xl mx-4 max-h-screen overflow-y-auto my-8">
-            <h2 className="text-xl font-bold mb-6">
-              {editingProfessor ? 'Editar Professor' : 'Novo Professor'}
-            </h2>
+        <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg w-full max-w-6xl h-full max-h-[95vh] flex flex-col">
+            {/* Header fixo */}
+            <div className="p-6 border-b border-gray-200 flex-shrink-0">
+              <h2 className="text-xl font-bold">
+                {editingProfessor ? 'Editar Professor' : 'Novo Professor'}
+              </h2>
+            </div>
             
-            <form onSubmit={handleSubmit} className="space-y-6">
+            {/* Conteúdo com scroll */}
+            <div className="flex-1 overflow-y-auto p-6">
+              <form onSubmit={handleSubmit} className="space-y-6" id="professorForm">
               {/* Dados Pessoais */}
               <div className="bg-gray-50 p-4 rounded-lg">
                 <h3 className="text-lg font-semibold mb-4 text-gray-800">Dados Pessoais</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="md:col-span-2">
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       Nome Completo *
                     </label>
@@ -589,44 +703,112 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Email *
+                    <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center justify-between">
+                      <span>Email *</span>
+                      {validationErrors.email && (
+                        <span className="text-red-500 text-xs font-normal">
+                          {validationErrors.email}
+                        </span>
+                      )}
                     </label>
                     <input
                       type="email"
                       value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      onChange={(e) => {
+                        setFormData({ ...formData, email: e.target.value })
+                        // Limpar erro quando o usuário começar a digitar
+                        if (validationErrors.email) {
+                          setValidationErrors(prev => ({ ...prev, email: null }))
+                        }
+                      }}
+                      onBlur={(e) => {
+                        if (e.target.value && !validateEmail(e.target.value)) {
+                          setValidationErrors(prev => ({ ...prev, email: 'Email inválido' }))
+                        } else {
+                          setValidationErrors(prev => ({ ...prev, email: null }))
+                        }
+                      }}
+                      className={`w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${
+                        validationErrors.email
+                          ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+                          : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'
+                      }`}
                       required
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                      CPF *
+                    <label className="block text-sm font-medium text-gray-700 mb-1 flex items-center justify-between">
+                      <span>CPF *</span>
+                      {validationErrors.cpf && (
+                        <span className="text-red-500 text-xs font-normal">
+                          {validationErrors.cpf}
+                        </span>
+                      )}
                     </label>
                     <input
                       type="text"
                       value={formData.cpf}
-                      onChange={(e) => setFormData({ ...formData, cpf: e.target.value })}
+                      onChange={(e) => {
+                        const formatted = formatCPF(e.target.value)
+                        setFormData({ ...formData, cpf: formatted })
+                        // Limpar erro quando o usuário começar a digitar
+                        if (validationErrors.cpf) {
+                          setValidationErrors(prev => ({ ...prev, cpf: null }))
+                        }
+                      }}
+                      onBlur={(e) => {
+                        if (e.target.value && !validateCPF(e.target.value)) {
+                          setValidationErrors(prev => ({ ...prev, cpf: 'CPF inválido' }))
+                        } else {
+                          setValidationErrors(prev => ({ ...prev, cpf: null }))
+                        }
+                      }}
                       placeholder="000.000.000-00"
-                      className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      maxLength="14"
+                      className={`w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 ${
+                        validationErrors.cpf
+                          ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
+                          : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'
+                      }`}
                       required
                     />
                   </div>
 
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                      RG *
-                    </label>
-                    <input
-                      type="text"
-                      value={formData.rg}
-                      onChange={(e) => setFormData({ ...formData, rg: e.target.value })}
-                      placeholder="0000000-0 SSP/UF"
-                      className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      required
-                    />
+                  <div className="grid grid-cols-2 gap-2">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        RG (Números) *
+                      </label>
+                      <input
+                        type="text"
+                        value={formData.rgNumero}
+                        onChange={(e) => {
+                          const formatted = formatRGNumber(e.target.value)
+                          setFormData({ ...formData, rgNumero: formatted })
+                        }}
+                        placeholder="1234567"
+                        maxLength="7"
+                        className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        Órgão Emissor *
+                      </label>
+                      <input
+                        type="text"
+                        value={formData.orgaoEmissor}
+                        onChange={(e) => {
+                          const formatted = formatOrgaoEmissor(e.target.value)
+                          setFormData({ ...formData, orgaoEmissor: formatted })
+                        }}
+                        placeholder="SSP/AL"
+                        className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required
+                      />
+                    </div>
                   </div>
 
                   <div>
@@ -649,8 +831,12 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                     <input
                       type="tel"
                       value={formData.telefoneContato}
-                      onChange={(e) => setFormData({ ...formData, telefoneContato: e.target.value })}
+                      onChange={(e) => {
+                        const formatted = formatTelefone(e.target.value)
+                        setFormData({ ...formData, telefoneContato: formatted })
+                      }}
                       placeholder="(00) 00000-0000"
+                      maxLength="15"
                       className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                       required
                     />
@@ -774,8 +960,12 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                     <input
                       type="text"
                       value={formData.endereco.cep}
-                      onChange={(e) => updateEnderecoField('cep', e.target.value)}
+                      onChange={(e) => {
+                        const formatted = formatCEP(e.target.value)
+                        updateEnderecoField('cep', formatted)
+                      }}
                       placeholder="00000-000"
+                      maxLength="9"
                       className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                       required
                     />
@@ -786,7 +976,7 @@ function GestãoProfessores({ onNavigate, onLogout }) {
               {/* Dados Profissionais */}
               <div className="bg-gray-50 p-4 rounded-lg">
                 <h3 className="text-lg font-semibold mb-4 text-gray-800">Dados Profissionais</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       Data de Contratação *
@@ -815,7 +1005,7 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                     </select>
                   </div>
 
-                  <div>
+                  <div className="md:col-span-3">
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       Formação Acadêmica *
                     </label>
@@ -844,8 +1034,12 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                   />
                 </div>
               </div>
-
-              <div className="flex justify-end space-x-3 pt-6 border-t">
+              </form>
+            </div>
+            
+            {/* Footer fixo */}
+            <div className="p-6 border-t border-gray-200 flex-shrink-0">
+              <div className="flex justify-end space-x-3">
                 <button
                   type="button"
                   onClick={closeModal}
@@ -855,12 +1049,13 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                 </button>
                 <button
                   type="submit"
+                  form="professorForm"
                   className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   {editingProfessor ? 'Atualizar' : 'Criar'} Professor
                 </button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       )}
