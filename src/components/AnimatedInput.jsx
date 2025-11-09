@@ -11,6 +11,7 @@ function AnimatedInput({
   onBlur = () => {},
   error = false,
   name = "",
+  icon = null,
 }) {
   const [isFocused, setIsFocused] = useState(false)
   const hasValue = value.length > 0
@@ -31,7 +32,12 @@ function AnimatedInput({
         className={`animated-input ${error ? "error" : ""}`}
         placeholder=" "
       />
-      <label className={`animated-label ${isActive ? "active" : ""}`}>{placeholder}</label>
+      <label className={`animated-label ${isActive ? "active" : ""}`}>
+        {placeholder}
+      </label>
+      {icon && hasValue && (
+        <span className="input-icon">{icon}</span>
+      )}
     </div>
   )
 }

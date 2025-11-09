@@ -58,6 +58,61 @@
   font-size: 0.875rem;
 }
 
+.animated-label.with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.label-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+.label-icon:hover {
+  background-color: rgba(40, 56, 144, 0.1);
+}
+
+.label-icon svg {
+  width: 1rem;
+  height: 1rem;
+  color: #283890;
+}
+
+.input-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease, transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: left center;
+  /* Posição inicial (mesmo local do label) */
+  left: 1rem;
+  top: 0.55rem;
+}
+
+/* Quando o label está ativo, o ícone acompanha a animação */
+.animated-input:focus ~ .input-icon,
+.animated-input:not(:placeholder-shown) ~ .input-icon {
+  transform: translateX(calc(100% + 16rem)) translateY(10%) scale(0.85);
+}
+
+.input-icon:hover {
+  background-color: rgba(40, 56, 144, 0.1);
+}
+
+.input-icon svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  color: #283890;
+}
+
 /* Aplica o mesmo estado quando o input está em foco ou possui valor */
 .animated-input:focus ~ .animated-label,
 .animated-input:not(:placeholder-shown) ~ .animated-label {

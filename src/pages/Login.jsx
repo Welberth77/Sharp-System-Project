@@ -5,6 +5,7 @@ import { useState } from "react"
 import { useAuth } from "../context/AuthContext.jsx"
 import logo from "../assets/Logo-SharpSystem.jpg"
 import AnimatedInput from "../components/AnimatedInput"
+import { Eye, EyeOff } from 'lucide-react';
 import "../styles/Login.css"
 
 function Login({ onLoginSuccess }) {
@@ -13,6 +14,7 @@ function Login({ onLoginSuccess }) {
   const [error, setError] = useState("")
   const [emailError, setEmailError] = useState("")
   const [isLoading, setIsLoading] = useState(false)
+  const [showPassword, setShowPassword] = useState(false)
   const { login } = useAuth()
   const primaryColor = "#283890"
 
@@ -100,11 +102,16 @@ function Login({ onLoginSuccess }) {
             {emailError && <p className="mt-2 text-sm text-red-600 mb-4">{emailError}</p>}
 
             <AnimatedInput
-              type="password"
+              type={showPassword ? "text" : "password"}
               name="password"
               placeholder="Senha"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              icon={password.length > 0 ? (
+                <span onClick={() => setShowPassword(!showPassword)}>
+                  {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
+                </span>
+              ) : null}
             />
 
             <div className="mb-8 flex justify-between">
