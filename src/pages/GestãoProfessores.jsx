@@ -88,7 +88,7 @@ function GestãoProfessores({ onNavigate, onLogout }) {
   const professoresInativos = professores.filter(prof => prof.professorStatus === 'INATIVO')
   
   // TEMPORÁRIO: usar todos os professores para debug
-  const professoresFiltrados = professores // activeTab === 'ativos' ? professoresAtivos : professoresInativos
+  const professoresFiltrados = activeTab === 'ativos' ? professoresAtivos : professoresInativos
 
   // Debug dos filtros
   console.log('=== DEBUG FILTROS ===')
@@ -133,7 +133,7 @@ function GestãoProfessores({ onNavigate, onLogout }) {
       
       // Fazer requisição com headers explícitos para debug
       const authToken = localStorage.getItem('authToken')
-      const response = await api.get('/professores/debug/all', {
+      const response = await api.get('/professores', {
         headers: {
           'Authorization': `Bearer ${authToken}`,
           'Content-Type': 'application/json'
@@ -564,7 +564,7 @@ function GestãoProfessores({ onNavigate, onLogout }) {
 
       {/* Modal para criar/editar professor */}
       {showModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 overflow-y-auto">
+        <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50 overflow-y-auto">
           <div className="bg-white rounded-lg p-6 w-full max-w-4xl mx-4 max-h-screen overflow-y-auto my-8">
             <h2 className="text-xl font-bold mb-6">
               {editingProfessor ? 'Editar Professor' : 'Novo Professor'}
