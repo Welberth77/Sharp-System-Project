@@ -114,12 +114,9 @@ function Login({ onLoginSuccess }) {
               ) : null}
             />
 
-            <div className="mb-8 flex justify-between">
+            <div className="mb-8 flex justify-end">
               <a href="#" className="text-base font-semibold text-blue-600 cursor-pointer hover:underline">
                 Esqueceu sua senha?
-              </a>
-              <a href="" className="text-base font-semibold text-blue-600 cursor-pointer hover:underline">
-                Cadastre-se aqui!
               </a>
             </div>
 
