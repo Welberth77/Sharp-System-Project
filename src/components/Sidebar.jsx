@@ -15,7 +15,10 @@ function Sidebar({ onNavigate, currentPage, onLogout }) {
   const alunoNavItems = [
     { name: "Atividades", page: "atividades", active: currentPage === "atividades" },
     { name: "Ranking", page: "ranking", active: currentPage === "ranking" },
-    { name: "Perfil do aluno", page: "perfil", active: currentPage === "perfil" },
+    { name: "Relatório de Desempenho", page: "relatorioAluno", active: currentPage === "relatorioAluno"}, // Criar página
+    { name: "Comunicados", page: "comunicadosAluno", active: currentPage === "comunicadosAluno"}, // Criar página
+    { name: "Pagamentos", page: "pagamentosAluno", active: currentPage === "pagamentosAluno"}, // Criar página
+    { name: "Perfil do aluno", page: "perfil", active: currentPage === "perfil" }, // Criar página
   ]
 
   // Menu items administrativos
