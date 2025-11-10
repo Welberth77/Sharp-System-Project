@@ -1,4 +1,3 @@
-// Ajuste o caminho da logo se necessário
 import logo from '../assets/logo-sharpSystem.jpg'; 
 
 // Componente para um card de posição no ranking
@@ -6,7 +5,7 @@ function RankingCard({ aluno, isCurrentUser, isTop3 }) {
   
   // Define o estilo de destaque para Pódio e Aluno Logado
   let cardClass = "bg-gray-100 border-l-4 border-gray-200";
-  let positionClass = "text-gray-500";
+  let positionClass = "text-blue-800 font-medium";
 
   if (isCurrentUser) {
     cardClass = "bg-blue-50 border-l-4 border-blue-600 shadow-md";

@@ -20,7 +20,7 @@ const generateRanking = (currentUserMatricula) => {
         { nome: 'Luiz Fernando', pontuacao: 84300, matricula: 'M1006' },
         { nome: 'Mônica Souza', pontuacao: 83100, matricula: 'M1009' },
         { nome: 'Nuno Pereira', pontuacao: 82000, matricula: 'M1011' },
-        { nome: '**VOCÊ (Aluno Atual)**', pontuacao: 79500, matricula: currentUserMatricula }, // Aluno Logado
+        { nome: '**VOCÊ (Aluno Atual)**', pontuacao: 7500, matricula: currentUserMatricula }, // Aluno Logado
         { nome: 'Otávio Martins', pontuacao: 78900, matricula: 'M1013' },
         { nome: 'Paula Gomes', pontuacao: 76500, matricula: 'M1014' },
         { nome: 'Rafaela Borges', pontuacao: 75200, matricula: 'M1016' },
@@ -61,8 +61,7 @@ function RankingAlunos({ onNavigate, onLogout }) {
             
             <div className="flex-1 flex flex-col">
                 
-                {/* Usando o Header Admin para simplificar, você pode criar um HeaderAluno */}
-                <Header adminName="Aluno" /> 
+                <Header nameAluno="Aluno" /> 
                 
                 <main className="flex-1 p-8 overflow-y-auto">
                     

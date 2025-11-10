@@ -1,6 +1,10 @@
 /* Modern styling with improved visual hierarchy and smooth interactions */
+.game-container {
+  width: 80%;
+}
+
 .multiple-choice {
-  max-width: 600px;
+  max-width: 100%;
   margin: 2rem auto;
 }
 
