@@ -23,6 +23,7 @@ function Sidebar({ onNavigate, currentPage, onLogout }) {
     { name: "Relatório de Desempenho", page: "relatorio", active: currentPage === "relatorio" },
     { name: "Comunicados", page: "comunicados", active: currentPage === "comunicados" },
     { name: "Pagamentos", page: "pagamentos", active: currentPage === "pagamentos" },
+    { name: "Cadastro de Alunos", page: "cadastro", active: currentPage === "cadastro"}, // Não esta carregando para cadastrar aluno
   ]
 
   // Menu items para gestão
