@@ -1,22 +1,35 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import "./App.css"
 import Login from "./pages/Login"
 import AppRouter from "./components/AppRouter"
 import SplashScreen from "./components/SplashScreen"
+import { useAuth } from "./context/AuthContext"
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [showSplash, setShowSplash] = useState(true)
   const [splashExiting, setSplashExiting] = useState(false)
+  const { logout, isAuthenticated } = useAuth() // Importar isAuthenticated também
+
+  // Sincronizar estado local com AuthContext na inicialização
+  useEffect(() => {
+    if (isAuthenticated) {
+      console.log('Token válido encontrado, fazendo login automático') // Debug
+      setIsLoggedIn(true)
+    }
+  }, [isAuthenticated])
 
   const handleLoginSuccess = () => {
     setIsLoggedIn(true)
   }
 
   const handleLogout = () => {
-    setIsLoggedIn(false)
+    console.log('Executando logout completo...') // Debug
+    logout() // Limpar token e dados do AuthContext
+    setIsLoggedIn(false) // Atualizar estado local do App
+    console.log('Logout completo realizado') // Debug
   }
 
   const handleSplashExit = () => {

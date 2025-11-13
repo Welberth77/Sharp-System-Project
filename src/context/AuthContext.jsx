@@ -64,23 +64,28 @@ export function AuthProvider({ children }) {
       api.defaults.headers.common.Authorization = `Bearer ${token}`
       console.log('Headers configurados no axios:', api.defaults.headers.common.Authorization?.substring(0, 40) + '...') // Debug
     } else {
+      // Token foi removido ou é null - limpar tudo
       localStorage.removeItem("authToken")
       localStorage.removeItem("userRole")
       localStorage.removeItem("userData")
       delete api.defaults.headers.common.Authorization
-      console.log('Token removido, headers limpos') // Debug
+      console.log('Token removido, headers e localStorage limpos') // Debug
     }
   }, [token])
 
   useEffect(() => {
     if (userRole) {
       localStorage.setItem("userRole", userRole)
+    } else {
+      localStorage.removeItem("userRole")
     }
   }, [userRole])
 
   useEffect(() => {
     if (userData) {
       localStorage.setItem("userData", JSON.stringify(userData))
+    } else {
+      localStorage.removeItem("userData")
     }
   }, [userData])
 
@@ -122,9 +127,24 @@ export function AuthProvider({ children }) {
   }
 
   const logout = () => {
+    console.log('Executando logout no AuthContext...') // Debug
+    
+    // Limpar estados
     setToken(null)
     setUserRole(null)
     setUserData(null)
+    
+    // Limpar localStorage explicitamente
+    localStorage.removeItem("authToken")
+    localStorage.removeItem("userRole")  
+    localStorage.removeItem("userData")
+    
+    // Limpar headers do axios
+    delete api.defaults.headers.common.Authorization
+    
+    console.log('Logout do AuthContext concluído') // Debug
+    console.log('Token após logout:', localStorage.getItem("authToken")) // Debug
+    console.log('Headers após logout:', api.defaults.headers.common.Authorization) // Debug
   }
 
   const value = useMemo(
