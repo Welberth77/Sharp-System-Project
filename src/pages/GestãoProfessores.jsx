@@ -134,6 +134,7 @@ function GestãoProfessores({ onNavigate, onLogout }) {
   
   const [professores, setProfessores] = useState([])
   const [loading, setLoading] = useState(true)
+  const [loadingProfessorData, setLoadingProfessorData] = useState(false) // Novo estado para loading da edição
   const [error, setError] = useState('')
   const [showModal, setShowModal] = useState(false)
   const [editingProfessor, setEditingProfessor] = useState(null)
@@ -307,37 +308,115 @@ function GestãoProfessores({ onNavigate, onLogout }) {
     }
   }
 
-  const handleEdit = (professor) => {
+  const handleEdit = async (professor) => {
     setEditingProfessor(professor)
+    setLoadingProfessorData(true) // Iniciar loading
+    setShowModal(true) // Mostrar modal com loading
     
-    // Separar RG em número e órgão emissor
-    const rgParts = professor.rg ? professor.rg.split(' ') : ['', '']
-    const rgNumero = rgParts[0] || ''
-    const orgaoEmissor = rgParts.slice(1).join(' ') || ''
-    
-    setFormData({
-      nomeCompleto: professor.nomeCompleto || '',
-      email: professor.email || '',
-      cpf: professor.cpf || '',
-      rgNumero: rgNumero,
-      orgaoEmissor: orgaoEmissor,
-      dataNascimento: professor.dataNascimento || '',
-      telefoneContato: professor.telefoneContato || '',
-      endereco: {
-        logradouro: professor.endereco?.logradouro || '',
-        numero: professor.endereco?.numero || '',
-        complemento: professor.endereco?.complemento || '',
-        bairro: professor.endereco?.bairro || '',
-        cidade: professor.endereco?.cidade || '',
-        estado: professor.endereco?.estado || '',
-        cep: professor.endereco?.cep || ''
-      },
-      dataContratacao: professor.dataContratacao || '',
-      professorStatus: professor.professorStatus || 'ATIVO',
-      formacaoAcademica: professor.formacaoAcademica || '',
-      biografia: professor.biografia || ''
-    })
-    setShowModal(true)
+    try {
+      // Buscar dados completos do professor específico na rota debug
+      console.log('Buscando dados completos do professor ID:', professor.id)
+      const response = await api.get(`/professores/debug/${professor.id}`)
+      console.log('Dados completos do professor:', response.data)
+      
+      const professorCompleto = response.data
+      
+      if (professorCompleto) {
+        console.log('Professor completo carregado:', professorCompleto)
+        
+        // Separar RG em número e órgão emissor
+        const rgParts = professorCompleto.rg ? professorCompleto.rg.split(' ') : ['', '']
+        const rgNumero = rgParts[0] || ''
+        const orgaoEmissor = rgParts.slice(1).join(' ') || ''
+        
+        setFormData({
+          nomeCompleto: professorCompleto.nomeCompleto || '',
+          email: professorCompleto.email || '',
+          cpf: professorCompleto.cpf || '',
+          rgNumero: rgNumero,
+          orgaoEmissor: orgaoEmissor,
+          dataNascimento: professorCompleto.dataNascimento || '',
+          telefoneContato: professorCompleto.telefoneContato || '',
+          endereco: {
+            logradouro: professorCompleto.endereco?.logradouro || '',
+            numero: professorCompleto.endereco?.numero || '',
+            complemento: professorCompleto.endereco?.complemento || '',
+            bairro: professorCompleto.endereco?.bairro || '',
+            cidade: professorCompleto.endereco?.cidade || '',
+            estado: professorCompleto.endereco?.estado || '',
+            cep: professorCompleto.endereco?.cep || ''
+          },
+          dataContratacao: professorCompleto.dataContratacao || '',
+          professorStatus: professorCompleto.professorStatus || 'ATIVO',
+          formacaoAcademica: professorCompleto.formacaoAcademica || '',
+          biografia: professorCompleto.biografia || ''
+        })
+      } else {
+        console.warn('Dados do professor não encontrados, usando dados da lista')
+        
+        // Fallback para dados da lista caso a resposta esteja vazia
+        const rgParts = professor.rg ? professor.rg.split(' ') : ['', '']
+        const rgNumero = rgParts[0] || ''
+        const orgaoEmissor = rgParts.slice(1).join(' ') || ''
+        
+        setFormData({
+          nomeCompleto: professor.nomeCompleto || '',
+          email: professor.email || '',
+          cpf: professor.cpf || '',
+          rgNumero: rgNumero,
+          orgaoEmissor: orgaoEmissor,
+          dataNascimento: professor.dataNascimento || '',
+          telefoneContato: professor.telefoneContato || '',
+          endereco: {
+            logradouro: professor.endereco?.logradouro || '',
+            numero: professor.endereco?.numero || '',
+            complemento: professor.endereco?.complemento || '',
+            bairro: professor.endereco?.bairro || '',
+            cidade: professor.endereco?.cidade || '',
+            estado: professor.endereco?.estado || '',
+            cep: professor.endereco?.cep || ''
+          },
+          dataContratacao: professor.dataContratacao || '',
+          professorStatus: professor.professorStatus || 'ATIVO',
+          formacaoAcademica: professor.formacaoAcademica || '',
+          biografia: professor.biografia || ''
+        })
+      }
+    } catch (error) {
+      console.error('Erro ao buscar dados completos do professor:', error)
+      
+      // Fallback para dados básicos em caso de erro
+      const rgParts = professor.rg ? professor.rg.split(' ') : ['', '']
+      const rgNumero = rgParts[0] || ''
+      const orgaoEmissor = rgParts.slice(1).join(' ') || ''
+      
+      setFormData({
+        nomeCompleto: professor.nomeCompleto || '',
+        email: professor.email || '',
+        cpf: professor.cpf || '',
+        rgNumero: rgNumero,
+        orgaoEmissor: orgaoEmissor,
+        dataNascimento: professor.dataNascimento || '',
+        telefoneContato: professor.telefoneContato || '',
+        endereco: {
+          logradouro: professor.endereco?.logradouro || '',
+          numero: professor.endereco?.numero || '',
+          complemento: professor.endereco?.complemento || '',
+          bairro: professor.endereco?.bairro || '',
+          cidade: professor.endereco?.cidade || '',
+          estado: professor.endereco?.estado || '',
+          cep: professor.endereco?.cep || ''
+        },
+        dataContratacao: professor.dataContratacao || '',
+        professorStatus: professor.professorStatus || 'ATIVO',
+        formacaoAcademica: professor.formacaoAcademica || '',
+        biografia: professor.biografia || ''
+      })
+      
+      alert('Aviso: Não foi possível carregar todos os dados do professor. Alguns campos podem estar vazios.')
+    } finally {
+      setLoadingProfessorData(false) // Parar loading
+    }
   }
 
   const handleDelete = async (id) => {
@@ -450,6 +529,7 @@ function GestãoProfessores({ onNavigate, onLogout }) {
   const closeModal = () => {
     setShowModal(false)
     setEditingProfessor(null)
+    setLoadingProfessorData(false) // Resetar loading
     setValidationErrors({}) // Limpar erros de validação
     setFormData({
       nomeCompleto: '',
@@ -615,9 +695,14 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                                   <>
                                     <button
                                       onClick={() => handleEdit(professor)}
-                                      className="text-blue-600 hover:text-blue-900 font-medium"
+                                      disabled={loadingProfessorData}
+                                      className={`font-medium ${
+                                        loadingProfessorData 
+                                          ? 'text-gray-400 cursor-not-allowed' 
+                                          : 'text-blue-600 hover:text-blue-900'
+                                      }`}
                                     >
-                                      Editar
+                                      {loadingProfessorData ? 'Carregando...' : 'Editar'}
                                     </button>
                                     <button
                                       onClick={() => handleInactivate(professor)}
@@ -677,14 +762,39 @@ function GestãoProfessores({ onNavigate, onLogout }) {
           <div className="bg-white rounded-lg w-full max-w-6xl h-full max-h-[95vh] flex flex-col">
             {/* Header fixo */}
             <div className="p-6 border-b border-gray-200 flex-shrink-0">
-              <h2 className="text-xl font-bold">
-                {editingProfessor ? 'Editar Professor' : 'Novo Professor'}
-              </h2>
+              <div className="flex items-center justify-between">
+                <h2 className="text-xl font-bold">
+                  {editingProfessor ? 'Editar Professor' : 'Novo Professor'}
+                </h2>
+                {loadingProfessorData && (
+                  <div className="flex items-center text-blue-600">
+                    <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span className="text-sm">Carregando dados completos...</span>
+                  </div>
+                )}
+              </div>
             </div>
             
             {/* Conteúdo com scroll */}
             <div className="flex-1 overflow-y-auto p-6">
-              <form onSubmit={handleSubmit} className="space-y-6" id="professorForm">
+              {loadingProfessorData ? (
+                // Tela de loading
+                <div className="flex items-center justify-center h-96">
+                  <div className="text-center">
+                    <svg className="animate-spin mx-auto h-12 w-12 text-blue-600 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <p className="text-lg text-gray-600 mb-2">Carregando dados completos do professor</p>
+                    <p className="text-sm text-gray-500">Buscando informações detalhadas na API...</p>
+                  </div>
+                </div>
+              ) : (
+                // Formulário normal
+                <form onSubmit={handleSubmit} className="space-y-6" id="professorForm">
               {/* Dados Pessoais */}
               <div className="bg-gray-50 p-4 rounded-lg">
                 <h3 className="text-lg font-semibold mb-4 text-gray-800">Dados Pessoais</h3>
@@ -1033,26 +1143,38 @@ function GestãoProfessores({ onNavigate, onLogout }) {
                     required
                   />
                 </div>
-              </div>
+                </div>
               </form>
-            </div>
-            
-            {/* Footer fixo */}
+              )}
+            </div>            {/* Footer fixo */}
             <div className="p-6 border-t border-gray-200 flex-shrink-0">
               <div className="flex justify-end space-x-3">
                 <button
                   type="button"
                   onClick={closeModal}
-                  className="px-6 py-2 text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+                  disabled={loadingProfessorData}
+                  className={`px-6 py-2 border border-gray-300 rounded-lg transition-colors ${
+                    loadingProfessorData
+                      ? 'text-gray-400 bg-gray-100 cursor-not-allowed'
+                      : 'text-gray-600 hover:bg-gray-50'
+                  }`}
                 >
                   Cancelar
                 </button>
                 <button
                   type="submit"
                   form="professorForm"
-                  className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                  disabled={loadingProfessorData}
+                  className={`px-6 py-2 rounded-lg transition-colors ${
+                    loadingProfessorData
+                      ? 'bg-gray-400 text-white cursor-not-allowed'
+                      : 'bg-blue-600 text-white hover:bg-blue-700'
+                  }`}
                 >
-                  {editingProfessor ? 'Atualizar' : 'Criar'} Professor
+                  {loadingProfessorData 
+                    ? 'Carregando...' 
+                    : `${editingProfessor ? 'Atualizar' : 'Criar'} Professor`
+                  }
                 </button>
               </div>
             </div>

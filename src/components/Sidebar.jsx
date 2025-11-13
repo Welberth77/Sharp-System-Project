@@ -4,7 +4,7 @@ import logo from "../assets/Logo-SharpSystem.jpg"
 import { usePermissions } from "../hooks/usePermissions"
 
 function Sidebar({ onNavigate, currentPage, onLogout }) {
-  const { canAccessProfessors, isAluno, isResponsavel, userRole } = usePermissions()
+  const { canAccessProfessors, canAccessLogs, isAluno, isResponsavel, userRole } = usePermissions()
 
   // Menu items base para todos os usuários
   const baseNavItems = [
@@ -37,6 +37,14 @@ function Sidebar({ onNavigate, currentPage, onLogout }) {
       name: "Gestão de Professores", 
       page: "professores", 
       active: currentPage === "professores"
+    })
+  }
+  
+  if (canAccessLogs()) {
+    gestaoNavItems.push({
+      name: "Logs do Sistema", 
+      page: "logs", 
+      active: currentPage === "logs"
     })
   }
 

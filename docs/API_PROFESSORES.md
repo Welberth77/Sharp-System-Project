@@ -33,6 +33,40 @@
 ]
 ```
 
+### 🔍 GET /professores/debug/{id}
+**Descrição**: Busca dados completos de um professor específico (usado na edição)
+**Parâmetros**: `id` do professor na URL
+**Resposta Esperada**:
+```json
+{
+  "id": 1,
+  "nomeCompleto": "Ricardo Almeida Costa",
+  "email": "ricardo.costa@escoladeingles.com",
+  "cpf": "111.222.333-44",
+  "rg": "1234567-8 SSP/AL",
+  "dataNascimento": "1990-07-25",
+  "telefoneContato": "(82) 99876-5432",
+  "endereco": {
+    "logradouro": "Avenida Doutor Antônio Gouveia",
+    "numero": "1120",
+    "complemento": "Apto 502",
+    "bairro": "Ponta Verde",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "cep": "57035-180"
+  },
+  "dataContratacao": "2023-03-01",
+  "professorStatus": "ATIVO",
+  "registroFuncional": "PROF20230301",
+  "formacaoAcademica": "Letras - Inglês pela UFAL",
+  "biografia": "Professor especialista em inglês para negócios, com 5 anos de experiência em intercâmbios e certificação TOEFL."
+}
+```
+
+### 🔍 GET /professores/debug/all
+**Descrição**: Lista todos os professores com dados completos (debug/administração)
+**Resposta**: Array com objetos completos como o exemplo acima
+
 ### ➕ POST /professores
 **Descrição**: Cria um novo professor
 **Body Exemplo**:
@@ -147,13 +181,19 @@
 3. **Teste as operações na aba "Professores Ativos"**:
    - ➕ Criar novo professor
    - 👁️ Visualizar lista de ativos
-   - ✏️ Editar professor ativo
+   - ✏️ Editar professor ativo (busca dados completos em `/professores/debug/{id}`)
    - 🔴 Inativar professor (move para aba "Inativos")
 4. **Teste as operações na aba "Professores Inativos"**:
    - 👁️ Visualizar professores inativos
-   - � Verificar que "Editar" está desabilitado
+   - 🚫 Verificar que "Editar" está desabilitado
    - ✅ Reativar professor (move para aba "Ativos")
    - 🗑️ Excluir permanentemente (apenas ADMIN, com confirmação)
+
+### 🔧 Fluxo de Edição Otimizado:
+1. **Clique em "Editar"** → Modal abre com loading
+2. **Sistema busca dados** via `GET /professores/debug/{id}`
+3. **Preenchimento automático** de TODOS os campos
+4. **Formulário pronto** para edição com dados completos
 
 ## 🔧 Headers HTTP Necessários
 

@@ -13,6 +13,7 @@ const ROLE_PERMISSIONS = {
     canDeleteStudents: true,
     canViewReports: true,
     canManageSystem: true,
+    canAccessLogs: true,
   },
   COORDENADOR: {
     canViewProfessors: true,
@@ -25,6 +26,7 @@ const ROLE_PERMISSIONS = {
     canDeleteStudents: false,
     canViewReports: true,
     canManageSystem: false,
+    canAccessLogs: false,
   },
   PROFESSOR: {
     canViewProfessors: false,
@@ -37,6 +39,7 @@ const ROLE_PERMISSIONS = {
     canDeleteStudents: false,
     canViewReports: false,
     canManageSystem: false,
+    canAccessLogs: false,
   },
   SECRETARIA: {
     canViewProfessors: true,
@@ -49,6 +52,7 @@ const ROLE_PERMISSIONS = {
     canDeleteStudents: false,
     canViewReports: false,
     canManageSystem: false,
+    canAccessLogs: false,
   },
   ALUNO: {
     canViewProfessors: false,
@@ -61,6 +65,7 @@ const ROLE_PERMISSIONS = {
     canDeleteStudents: false,
     canViewReports: false,
     canManageSystem: false,
+    canAccessLogs: false,
   },
   RESPONSAVEL: {
     canViewProfessors: false,
@@ -73,6 +78,7 @@ const ROLE_PERMISSIONS = {
     canDeleteStudents: false,
     canViewReports: false,
     canManageSystem: false,
+    canAccessLogs: false,
   },
 }
 
@@ -99,6 +105,10 @@ export function usePermissions() {
     return hasPermission('canDeleteProfessors')
   }
 
+  const canAccessLogs = () => {
+    return hasPermission('canAccessLogs')
+  }
+
   const getUserRole = () => userRole
 
   const isRole = (role) => userRole === role
@@ -115,6 +125,7 @@ export function usePermissions() {
     canAccessProfessors,
     canManageProfessors,
     canDeleteProfessors,
+    canAccessLogs,
     getUserRole,
     isRole,
     isAdmin,
