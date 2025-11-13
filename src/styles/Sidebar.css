@@ -1,0 +1,180 @@
+/* Animações para abas colapsáveis do Sidebar - Versão Simplificada */
+
+/* Mantém apenas as transições essenciais para colapso */
+.sidebar-section-content {
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.3s ease-in-out;
+}
+
+.sidebar-section-content.expanded {
+  max-height: 600px;
+  opacity: 1;
+  padding-top: 0.5rem;
+}
+
+.sidebar-section-content.collapsed {
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0;
+}
+
+/* Transição suave apenas para hover do header */
+.sidebar-section-header {
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Mantém rotação do ícone */
+.chevron-icon {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chevron-icon.expanded {
+  transform: rotate(90deg);
+}
+
+/* ANIMAÇÃO PRINCIPAL: Efeito de enchimento para item ativo */
+.sidebar-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Estado ativo básico (sem animação) */
+.sidebar-item.active {
+  position: relative;
+  overflow: hidden;
+  color: white !important;
+  background: #283890;
+}
+
+/* Animação de enchimento - aplicada dinamicamente */
+.sidebar-item.filling {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estado de preenchimento específico */
+.sidebar-item.filling {
+  position: relative;
+  background-color: rgba(99, 102, 241, 0.8) !important;
+  transition: background-color 0.1s ease !important;
+  overflow: hidden;
+  animation: fillComplete 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.sidebar-item.filling::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 0;
+  background: linear-gradient(to top, 
+    #1e40af 0%, 
+    #2563eb 30%,
+    #3b82f6 60%,
+    #60a5fa 100%
+  );
+  border-radius: 8px;
+  z-index: 1;
+  animation: fillUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Efeito de brilho durante o enchimento */
+.sidebar-item.filling::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 0;
+  background: linear-gradient(to top, 
+    rgba(255, 255, 255, 0.3) 0%, 
+    rgba(255, 255, 255, 0.1) 50%, 
+    transparent 100%
+  );
+  border-radius: 8px;
+  z-index: 2;
+  animation: shimmerUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* Animação de enchimento rápido */
+@keyframes fillUp {
+  0% {
+    height: 0;
+    opacity: 0.6;
+  }
+  70% {
+    height: 100%;
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+/* Animação completa com tremida sutil */
+@keyframes fillComplete {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1.02) translateX(1px);
+  }
+  95% {
+    transform: scale(0.99) translateX(-1px);
+  }
+  100% {
+    transform: scale(1) translateX(0);
+  }
+}
+
+/* Efeito de brilho que acompanha o enchimento */
+@keyframes shimmerUp {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  20% {
+    height: 30%;
+    opacity: 0.6;
+  }
+  50% {
+    height: 70%;
+    opacity: 0.4;
+  }
+  80% {
+    height: 90%;
+    opacity: 0.2;
+  }
+  100% {
+    height: 100%;
+    opacity: 0.1;
+  }
+}
+
+/* Garantir que o texto fique visível */
+.sidebar-item.filling > * {
+  position: relative;
+  z-index: 10;
+  color: white !important;
+}
+
+.sidebar-item.active > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Scroll suave apenas */
+.sidebar-content {
+  scroll-behavior: smooth;
+}
